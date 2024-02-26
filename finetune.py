@@ -634,7 +634,7 @@ def main():
         cache_dir=args.cache_dir if args.cache_dir else None,
     )
     if args.tokenizer is not None:
-        tokenizer = GPT2Tokenizer(
+        tokenizer = tokenizer_class(
             vocab_file=f"{args.tokenizer}/vocab.json",
             merges_file=f"{args.tokenizer}/merges.txt"
         )
