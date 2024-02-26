@@ -51,7 +51,6 @@ from transformers import (
     GPT2Config,
     GPT2LMHeadModel,
     GPT2Tokenizer,
-    GPT2TokenizerFast,
     OpenAIGPTConfig,
     OpenAIGPTLMHeadModel,
     OpenAIGPTTokenizer,
@@ -635,9 +634,9 @@ def main():
         cache_dir=args.cache_dir if args.cache_dir else None,
     )
     if args.tokenizer is not None:
-        tokenizer = GPT2TokenizerFast.from_pretrained(
-            args.tokenizer, 
-            pad_token="<|endoftext|>"
+        tokenizer = GPT2Tokenizer(
+            vocab_file=f"{args.tokenizer}/vocab.json",
+            merges_file=f"{args.tokenizer}/merges.txt"
         )
     else:
         tokenizer = tokenizer_class.from_pretrained(

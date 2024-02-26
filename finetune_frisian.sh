@@ -8,4 +8,4 @@
     --per_gpu_train_batch_size=1 \
     --overwrite_output_dir \
     --overwrite_cache \
-    --tokenizer
+    --tokenizer tokenizers/frisian
