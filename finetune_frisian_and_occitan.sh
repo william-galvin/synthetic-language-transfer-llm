@@ -13,7 +13,8 @@ for n in 10 25 50 75 99; do
     --overwrite_output_dir \
     --overwrite_cache \
     --block_size 512 \
-    --tokenizer tokenizers/frisian
+    --tokenizer tokenizers/frisian \
+    > outputs/frisian_$n.log
 done
 
 for n in 10 25 50 75 100 150 199; do 
@@ -31,5 +32,6 @@ for n in 10 25 50 75 100 150 199; do
     --overwrite_output_dir \
     --overwrite_cache \
     --block_size 512 \
-    --tokenizer tokenizers/frisian
+    --tokenizer tokenizers/frisian \
+    > outputs/occitan_$n.log
 done
