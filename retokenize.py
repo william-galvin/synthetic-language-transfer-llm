@@ -10,7 +10,7 @@ def clean_leipzig_corpus(path):
         with open(f"{folder}/clean_{basename}", "w", encoding="utf-8") as f_out:
             for line in f_in.readlines():
                 splits = line.split()
-                f_out.write(" ".join(splits)[1:])
+                f_out.write(" ".join(splits[1:]))
                 f_out.write("<|endoftext|>\n")
     return f"{folder}/clean_{basename}"
 
