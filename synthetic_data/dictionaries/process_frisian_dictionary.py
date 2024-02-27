@@ -25,6 +25,20 @@ def main():
         "adv": [...]
     }
     """
+    # The inflectional paradigms will map each lexeme to a series of inflections
+    """
+    {
+        'word1': {
+            'Ger.verb': 'foo',
+            'Past.verb': 'bar', 
+            'Present.verb': 'baz'
+        }, 
+        'word2': {
+            'singular.noun': 'example',
+            'plural.noun': 'examples'
+        }
+    }
+    """
 
 
 if __name__ == "__main__":
