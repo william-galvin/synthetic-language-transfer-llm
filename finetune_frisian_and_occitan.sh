@@ -34,7 +34,7 @@ for n in 10 25 50 75 100 150 199; do
     --overwrite_output_dir \
     --overwrite_cache \
     --block_size 512 \
-    --tokenizer tokenizers/frisian \
+    --tokenizer tokenizers/occitan \
     --overwrite_output_dir \
     --overwrite_cache \
     > outputs/occitan_$n.log 2>&1
