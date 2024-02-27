@@ -39,6 +39,21 @@ def main():
         }
     }
     """
+    # For example, for
+    # wyfke	wyfke	[Islemma.yes Number.Sing, Pos.NOUN]	true	true	vifkə
+    # ûnderskriuwe	ûnderskreauste	[Person.2 Number.Sing Tense.Past, Pos.VERB]	true	false	undrskrøˑsə
+    # We would get something like this:
+    """
+        {
+        'wyfke': {
+            'sg.noun': 'wyfke',
+            'pl.noun': 'wyfken'
+        }, 
+        'ûnderskriuwe': {
+            '2nd.sg.pst.verb': 'ûnderskreauste',
+        }
+    }
+    """
 
 
 if __name__ == "__main__":

@@ -2,8 +2,9 @@ import pandas as pd
 import json
 import tqdm
 
-VOCAB_PATH = "data/frisian.vocab"
-DICT_PATH = "data/frisian.dict"
+RAW_VOCAB_PATH = "data/raw_frisian_vocab.txt"
+VOCAB_PATH = "data/frisian_vocab.txt"
+DICT_PATH = "data/frisian_dict.txt"
 
 
 def main():
@@ -22,6 +23,7 @@ def main():
 
     with open(DICT_PATH, "w") as w:
         json.dump(Map, w, ensure_ascii=False, indent=2)
+
 
 if __name__ == "__main__":
     main()
