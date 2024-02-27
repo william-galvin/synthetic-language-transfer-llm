@@ -27,13 +27,13 @@ def main():
     df = pd.read_csv(VOCAB_PATH, sep="\t", header=None)
 
     Pos2Word = {
-        pos: []
-        for pos in POS
+        pos.lower(): set() for pos in POS
     }
-    Pos2Word["NOUN"] = {"common": [], "neuter": []}
+    Pos2Word["noun"] = {"common": set(), "neuter": set()}
     Word2Props = {}
 
     for i, row in tqdm.tqdm(df.iterrows(), total=df.shape[0]):
+
         word = row.iloc[0]
         example = row.iloc[1]
         props = row.iloc[2]
@@ -47,16 +47,20 @@ def main():
             if pos in props:
                 if pos == "NOUN":
                     if "Gender.Com" in props:
-                        Pos2Word[pos]["common"].append(word)
+                        Pos2Word[pos.lower()]["common"].add(word)
                     else:
-                        Pos2Word[pos]["neuter"].append(word)
+                        Pos2Word[pos.lower()]["neuter"].add(word)
                     continue
 
-                Pos2Word[pos].append(word)
+                Pos2Word[pos.lower()].add(word)
 
     with open(WORD_DICT_PATH, "w") as w:
         json.dump(Word2Props, w, ensure_ascii=False, indent=2)
     with open(POS_DICT_PATH, "w") as w:
+        # Make all the sets back into lists
+        Pos2Word["noun"]["common"] = list(Pos2Word["noun"]["common"])
+        Pos2Word["noun"]["neuter"] = list(Pos2Word["noun"]["neuter"])
+        Pos2Word = {key: list(value) if key != "noun" else value for key, value in Pos2Word.items()}
         json.dump(Pos2Word, w, ensure_ascii=False, indent=2)
 
 

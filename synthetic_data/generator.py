@@ -1,3 +1,4 @@
+import json
 import math
 import os
 import random
@@ -10,12 +11,28 @@ import language
 
 
 # ===================================== FRISIAN ========================================================================
+Frisian_POS = [
+    "ADP",
+    "NOUN",
+    "PROPN",
+    "VERB",
+    "ADJ",
+    "INTJ",
+    "ADV",
+    "NUM",
+    "PRON",
+    "CCONJ",
+    "AUX",
+    "DET"
+]
+
+# Generate arbitrary amounts of Frisian sentences
 def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
     # Create a language
     mylang = language.Language()
 
     # Set the parts of speech of the language
-    parts_of_speech = ["noun", "verb", "adj", "prep", "det"]
+    parts_of_speech = [pos.lower() for pos in Frisian_POS]
     mylang.set_parts_of_speech(parts_of_speech=parts_of_speech)
 
     # Set the generation rules
@@ -26,10 +43,7 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
         "NP": [["det*nouny", "NOM"], 0.6, ["PRON"], 0.4],  # NPs can be a det NOM or a PRON
         "NOM": [["adj*nouny", "NOM"], 0.35, ["NoAdjNOM"], 0.65],  # NPs may take adjectives before the rest, recursive
         "NoAdjNOM": [["N", "PP*nom.__hash__"], 0.2, ["N"], 0.8],  # NoAdjNPs become nouns, or nouns with a PP
-        "PP": [["prep*nouny", "UnmarkedNP"], 1],  # PPs always become prepositions followed by NPs
-        "PRON": [["sgPRON"], 0.8, ["plPRON"], 0.2],  # Pronouns are singular or plural with the same probabilities as Ns
-        "sgPRON": [["1stsgpron"], 0.45, ["2ndsgpron"], 0.2, ["3rdsgpron"], 0.25],  # Pronouns have number
-        "plPRON": [["1stplpron"], 0.45, ["2ndplpron"], 0.2, ["3rdplpron"], 0.25],  # Pronouns have number
+        "PP": [["adp*nouny", "UnmarkedNP"], 1],  # PPs always become prepositions followed by NPs
     })
 
     # Set independent probabilistic rules, e.g. pluralization, past tense
@@ -37,26 +51,49 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
         "sNP": [["UnmarkedNP"], "nom", 1],  # Subject NPs take the nominative
         "UnmarkedNP": [["NP"], "__hash__.nouny", 1],  # We want to make sure that words in the same NP can agree
         "N": [["noun"], "sg", 0.8, "pl", 0.2],  # Nouns may be singular or plural
+        # Go through to get a fully specified pronoun
+        "PRON": [["PERpron"], "1st", 0.2, "2nd", 0.1, "3rd", 0.7],  # Get the person of the pronoun
+        "PERpron": [["NUMpron"], "sg", 0.7, "pl", 0.3],  # Get the number
+        "NUMpron": [["REGISTERpron"], "pol", 0.7, "fam", 0.3],  # Get the register (polite, familiar)
+        "REGISTERpron": [["pron"], "masc", 0.25, "fem", 0.25, "neut", 0.5]  # Get the gender
     })
 
     # Set the agreement rules
     mylang.set_agreement_rules({
-        "verb": [["nom", "nouny"], [["sg", "pl"], ["1st", "2nd", "3rd"]]],  # Verbs agree with nominative nouns
-        "det": [["noun", "__hash__"], [["sg", "pl"]]]  # Determiners agree with their head nouns
+        #  "verb": [["nom", "nouny"], [["sg", "pl"], ["1st", "2nd", "3rd"]]],  # Verbs agree with nominative nouns
+        #  "det": [["noun", "__hash__"], [["sg", "pl"]]],  # Determiners agree with their head nouns
     })
 
-    # TODO Add words to the language
+    with open('../data/frisian_dict.json', 'r') as frisian_dict:
+        mylang.set_dictionary(json.load(frisian_dict) )
 
     # Set an inflection paradigm for determiners
     mylang.set_inflection_paradigms([
-        ["det", {
-            "sg": "-duh",
-            "pl": "-di",
-        }],
+        ["pron", {
+            ("sg", "1st", "nom"): "-ik",
+            ("sg", "1st", "*nom"): "-my",
+            # Second person pronouns don't all distinguish between nominative and accusative
+            ("sg", "2nd", "nom", "fam"): "-do",
+            ("sg", "2nd", "*nom", "fam"): "-dy",
+            ("sg", "2nd", "pol"): "-jo",
+            # Third person singular pronouns have a gender distinction
+            ("sg", "3rd", "nom", "masc"): "-hy",
+            ("sg", "3rd", "*nom", "masc"): "-him",
+            ("sg", "3rd", "nom", "fem"): "-sy",  # We use "sy" instead of "hya" since it's more modern
+            ("sg", "3rd", "*nom", "fem"): "-har",
+            # Third person singular neuter pronoun doesn't have a nom/acc distinction
+            ("sg", "3rd", "neut"): "-it",
+            ("pl", "1st", "nom"): "-wy",
+            ("pl", "1st", "*nom"): "-ús",
+            # Second person pronouns don't distinguish between nominative and accusative or register
+            ("pl", "2nd"): "-jimme",
+            ("pl", "3rd", "nom"): "-sy",  # We use "sy" instead of "hya" since it's more modern
+            ("pl", "3rd", "*nom"): "-har"
+        }]
     ])
 
     # Save the language
-    mylang.dump_language(os.path.join("Languages", language_name) )
+    mylang.dump_language(os.path.join("synthetic_datasets", language_name) )
 
     # Make num_train and num_test integers
     num_train = int(num_train)

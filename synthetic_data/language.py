@@ -454,7 +454,8 @@ class Language:
                                           f'{".".join(separated_existing_properties)} ')
                     # Sanity check: if we enter this loop, the state should be in either generation or unconditioned
                     else:
-                        raise Exception(f"Invalid state for input {state}. Check code.")
+                        raise Exception(f"Invalid state for input {state} given raw_state {raw_state} \n" +
+                                        f"Make sure this is a key in generation or unconditioned rules.")
                 # Update the value of sentence
                 sentence = temp_sentence
 
