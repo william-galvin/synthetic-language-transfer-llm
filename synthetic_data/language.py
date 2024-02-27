@@ -92,7 +92,7 @@ def inflect(agreed_lexeme_sequences, paradigms, phonemes):
                     for rule_property in (rule_properties if type(rule_properties) == tuple else [rule_properties]):
                         # If the rule property doesn't apply, then it's not a perfect match
                         # This means we don't add the inflection to applicable inflections
-                        # If a rule property is allophonic, we handle is differently
+                        # If a rule property is allophonic, we handle it differently
                         if rule_property[0] == "/":
                             # Get the part after the slash
                             environment = rule_property[1:]
@@ -124,6 +124,11 @@ def inflect(agreed_lexeme_sequences, paradigms, phonemes):
                                         break
                             else:
                                 raise Exception("Circumfixes are not yet handled.")
+                        # If a rule property requires a feature's absence, we handle it differently
+                        elif rule_property[0] == "*":
+                            # We just want to make sure that this feature does not exist in the lexeme's properties
+                            if rule_property[1:] in properties:
+                                perfect_property_match = False
                         # All other rule properties just require the property to exist in the lexeme's properties
                         else:
                             # This is the truth condition for non-allophonic properties to be true
@@ -242,6 +247,50 @@ class Language:
     def set_agreement_rules(self, agreement_rules):
         self.agreement_rules.update(agreement_rules)
 
+    # Allows you to pass in a custom vocabulary
+    # The vocabulary is a dict of the following format:
+    # {
+    #     "pos1": [
+    #         "w1", "w2", "w3", ...
+    #     ],
+    #     "pos2": {
+    #         "p1": [
+    #             "w4", "w5", "w6", ...
+    #         ],
+    #         "p2": [
+    #             "w7", "w8", "w9", ...
+    #         ]
+    #     }
+    #     "pos3": [...],
+    #     "pos4": [...],
+    #     ...
+    # }
+    # "pos1", "pos2", ... are the parts of speech that represent the terminal states in the PCFG
+    # "p1", "p2", ... are properties intrinsic to any word that's "pos2"
+    # "w1", "w2", ... are words in their base form
+    # Every dictionary that exists as the value of a pos key must only have list values, you can use periods
+    #   to separate multiple features. Assigning a pos key to a list is an abbreviation for creating a single paradigm
+    #   called f'{pos}_main'
+    # FOR NOW, IF A WORD IS MULTIPLE PARTS OF SPEECH IT WILL ONLY KEEP THE FIRST
+    def set_dictionary(self, imported_dictionary):
+        # Iterate through the words in the dictionary and add them to the lexicon
+        for pos, lexemes_or_classes in imported_dictionary.items():
+            # If it's just a list, then we add every word to the lexicon
+            if type(lexemes_or_classes) is list:
+                # Add each of the words to the lexicon
+                for lexeme in lexemes_or_classes:
+                    self.add_word(lexeme, pos, f'{pos}_main')
+            # Otherwise, we also need to add the features
+            elif type(lexemes_or_classes) is dict:
+                # We do the same for each class in the pos
+                for word_class in lexemes_or_classes:
+                    # Add each of the words to the lexicon
+                    for lexeme in lexemes_or_classes[word_class]:
+                        self.add_word(lexeme, pos, word_class)
+            # We shouldn't get here
+            else:
+                raise Exception("Values for parts of speech not lists or dictionaries")
+
     # Define an inflection pattern for a given paradigm
     # The format of a rule is ["w", {("p1", "p2", ...): "-s1", ("q1", ...): "-s2", ...}]
     #   w is the property of the word that triggers a check for whether this word inflects for this rule
@@ -304,7 +353,7 @@ class Language:
         # Now return the list in case it's needed
         return new_words
 
-    # Generate sentences with a Zipfian distribution
+    # Generate sentences according to a certain distribution
     # Required words is by default None.
     #   If you want to generate sentences with words from a specific set, you pass in a dictionary.
     #   This dictionary maps pos of words to a list tuples of words and paradigms
@@ -313,8 +362,14 @@ class Language:
     #   be drawn with Zipf's distribution as normal. This may mean that if a sentence is generated with no terminal
     #   pos in required words, then there won't be any words from required words in the sentence, and that if a
     #   sentence has more than one terminal pos in required words, all of those will be drawn from required words.
-    #   All words drawn from required_words are drawn randomly
-    def generate_sentences(self, num_sentences, required_words=None):
+    #   All words drawn from required_words are drawn uniformly.
+    # The default sampling method is Zipfian, set with 'zipfian' for sampling_method. You may also set this as uniform,
+    #   setting sampling_method to 'uniform'. All other values will raise an error.
+    def generate_sentences(self, num_sentences, required_words=None, sampling_method='zipfian'):
+        # Make sure that sampling_method is 'zipfian' or 'uniform'
+        if sampling_method not in ['zipfian', 'uniform']:
+            raise ValueError(f'Sampling method {sampling_method} illegal.')
+
         # Prepare the sentences we want
         sentences = []
         agreed_lexeme_sequences = []
@@ -416,23 +471,31 @@ class Language:
                 # Get the terminal part of speech (pos) and the properties of the word
                 pos, properties = preagreement_word
                 # Generate a word according to Zipf's distribution
-                skew = 1.2  # Note: This parameter can be changed. Find a naturalistic one
-                # There isn't a nice way to generate an index according to Zipf's law
-                # The way we do it here is we generate a random index according to an unbounded distribution
-                # If it is outside the range of our list, we generate another one
-                # Otherwise, we use it
-                index = -1
                 # If there are no word which we are required to use, then we're good!
-                # If there are required words but the part of speech is not in required words, we get a word as normal
+                # If there are required words but the part of speech is not in required words, we get a word according
+                #   to the distribution we set earlier
                 if required_words is None or pos not in required_words:
-                    while index == -1:
-                        # We generate an index, subtracting 1 since Zipf's starts from 1
-                        index = nprand.zipf(skew, 1)[0] - 1
-                        # If it's out of the range, we reset the index to 0
-                        if index >= len(self.words[pos]):
-                            index = -1
-                    # If it is in the range, we exit our loop and get the word and paradigm
-                    word, paradigm = self.words[pos][index]
+                    # At this point we've checked and know that sampling_method is a valid choice
+                    # Draw a word randomly according to the distribution we selected
+                    if sampling_method == 'zipfian':
+                        # Set the skew parameter for Zipf's distribution
+                        skew = 1.2  # Note: This parameter can be changed. Find a naturalistic one
+                        # There isn't a nice way to generate an index according to Zipf's law
+                        # The way we do it here is we generate a random index according to an unbounded distribution
+                        # If it is outside the range of our list, we generate another one
+                        # Otherwise, we use it
+                        index = -1
+                        while index == -1:
+                            # We generate an index, subtracting 1 since Zipf's starts from 1
+                            index = nprand.zipf(skew, 1)[0] - 1
+                            # If it's out of the range, we reset the index to 0
+                            if index >= len(self.words[pos]):
+                                index = -1
+                        # If it is in the range, we exit our loop and get the word and paradigm
+                        word, paradigm = self.words[pos][index]
+                    # Draw a word uniformly
+                    elif sampling_method == 'uniform':
+                        word, paradigm = random.choice(self.words[pos])
                 # If we want to generate words from a list of words, then we draw uniformly from that set
                 else:
                     # Get the words at random from the list
