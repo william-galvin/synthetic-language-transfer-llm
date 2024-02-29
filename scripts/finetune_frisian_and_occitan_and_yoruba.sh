@@ -1,5 +1,7 @@
+#!/bin/sh
+
 for n in 1 2 5 9 10 25 50 75 99; do 
-  python finetune.py \
+  python scripts/finetune.py \
     --output_dir="outputs/frisian_$n/" \
     --model_type=gpt2 \
     --model_name_or_path=gpt2 \
@@ -22,7 +24,7 @@ for n in 1 2 5 9 10 25 50 75 99; do
 done
 
 for n in 1 2 5 9 10 25 50 75 100 150 199; do 
-  python finetune.py \
+  python scripts/finetune.py \
     --output_dir="outputs/occitan_$n/" \
     --model_type=gpt2 \
     --model_name_or_path=gpt2 \
@@ -45,7 +47,7 @@ for n in 1 2 5 9 10 25 50 75 100 150 199; do
 done
 
 for n in 1 2 5 9; do 
-  python finetune.py \
+  python scripts/finetune.py \
     --output_dir="outputs/yoruba_$n/" \
     --model_type=gpt2 \
     --model_name_or_path=gpt2 \
