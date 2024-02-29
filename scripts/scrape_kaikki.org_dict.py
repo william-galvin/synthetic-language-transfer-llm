@@ -1,5 +1,14 @@
 import json
 
+'''
+This script will parse any language dictionary json file from kaikki.org and produce a json file
+that stores part of speech (pos) --> [words].
+
+Json files that come from kaikki.org has one json object per line, where each json object corresponds to an entry
+for a word (and includes a shit ton of lingusitc info for that word). This script simply goes through each word/json object,
+extracts the pos for each lexical entry, and stores that lexical entry in our new json object that maps pos --> [word].
+'''
+
 # Our kaikki.org-dictionary-Occitan.json file is in a special JSON format where there are multiple
 # JSON objects and each is seperated by a newline.
 
@@ -7,14 +16,17 @@ import json
 parsed_objects = []
 
 # Open the JSON file and read it line by line
-with open('kaikki.org-dictionary-Occitan.json', 'r') as file:
+# Change both depending on which json you want to parse and where you want to store your new json file
+# raw_language_dict_filename = 'kaikki.org-dictionary-Occitan.json'  
+# pos_to_word_filename = 'occitan_dict.json'
+# raw_language_dict_filename = 'kaikki.org-dictionary-Inuktitut.json'  # Change this depending on which json you want to parse
+# pos_to_word_filename = 'inuktitut_dict.json'
+raw_language_dict_filename = 'kaikki.org-dictionary-Yoruba.json'  # Change this depending on which json you want to parse
+pos_to_word_filename = 'yoruba_dict.json'
+with open(raw_language_dict_filename, 'r') as file:
     for line in file:
         # Parse each line as JSON and append it to the list
         parsed_objects.append(json.loads(line))
-
-# Load JSON data from file
-# with open('kaikki.org-dictionary-Occitan.json', 'r') as file:
-#     data = json.load(file)
 
 # Create a dictionary to store words grouped by part of speech
 words_by_pos = {}
@@ -60,6 +72,6 @@ for entry in parsed_objects:
             words_by_pos[pos].append(word)
 
 # Write the dictionary to a new JSON file
-with open('occitan_dict.json', 'w') as file:
+with open(pos_to_word_filename, 'w') as file:
     json.dump(words_by_pos, file, indent=4, ensure_ascii=False)
 
