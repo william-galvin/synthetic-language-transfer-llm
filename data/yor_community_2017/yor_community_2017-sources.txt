@@ -1,0 +1,1961 @@
+1	Kola Akinlade	2009-12-05
+2	http://yo.wikipedia.org/wiki/Kọ́lá_Akínlàdé	2012-07-28
+3	Abẹ́òkúta	2009-12-29
+4	Sintaasi Yoruba	2009-09-28
+5	Atumo-Ede (English-Yoruba): C	2006-12-17
+6	http://yo.wikipedia.org/wiki/Ìjẹ̀bú-Jẹ̀ṣà	2013-03-07
+7	Ilu Ayete	2007-10-20
+8	Ìjẹ̀bú-Jẹ̀ṣà	2009-10-04
+9	Orílẹ̀-edeé Yorùbá	2009-09-19
+10	http://yo.wikipedia.org/wiki/Anafilasisi	2014-01-04
+11	Atumo-Ede (English-Yoruba): D	2006-12-17
+12	Iyisodi ninu Eka-ede Ikale	2007-03-15
+13	http://yo.wikipedia.org/wiki/Ìyísódì_nínú_Ẹ̀ka-èdè_Ìkálẹ̀	2012-07-28
+14	Oju ti Ifa fi n Wo Obinrin	2009-09-17
+15	Àwọn èdè Niger-Congo	2009-10-16
+16	http://yo.wikipedia.org/wiki/Ẹfọ̀n-Alààyè	2013-03-07
+17	Ẹfọ̀n-Alààyè	2009-10-05
+18	Itan Ile-Ife	2009-10-07
+19	Eegun	2009-10-03
+20	http://yo.wikipedia.org/wiki/Hepatitis_C	2014-01-03
+21	Atumo-Ede (Yoruba-English): P	2006-12-24
+22	Ora Igbomina	2009-09-29
+23	Atumo-Ede (English-Yoruba): F	2006-12-17
+24	Owo eru (Brazil)	2007-12-17
+25	Isedale Ilu Ijebu-Jesa	2009-09-22
+26	Informatics (Ifitonileti)	2010-01-16
+27	Ki ni fiimu?	2008-02-01
+28	http://yo.wikipedia.org/wiki/Ìmàle	2013-03-07
+29	Ìkàrẹ́-Akóko	2009-10-10
+30	http://www.cwgministries.org/blocks-yoruba	2017-06-22
+31	http://yo.wikipedia.org/wiki/Júpítérì	2013-11-13
+32	Àwọn àdúgbò ìlú Ìjẹ̀bú-Òde	2009-09-27
+33	Ìjẹ̀ṣà	2009-10-04
+34	Bamiji Ojo	2009-12-05
+35	Ogun Àgbáyé Kìíní	2010-01-12
+36	Omoniyi Ajiboye (Aayan Ogbufo)	2007-10-18
+37	Ijebu-Igbo, Ogun State, Nigeria	2009-10-07
+38	Oba Lajiwowo	2007-06-05
+39	S.M. Raji and J.I. Ogunranti	2007-10-24
+40	Àkúrẹ́	2009-10-04
+41	Ilẹ̀ Yorùbá	2009-12-12
+42	http://yo.wikipedia.org/wiki/Kúrùpù	2014-01-03
+43	Ètò ìnọ́nwó	2006-12-24
+44	Àwọn àdúgbò ìlú Ìbàdàn	2009-10-15
+45	http://yo.wikipedia.org/wiki/Streptococcal_pharyngitis	2014-01-04
+46	Apiiri	2009-10-02
+47	Atumo-Ede (English-Yoruba): E	2006-12-17
+48	Èdè Yorùbá	2009-12-28
+49	Khoisan	2010-01-13
+50	Nàìjíríà	2010-01-15
+51	Ilu Irele	2009-09-21
+52	Àwọn àdúgbò ìlú Ìkirè	2009-10-02
+53	Ẹ̀sìn Kristi	2009-12-13
+54	http://yo.wikipedia.org/wiki/Èdè_Yorùbá	2013-03-17
+55	Gbólóhùn Yorùbá	2009-09-19
+56	Ògbómọ̀ṣọ́	2009-12-26
+57	Atumo-Ede (Yoruba-English): R	2006-12-24
+58	Murtala Muhammad	2010-01-01
+59	Agada ni Ilu Ijebu-Jesa	2007-04-02
+60	http://yo.wikipedia.org/wiki/Àwùjọ	2013-03-11
+61	Imo Ero	2007-02-13
+62	Ilu eyo	2007-06-10
+63	Rárà	2009-09-22
+64	Latin America	2009-12-31
+65	Àwùjọ	2010-01-13
+66	Lagos, Lagos State, Nigeria - Place Names	2009-09-27
+67	Ìṣèlú	2009-12-31
+68	Sintaasi Ede Aafirika	2007-02-03
+69	Timi ti Ede	2009-10-10
+70	Muhammadu Buhari	2009-12-05
+71	http://www.nairaland.com/344912/speak-yoruba-talk-it-here/9	2017-06-22
+72	http://www.nairaland.com/48547/speak-yoruba-talk-it-here/6	2017-06-22
+73	Ilu Ijele	2007-12-01
+74	Ilu Obe-nla	2009-10-03
+75	Ifá	2009-10-25
+76	Ounje	2006-12-22
+77	Ewì Ayaba	2009-09-28
+78	Àtáọ́ja Òṣogbo	2009-10-05
+79	http://www.nairaland.com/2243904//3	2017-06-22
+80	Atumo-Ede (Yoruba-English): S	2006-12-24
+81	Ogbagi	2009-10-04
+82	Orlando Owoh	2009-12-05
+83	http://www.nairaland.com/344912/speak-yoruba-talk-it-here/6	2017-06-22
+84	Omuo-Oke-Ekiti	2009-10-03
+85	Ire-Ekiti	2009-10-07
+86	http://www.nairaland.com/2243904//1	2017-06-22
+87	Àwọn àdúgbò ìlú Mọdákẹ́kẹ́	2009-10-02
+88	Buddhism	2009-12-29
+89	Awujo Hausa	2009-10-01
+90	http://yo.wikipedia.org/wiki/Jamáíkà	2013-10-17
+91	https://iroyintiwantiwa.wordpress.com/2014/02/20/kiise-ohun-ti-o-dara-bi-jonathan-ko-se-lo-ki-olubadan-awon-oloye-ilu-ibadan/	2017-06-22
+92	Ìjẹ̀bú	2009-10-04
+93	Ifẹ̀wàrà	2009-10-02
+94	Èdè	2009-12-11
+95	Benin	2009-12-30
+96	Àṣà Yorùbá	2009-10-03
+97	http://yo.wikipedia.org/wiki/Nneka	2013-03-10
+98	http://www.nairaland.com/83218/speak-yoruba/8	2017-06-22
+99	https://iroyintiwantiwa.wordpress.com/2014/02/20/kiise-ohun-ti-o-dara-bi-jonathan-ko-se-lo-ki-olubadan-awon-oloye-ilu-ibadan/WordPress.com	2017-06-22
+100	Ọ̀rọ̀ Àgbẹ̀	2008-05-20
+101	http://yo.wikipedia.org/wiki/Ìkọ́ni	2011-02-24
+102	http://yo.wikipedia.org/wiki/Serena_Williams	2014-05-18
+103	http://www.nairaland.com/83218/speak-yoruba/3	2017-06-22
+104	Ìkọ́ni	2007-02-16
+105	Itan isedale Ile-Ife	2009-09-27
+106	http://yo.wikipedia.org/wiki/DNA	2013-11-25
+107	http://www.nairaland.com/344912/speak-yoruba-talk-it-here/4	2017-06-22
+108	http://www.nairaland.com/83218/speak-yoruba/6	2017-06-22
+109	Àwọn orin ilẹ̀ Yorùbá	2009-09-20
+110	Ogun Napoleon	2009-11-19
+111	Irinkerindo ninu Igbo Elegbeje	2009-12-19
+112	http://yo.wikipedia.org/wiki/Onírúiyepúpọ̀	2013-03-09
+113	Ifetedo	2006-12-17
+114	https://iroyintiwantiwa.wordpress.com/2014/02/18/obasanjo-si-amaechi/WordPress.com	2017-06-22
+115	Atumo-Ede (English-Yoruba): G	2006-12-17
+116	Girama Yoruba	2006-12-17
+117	Awon Eka-ede Yoruba	2007-04-01
+118	Ìmọ-ìṣègùn	2008-04-18
+119	Wolfgang Amadeus Mozart	2009-12-27
+120	Benito Mussolini	2010-01-05
+121	Nọ́mbà gidi	2010-01-08
+122	http://yo.wikipedia.org/wiki/Gírámà_Yorùbá	2012-07-28
+123	Ètò ajé	2006-12-24
+124	Àwọn àdúgbò ìlú Ilé-Ifẹ̀	2009-09-26
+125	Ona ti a le pin orisa ile Yoruba si	2009-10-01
+126	Karl Marx	2010-01-09
+127	http://yo.wikipedia.org/wiki/Bòtswánà	2013-03-08
+128	Atumo-Ede (English-Yoruba): H	2006-12-17
+129	Ife	2006-12-17
+130	Ìtàn àkọọ́lẹ̀ Yorùbá	2007-03-14
+131	Pele	2007-06-20
+132	Ilẹ̀ Ọba Bakuba	2009-09-20
+133	http://yo.wikipedia.org/wiki/Índíà	2013-03-08
+134	Tíátà	2009-12-29
+135	http://yo.wikipedia.org/wiki/Brasil	2013-03-07
+136	http://yo.wikipedia.org/wiki/Àwọn_ìṣẹ̀lẹ̀_ìdánilóró_September_11,_2001	2013-03-09
+137	http://yo.wikipedia.org/wiki/Àwọn_Ìpínlẹ̀_Aṣọ̀kan_Amẹ́ríkà	2013-04-16
+138	http://yo.wikipedia.org/wiki/Kòlómbìà	2014-01-16
+139	https://iroyintiwantiwa.wordpress.com/2012/01/	2017-06-22
+140	Mozambique	2008-03-16
+141	http://www.nairaland.com/226848/speak-yoruba-talk-it-here/6	2017-06-22
+142	http://www.nairaland.com/2780832/ogun-awon-baba-wa/1	2017-06-22
+143	http://www.nairaland.com/48547/speak-yoruba-talk-it-here/8	2017-06-22
+144	Asa Yoruba	2007-01-20
+145	Akungba-Akoko, Ondo State, Nigeria - Place Names	2009-09-21
+146	Ìgbómìnà	2009-09-28
+147	Ògbójú Ọdẹ nínú Igbó Irúnmọlẹ̀	2009-10-03
+148	Napoleon Bonaparte	2010-01-12
+149	http://yo.wikipedia.org/wiki/Tẹ́lískópù_Òfurufú_Hubble	2013-03-08
+150	http://yo.wikipedia.org/wiki/Àrùn_oorun_àsùnjù	2014-06-09
+151	http://www.nairaland.com/48547/speak-yoruba-talk-it-here/12	2017-06-22
+152	Eledumare	2006-12-22
+153	Kuwere (Kwere)	2007-01-20
+154	Hinduism	2009-11-10
+155	Barack Obama	2010-01-07
+156	http://yo.wikipedia.org/wiki/Nelson_Mandela	2013-12-10
+157	https://iroyintiwantiwa.wordpress.com/	2017-06-22
+158	Orile-ede Yoruba	2007-02-19
+159	Iranraenilowo (Ojo)	2007-07-14
+160	Ponna	2007-07-14
+161	Ilu Oye	2008-01-08
+162	Oro Ibanisoro	2008-05-15
+163	Ìjálá	2009-09-29
+164	Aberdeenshire	2009-12-02
+165	Olusegun Agagu	2009-12-05
+166	Austronesian	2009-12-15
+167	Ède Lárúbáwá	2010-01-12
+168	http://yo.wikipedia.org/wiki/Kárbọ̀nù	2013-03-08
+169	http://yo.wikipedia.org/wiki/Kàsínò	2013-03-09
+170	http://yo.wikipedia.org/wiki/Thomas_Sankara	2013-03-09
+171	http://www.nairaland.com/olufidu	2017-06-22
+172	https://iroyintiwantiwa.wordpress.com/2014/02/20/facebook-ti-se-tan-bayi-lati-ra-whatsapp/WordPress.com	2017-06-22
+173	Fiimu	2007-01-09
+174	Semitiiki (Semitic)	2007-01-20
+175	Laka	2007-01-28
+176	Looya Omo Yoruba	2007-04-03
+177	Ṣàngó	2009-08-12
+178	Oduduwa	2009-10-08
+179	Mọsko	2009-12-28
+180	Egbado	2009-12-31
+181	Genevieve Nnaji	2010-01-01
+182	Èdè Arméníà	2010-01-06
+183	4 March	2010-01-15
+184	http://www.cwgministries.org/languages/afrikaans.htm	2017-06-22
+185	http://www.cwgministries.org/languages/malagasy.htm	2017-06-22
+186	http://www.cwgministries.org/store/hear-god-through-your-dreams-ebook	2017-06-22
+187	http://www.nairaland.com/2243904//90	2017-06-22
+188	http://www.nairaland.com/344912/speak-yoruba-talk-it-here/3	2017-06-22
+189	http://www.nairaland.com/83218/speak-yoruba	2017-06-22
+190	Oba Iragbiji	2006-12-18
+191	Oba Ogbomoso	2006-12-18
+192	Atumo-Ede (Yoruba-English): SH	2006-12-26
+193	Emere	2007-01-11
+194	Atumo-Ede (English-Yoruba): B	2007-03-04
+195	Olodumare	2009-10-04
+196	Egba Owode	2009-10-06
+197	Ọbáfẹ́mi Awólọ́wọ̀	2009-11-06
+198	Ẹ̀fọn	2009-11-21
+199	Ojúọ̀run ayé	2009-11-29
+200	Olusẹgun Ọbasanjọ	2009-12-28
+201	Ìṣẹ̀-Èkìtì	2010-01-06
+202	Edgar Adrian	2010-01-11
+203	http://yo.wikipedia.org/wiki/Krómósómù	2013-03-14
+204	http://www.cwgministries.org/store/hear-god-through-your-dreams-mp3s	2017-06-22
+205	Atumo-Ede (English-Yoruba): A	2006-12-17
+206	Luba	2007-01-20
+207	Seriki n gooma	2007-06-02
+208	Atumo-Ede (English-Yoruba): I	2007-07-14
+209	Ewi ajemokuu (ilo orin)	2008-01-25
+210	Faweli Yoruba	2009-09-24
+211	Ayan (Drummer)	2009-10-03
+212	Gbedu (Drum)	2009-10-03
+213	Raila Odinga	2009-10-03
+214	Èdè Áfríkáánù	2009-11-08
+215	Ìjẹ̀bú-Òde	2009-12-14
+216	Átọ̀mù	2009-12-16
+217	Orin-ìyìn orílẹ̀-èdè	2009-12-22
+218	Mohammed Yunus	2009-12-24
+219	Mwai Kibaki	2009-12-27
+220	Naples	2010-01-10
+221	http://yo.wikipedia.org/wiki/Nàìjíríà	2013-03-07
+222	http://yo.wikipedia.org/wiki/Áfríkà	2013-03-07
+223	http://yo.wikipedia.org/wiki/Immanuel_Kant	2013-03-08
+224	http://yo.wikipedia.org/wiki/Indonésíà	2013-03-08
+225	http://yo.wikipedia.org/wiki/Ìrìnkánkán_àwọn_Ẹ̀tọ́_Aráàlú_ọmọ_Áfríkà_Amẹ́ríkà_(1955–1968)	2013-03-14
+226	http://www.cwgministries.org/languages/ethiopian	2017-06-22
+227	http://www.nairaland.com/2780832/ogun-awon-baba-wa/3	2017-06-22
+228	Thomas Hardy	2009-10-10
+229	Wum	2009-10-19
+230	Janez Drnovsek	2009-12-17
+231	Lítíréṣọ̀	2009-12-31
+232	Ipinle Mississippi	2010-01-07
+233	Abrahamu	2010-01-16
+234	http://yo.wikipedia.org/wiki/Australian	2012-08-11
+235	http://www.cwgministries.org/store/counseled-god?quicktabs_product-col-third=godeeper	2017-06-22
+236	http://www.nairaland.com/226848/speak-yoruba-talk-it-here/3	2017-06-22
+237	http://www.nairaland.com/48547/speak-yoruba-talk-it-here/7	2017-06-22
+238	Kiwahu (Kwahu)	2007-01-20
+239	Zosso	2007-02-04
+240	Mofoloji ede Yoruba	2008-02-11
+241	Edwin Muir	2009-09-19
+242	Irinajo lo sinu Osupa	2009-09-24
+243	Apiiri (Drum)	2009-10-02
+244	Ògún Lákáayé	2009-10-22
+245	Èdè Árámáìkì	2009-11-08
+246	J. F. Ọdúnjọ	2009-12-05
+247	Colin Powell	2009-12-06
+248	Kikongo	2009-12-15
+249	Èdè Àmháríkì	2010-01-06
+250	http://yo.wikipedia.org/wiki/Bùrkínà_Fasò	2013-03-11
+251	http://yo.wikipedia.org/wiki/Ògún_Lákáayé	2013-03-14
+252	http://www.cwgministries.org/store/counseled-god?quicktabs_product-col-third=blogs	2017-06-22
+253	http://www.cwgministries.org/store/results/taxonomy%3A332%2C2	2017-06-22
+254	http://www.nairaland.com/226848/speak-yoruba-talk-it-here/1	2017-06-22
+255	http://www.nairaland.com/48547/speak-yoruba-talk-it-here/11	2017-06-22
+256	http://www.nairaland.com/toyosi20	2017-06-22
+257	https://iroyintiwantiwa.wordpress.com/2012/03/	2017-06-22
+258	https://iroyintiwantiwa.wordpress.com/2012/04/	2017-06-22
+259	Aztec-Tanoan	2007-01-06
+260	Kusitiiki (Cushtic)	2007-01-20
+261	Zangbeto	2009-10-01
+262	Ipese (Drum)	2009-10-04
+263	Ṣẹ̀kẹ̀rẹ̀	2009-10-10
+264	Joseph H. Greenberg	2009-11-26
+265	Felix Abidemi Fabunmi	2009-12-09
+266	Nọ́mbà àkọ́kọ́	2009-12-12
+267	Argẹntínà	2010-01-05
+268	Sylvia Plath	2010-01-07
+269	Aberdeen	2010-01-12
+270	Ìwọ́ ìtanná	2010-01-13
+271	http://yo.wikipedia.org/wiki/Joseph_Jenkins_Roberts	2013-03-09
+272	http://yo.wikipedia.org/wiki/Siẹrra_Léònè	2013-03-11
+273	http://yo.wikipedia.org/wiki/Bangladẹ́shì	2013-04-02
+274	Akkadian	2007-01-06
+275	Altaic	2007-01-06
+276	Austro-Asiatic	2007-01-06
+277	Koin	2007-02-03
+278	Ewu Agba	2007-04-19
+279	Woyo	2008-11-15
+280	Lunda	2009-02-18
+281	Yaka	2009-09-23
+282	William Adams	2009-09-25
+283	Àdìtú Olódùmarè	2009-09-25
+284	Ofa, Kwara State, Nigeria - Place Names	2009-10-03
+285	Adugbo Ago-Iwoye	2009-10-05
+286	Walter Raleigh	2009-10-29
+287	Zulu	2009-11-22
+288	Robert Menzies	2009-12-02
+289	Kayode Eso	2009-12-05
+290	Nnamdi Azikiwe	2009-12-05
+291	Wande Abimbola	2009-12-06
+292	Sunita Williams	2009-12-07
+293	Ọkọ̀-àlọbọ̀ Òfurufú Atlantis	2009-12-20
+294	Jacob Zuma	2009-12-27
+295	Ìgbaná	2009-12-29
+296	Alfred Adler	2009-12-30
+297	Ogun	2010-01-01
+298	1 March	2010-01-15
+299	3 March	2010-01-15
+300	http://yo.wikipedia.org/wiki/Japan	2013-03-08
+301	http://yo.wikipedia.org/wiki/Málì	2013-03-08
+302	http://yo.wikipedia.org/wiki/Súlfúrù	2013-03-08
+303	http://yo.wikipedia.org/wiki/Ìwé_Àṣẹ_Aṣàlàyé_Ọ̀fẹ́_GNU	2013-03-09
+304	http://yo.wikipedia.org/wiki/Ọdún_Iléyá	2013-03-09
+305	http://yo.wikipedia.org/wiki/Àwọn_Ìdíje_Òlímpíkì_Ìgbà_Oru_2004	2013-03-14
+306	http://yo.wikipedia.org/wiki/Blanche_Bruce	2013-08-09
+307	http://yo.wikipedia.org/wiki/Búkan	2014-01-22
+308	http://yo.wikipedia.org/wiki/Kóstá_Rikà	2014-04-15
+309	http://yo.wikipedia.org/wiki/Àngólà	2014-05-10
+310	http://www.nairaland.com/226848/speak-yoruba-talk-it-here/9	2017-06-22
+311	http://www.nairaland.com/48547/speak-yoruba-talk-it-here/166	2017-06-22
+312	https://iroyintiwantiwa.wordpress.com/category/iroyin/WordPress.com	2017-06-22
+313	Chadic (Sadiiki)	2006-12-20
+314	Busoogi (Bushoog)	2007-01-28
+315	Eko Ijinle nipa Ifitonileti (Infomatics)	2007-02-12
+316	Ìmò Ìṣírò	2007-03-24
+317	Áfíríkà	2007-05-06
+318	Leyin odun meta	2007-06-17
+319	Tayo Awotusin	2008-02-10
+320	Ọ̀yọ́túnjí	2009-09-22
+321	Mambila	2009-09-28
+322	Bàtá	2009-09-29
+323	Adugbo Oye-Ekiti	2009-10-03
+324	Apinti (Drum)	2009-10-03
+325	Gudugudu (Drum)	2009-10-03
+326	Olúyọ̀lé	2009-10-03
+327	Batakoto (Drum)	2009-10-04
+328	Samuel Adams	2009-11-25
+329	Akinwumi Isola	2009-12-05
+330	Èdè Azerbaijani	2009-12-09
+331	Àwọn ọmọ Yorùbá	2009-12-21
+332	Èdè Wolof	2010-01-02
+333	Ipinle Missouri	2010-01-05
+334	Tábìlì ìgbà	2010-01-09
+335	Ipinle Mishigan	2010-01-11
+336	http://yo.wikipedia.org/wiki/Ẹ̀kó_Ìjìnlẹ̀_nípa_Ìfitónilétí	2012-07-28
+337	http://yo.wikipedia.org/wiki/Alfred_Adler	2013-03-08
+338	http://yo.wikipedia.org/wiki/Kàmbódíà	2013-03-08
+339	http://yo.wikipedia.org/wiki/Nẹ́ọ̀nù	2013-03-08
+340	http://yo.wikipedia.org/wiki/W._E._B._Du_Bois	2013-03-08
+341	http://yo.wikipedia.org/wiki/Èdè_Swàhílì	2013-03-08
+342	http://yo.wikipedia.org/wiki/Ọmọnìyàn	2013-03-08
+343	http://yo.wikipedia.org/wiki/Ọ́ksíjìn	2013-03-08
+344	http://yo.wikipedia.org/wiki/UNESCO-IHE	2013-03-09
+345	http://yo.wikipedia.org/wiki/Ìròjinlẹ̀_aláwùjọ	2013-03-10
+346	http://yo.wikipedia.org/wiki/Ẹ́gíptì_Ayéijọ́un	2013-03-10
+347	http://yo.wikipedia.org/wiki/Àhámọ́	2013-03-11
+348	http://yo.wikipedia.org/wiki/Klorídì_alumíníọ́mù	2013-03-14
+349	http://yo.wikipedia.org/wiki/Kẹ́místrì	2013-03-14
+350	http://yo.wikipedia.org/wiki/Ísótòpù	2013-03-14
+351	http://yo.wikipedia.org/wiki/Orílẹ̀-èdè_Olómìnira_Áràbù_Sàhráwì	2013-03-15
+352	http://yo.wikipedia.org/wiki/Ìrànwọ́:Báwo_lẹṣe_le_dá_ojúewé_tuntun	2013-05-23
+353	http://yo.wikipedia.org/wiki/Àwọn_ẹ̀tọ́_ọmọnìyàn	2013-11-04
+354	http://yo.wikipedia.org/wiki/Roger_Federer	2013-12-28
+355	http://www.nairaland.com/annyplenty	2017-06-22
+356	https://iroyintiwantiwa.wordpress.com/category/iroyin/iroyin-ile-nigeria/page/2/	2017-06-22
+357	Adamawa-Ubangi	2006-12-24
+358	Assamese	2007-01-12
+359	Luwaluwa (Lwalwa)	2007-01-20
+360	Umaru Musa Yar'adua	2008-02-09
+361	Eku	2008-02-24
+362	Hakeem Osagie	2008-02-28
+363	Idoma	2008-10-23
+364	Kazimierz Nowak	2009-07-30
+365	Dundun	2009-09-21
+366	Mangbetu	2009-09-28
+367	Àgèrè	2009-09-29
+368	Àwọn àdúgbò ìlú Àkúrẹ́	2009-10-02
+369	Oruko Adugbo ni Ondo, Ipinle Ondo, Naijiria	2009-10-03
+370	Michael Kearney	2009-10-04
+371	Awon olori ijoba ile Naijiria	2009-10-06
+372	Bobo Madare	2009-10-06
+373	Igbin (Drum)	2009-10-07
+374	Aabus	2009-10-17
+375	Robert Adam	2009-10-18
+376	AAVE	2009-11-02
+377	Èdè Bijago	2009-11-26
+378	Tutsi	2009-12-02
+379	Èdè Avar	2009-12-03
+380	Adésọjí Adérẹ̀mí	2009-12-05
+381	Akin Euba	2009-12-05
+382	Godwin Babatunde Kofi Akran	2009-12-05
+383	Herbert Macaulay	2009-12-05
+384	Suara Alani Bankole	2009-12-05
+385	Konrad Adenauer	2009-12-06
+386	Waino Aaltonen	2009-12-08
+387	Áárọ́nì	2009-12-17
+388	John Couch Adams	2009-12-24
+389	Èdè Ijaw	2009-12-24
+390	Albania	2009-12-26
+391	Ahmadu Bello	2009-12-28
+392	Ìjọ Jéésù Lótìítọ́	2009-12-30
+393	Ọba	2009-12-30
+394	Bàbá	2009-12-31
+395	Kuro (Kurow)	2009-12-31
+396	Maasai	2009-12-31
+397	Àfin ilé-ìṣọ́ Egeskov	2010-01-07
+398	http://yo.wikipedia.org/wiki/Alonge	2012-05-13
+399	http://yo.wikipedia.org/wiki/Ìpéjọlunipa_ní_Orílẹ̀-èdè_Amẹ́ríkà	2012-10-28
+400	http://yo.wikipedia.org/wiki/Alumíníọ̀mù	2013-03-08
+401	http://yo.wikipedia.org/wiki/Austríà	2013-03-08
+402	http://yo.wikipedia.org/wiki/Bórọ̀nù	2013-03-08
+403	http://yo.wikipedia.org/wiki/Bẹ́rílíọ̀mù	2013-03-08
+404	http://yo.wikipedia.org/wiki/Filipínì	2013-03-08
+405	http://yo.wikipedia.org/wiki/George_Maxwell_Richards	2013-03-08
+406	http://yo.wikipedia.org/wiki/Gàbọ̀n	2013-03-08
+407	http://yo.wikipedia.org/wiki/Làìbéríà	2013-03-08
+408	http://yo.wikipedia.org/wiki/Ma_Ying-jeou	2013-03-08
+409	http://yo.wikipedia.org/wiki/Sẹ̀nẹ̀gàl	2013-03-08
+410	http://yo.wikipedia.org/wiki/Ipá_(físíksì)	2013-03-09
+411	http://yo.wikipedia.org/wiki/James_Clerk_Maxwell	2013-03-09
+412	http://yo.wikipedia.org/wiki/Àdájọba	2013-03-09
+413	http://yo.wikipedia.org/wiki/Ìtanná	2013-03-09
+414	http://yo.wikipedia.org/wiki/Òfin	2013-03-09
+415	http://yo.wikipedia.org/wiki/Ìṣeọ̀rọ̀àwùjọ	2013-03-10
+416	http://yo.wikipedia.org/wiki/Òjò_oníkíkan	2013-03-11
+417	http://yo.wikipedia.org/wiki/Iyọ̀	2013-03-17
+418	http://yo.wikipedia.org/wiki/Iṣẹ́ẹ̀rọ_onítanná	2013-03-22
+419	http://yo.wikipedia.org/wiki/Ẹgbẹ́_kọ́múnístì	2013-06-04
+420	http://yo.wikipedia.org/wiki/Tùnísíà	2014-02-16
+421	http://www.nairaland.com/48547/speak-yoruba-talk-it-here/Msxml2.XMLHTTP	2017-06-22
+422	https://iroyintiwantiwa.wordpress.com/2012/02/	2017-06-22
+423	https://iroyintiwantiwa.wordpress.com/category/iroyin/	2017-06-22
+424	Oba Onpetu	2006-12-18
+425	Atumo-Ede (Yoruba-English): O	2006-12-24
+426	Achinese	2007-01-06
+427	Ekeeti (Eket)	2007-01-28
+428	Gangan (Drum)	2007-01-28
+429	Ìmò Ìṣirò	2007-03-31
+430	Ooni Ife	2007-04-25
+431	Jaja of Opobo	2008-02-10
+432	Chima Nwafor	2008-02-20
+433	Charles Olson	2008-03-16
+434	Alan S. Kaye	2009-08-12
+435	Jane Addams	2009-08-20
+436	Mahafali	2009-09-18
+437	Èdè Ìgbìrà	2009-09-24
+438	Igbó Olódùmarè	2009-09-25
+439	Àwọn àdúgbò ìlú Iléṣà	2009-09-26
+440	Joseph Addison	2009-09-27
+441	Mojave Desert	2009-10-02
+442	Basorun Gaa	2009-10-03
+443	Ondo	2009-10-03
+444	Adelard ará Bath	2009-10-04
+445	Aloko ti Iloko-Ijesa	2009-10-06
+446	Aymara	2009-10-06
+447	Orúkọ Yorùbá	2009-10-09
+448	William Lawrence Bragg	2009-11-11
+449	Azores	2009-11-19
+450	Końskowola	2009-12-04
+451	Laide Adewale	2009-12-05
+452	Olasope O. Oyelaran	2009-12-05
+453	Olú Agúnlóyè	2009-12-05
+454	Janet Olaide Sheba	2009-12-06
+455	Tunji Braithwaite	2009-12-06
+456	Twa	2009-12-11
+457	Nọ́mbà tíkòsí	2009-12-15
+458	Ọ́stríà	2009-12-15
+459	Nọ́mbà adọ́gba àti aṣẹ́kù	2009-12-19
+460	Èrò mi l'órí ẹ́kọ́	2009-12-20
+461	Tòmátò	2009-12-23
+462	Íṣẹ́ológun	2009-12-24
+463	Australia	2009-12-27
+464	Abergavenny	2009-12-29
+465	Colin Maclaurin	2009-12-30
+466	Ìyá	2009-12-30
+467	Bahrain	2010-01-05
+468	Ayé	2010-01-06
+469	Mẹ́ksíkò	2010-01-06
+470	Afghanístàn	2010-01-07
+471	Èkó	2010-01-09
+472	Angola	2010-01-12
+473	Anguilla	2010-01-12
+474	John Adams	2010-01-13
+475	Chinua Achebe	2010-01-15
+476	Makonde	2010-01-16
+477	Huang Xianfan	2010-01-17
+478	http://yo.wikipedia.org/wiki/Àwọn_Bàhámà	2013-03-07
+479	http://yo.wikipedia.org/wiki/Ìwọ́_ìtanná	2013-03-07
+480	http://yo.wikipedia.org/wiki/Bẹ̀rmúdà	2013-03-08
+481	http://yo.wikipedia.org/wiki/Gríìsì	2013-03-08
+482	http://yo.wikipedia.org/wiki/Guinea-Bissau	2013-03-08
+483	http://yo.wikipedia.org/wiki/Herbert_Macaulay	2013-03-08
+484	http://yo.wikipedia.org/wiki/Micheline_Calmy-Rey	2013-03-08
+485	http://yo.wikipedia.org/wiki/Màláwì	2013-03-08
+486	http://yo.wikipedia.org/wiki/Nat_King_Cole	2013-03-08
+487	http://yo.wikipedia.org/wiki/Olúìlú	2013-03-08
+488	http://yo.wikipedia.org/wiki/René_Descartes	2013-03-08
+489	http://yo.wikipedia.org/wiki/Sódíọ̀mù	2013-03-08
+490	http://yo.wikipedia.org/wiki/Henry_Dunant	2013-03-09
+491	http://yo.wikipedia.org/wiki/Johannes_Hans_Daniel_Jensen	2013-03-09
+492	http://yo.wikipedia.org/wiki/Josip_Broz_Tito	2013-03-09
+493	http://yo.wikipedia.org/wiki/Olùsọdipúpọ̀	2013-03-09
+494	http://yo.wikipedia.org/wiki/Otto_von_Bismarck	2013-03-09
+495	http://yo.wikipedia.org/wiki/Teddy_Pendergrass	2013-03-09
+496	http://yo.wikipedia.org/wiki/Václav_Havel	2013-03-09
+497	http://yo.wikipedia.org/wiki/Ìmòye	2013-03-09
+498	http://yo.wikipedia.org/wiki/C._L._R._James	2013-03-10
+499	http://yo.wikipedia.org/wiki/Jackie_Robinson	2013-03-10
+500	http://yo.wikipedia.org/wiki/Johannes_Heesters	2013-03-10
+501	http://yo.wikipedia.org/wiki/Ossie_Davis	2013-03-10
+502	http://yo.wikipedia.org/wiki/Whoopi_Goldberg	2013-03-10
+503	http://yo.wikipedia.org/wiki/Ìgbàjá_ástẹ́rọ́ìdì	2013-03-10
+504	http://yo.wikipedia.org/wiki/Weimar_Olómìnira	2013-03-11
+505	http://yo.wikipedia.org/wiki/Àkójọ_(físíksì)	2013-03-11
+506	http://yo.wikipedia.org/wiki/Dr._Dre	2013-03-14
+507	http://yo.wikipedia.org/wiki/Francesca_Schiavone	2013-03-14
+508	http://yo.wikipedia.org/wiki/Halojín	2013-03-14
+509	http://yo.wikipedia.org/wiki/Sojourner_Truth	2013-03-14
+510	http://yo.wikipedia.org/wiki/Tina_Turner	2013-03-14
+511	http://yo.wikipedia.org/wiki/Èdè_Shíkọmọ	2013-03-14
+512	http://yo.wikipedia.org/wiki/Ìdíje_Wimbledon	2013-03-14
+513	http://yo.wikipedia.org/wiki/Ìgbéríko_Àrin_(Kẹ́nyà)	2013-03-14
+514	http://yo.wikipedia.org/wiki/Ìtúká_onítítànyindin	2013-03-14
+515	http://yo.wikipedia.org/wiki/Íónì	2013-03-14
+516	http://yo.wikipedia.org/wiki/Òkété	2013-03-14
+517	http://yo.wikipedia.org/wiki/Ẹ̀bùn_Nobel	2013-03-17
+518	http://yo.wikipedia.org/wiki/Aarhus	2013-03-21
+519	http://yo.wikipedia.org/wiki/Ìṣeìjọánglíkánì	2013-04-18
+520	http://yo.wikipedia.org/wiki/Joe_"King"_Oliver	2013-06-22
+521	http://yo.wikipedia.org/wiki/Ṣàngó	2013-07-12
+522	http://yo.wikipedia.org/wiki/Chioma_Ajunwa	2013-07-28
+523	http://yo.wikipedia.org/wiki/Joseph_Kabila	2013-11-27
+524	http://yo.wikipedia.org/wiki/Èkó	2014-05-17
+525	http://yo.wikipedia.org/wiki/Simón_Bolívar	2014-05-29
+526	http://www.nairaland.com/olabosun	2017-06-22
+527	https://iroyintiwantiwa.wordpress.com/2012/02/page/2/	2017-06-22
+528	https://iroyintiwantiwa.wordpress.com/2012/07/	2017-06-22
+529	https://iroyintiwantiwa.wordpress.com/2012/08/page/2/	2017-06-22
+530	https://iroyintiwantiwa.wordpress.com/category/uncategorized/page/7/	2017-06-22
+531	Atumo-Ede (English-Yoruba): P	2006-12-17
+532	Merina	2007-01-26
+533	Mende	2007-02-11
+534	Ìṣírò	2007-02-16
+535	Ogun (Odunjo)	2007-05-29
+536	John Augustus Otunba Payne	2007-06-14
+537	Lichtenstein Castle	2007-06-16
+538	Atumo-ede: A (English-Yoruba)	2007-07-14
+539	A. Faleye	2009-08-12
+540	Ẹ̀kọ	2009-09-19
+541	Adamawa-Ubangi I	2009-09-24
+542	Obíríkítí	2009-09-24
+543	Ngbaka	2009-10-01
+544	Èdè efe	2009-10-01
+545	Kanna-n-go (Drum)	2009-10-03
+546	Sàmóà Amẹ́ríkà	2009-10-03
+547	Ẹ̀gbá	2009-10-04
+548	Ọdún	2009-10-15
+549	Ìtẹ̀léntẹ̀lé Cauchy	2009-10-17
+550	Peter Abelard	2009-10-29
+551	August	2009-11-02
+552	Áljẹ́brà gbígbọrọ	2009-11-18
+553	Balinese	2009-11-22
+554	Felix Ohiwerei	2009-12-05
+555	Segun Akeem Salawu	2009-12-05
+556	T.M. Ilésanmí	2009-12-05
+557	Dele Giwa	2009-12-06
+558	Hogan Bassey	2009-12-06
+559	Phillip Adedotun Ogundeji	2009-12-06
+560	Hifikepunye Pohamba	2009-12-08
+561	Bahai	2009-12-10
+562	Èdè Baloṣi	2009-12-10
+563	Irin	2009-12-11
+564	Pratibha Patil	2009-12-12
+565	Òòrùn	2009-12-13
+566	Ẹ̀bùn Nobel nínú Ìmọ̀ egbògi	2009-12-13
+567	FIFA	2009-12-16
+568	Simple Mail Transfer Protocol	2009-12-16
+569	Aláìléegun	2009-12-17
+570	Anígunmẹ́ta	2009-12-17
+571	Protoni	2009-12-18
+572	Betsimisaraka	2009-12-19
+573	Lokossa	2009-12-20
+574	Yakubu Gowon	2009-12-20
+575	Ìbínibí	2009-12-20
+576	Ìpínlẹ̀ Gòngólà	2009-12-25
+577	Ọlọ́run	2009-12-25
+578	Bọ́lá Ìgè	2009-12-26
+579	Èdìdí Ààrẹ ilẹ̀ Nàìjíríà	2009-12-28
+580	Ìsúlẹ̀ Òòrùn	2009-12-28
+581	Òkun	2009-12-28
+582	Aisan Down	2009-12-29
+583	Akan	2009-12-29
+584	Ààrẹ ilẹ̀ Nàìjíríà	2009-12-29
+585	Òbí	2009-12-30
+586	Emeka Anyaoku	2009-12-31
+587	Eurasia	2009-12-31
+588	ISO 639-1	2010-01-01
+589	Nọ́mbà	2010-01-02
+590	Ọ̀ljíríà	2010-01-02
+591	Ìpilẹ̀ṣẹ̀ telégbògi	2010-01-04
+592	Arméníà	2010-01-05
+593	Internet	2010-01-08
+594	Ìdìbòyàn	2010-01-08
+595	Antigua àti Barbuda	2010-01-09
+596	Orílẹ̀-èdè Amẹ́ríkà	2010-01-09
+597	Èdè Abkhaz	2010-01-09
+598	Àwọn Bàhámáàsì	2010-01-10
+599	Nọ́mbà aṣòro	2010-01-12
+600	Èlò	2010-01-12
+601	July	2010-01-14
+602	http://yo.wikipedia.org/wiki/Ìjọba_Àpapọ̀_ilẹ̀_Nàìjíríà	2010-07-28
+603	http://yo.wikipedia.org/wiki/Ìrànwọ́:Báwo_lẹṣe_le_ṣe_àfikún_àwòrán_ṣórí_ojúewé	2010-07-30
+604	http://yo.wikipedia.org/wiki/T._A._Bankole-Oki	2011-02-12
+605	http://yo.wikipedia.org/wiki/Mọfọ́lọ́jì_èdè_Yorùbá	2012-07-28
+606	http://yo.wikipedia.org/wiki/Kathryn_Thornton	2013-03-07
+607	http://yo.wikipedia.org/wiki/William_Lawrence_Bragg	2013-03-07
+608	http://yo.wikipedia.org/wiki/Àwọn_èdè_Balto-Sílàfù	2013-03-07
+609	http://yo.wikipedia.org/wiki/Àṣà_Nok	2013-03-07
+610	http://yo.wikipedia.org/wiki/Adelard_ará_Bath	2013-03-08
+611	http://yo.wikipedia.org/wiki/Adolphe_Muzito	2013-03-08
+612	http://yo.wikipedia.org/wiki/Baku	2013-03-08
+613	http://yo.wikipedia.org/wiki/Barnabas_Sibusiso_Dlamini	2013-03-08
+614	http://yo.wikipedia.org/wiki/Bhumibol_Adulyadej	2013-03-08
+615	http://yo.wikipedia.org/wiki/Bósníà_àti_Hẹrjẹgòfínà	2013-03-08
+616	http://yo.wikipedia.org/wiki/Dàmáskù	2013-03-08
+617	http://yo.wikipedia.org/wiki/Fluorínì	2013-03-08
+618	http://yo.wikipedia.org/wiki/François_Fillon	2013-03-08
+619	http://yo.wikipedia.org/wiki/Fránsíọ̀m	2013-03-08
+620	http://yo.wikipedia.org/wiki/Harriet_Tubman	2013-03-08
+621	http://yo.wikipedia.org/wiki/Húngárì	2013-03-08
+622	http://yo.wikipedia.org/wiki/John_Locke	2013-03-08
+623	http://yo.wikipedia.org/wiki/Jurelang_Zedkaia	2013-03-08
+624	http://yo.wikipedia.org/wiki/Lítíọ̀mù	2013-03-08
+625	http://yo.wikipedia.org/wiki/Madhav_Kumar_Nepal	2013-03-08
+626	http://yo.wikipedia.org/wiki/Nicolas_Sarkozy	2013-03-08
+627	http://yo.wikipedia.org/wiki/Nítrójìn	2013-03-08
+628	http://yo.wikipedia.org/wiki/René_Préval	2013-03-08
+629	http://yo.wikipedia.org/wiki/Sellapan_Ramanathan	2013-03-08
+630	http://yo.wikipedia.org/wiki/Thomas_Edison	2013-03-08
+631	http://yo.wikipedia.org/wiki/Werner_Heisenberg	2013-03-08
+632	http://yo.wikipedia.org/wiki/Ìṣedọ́gba	2013-03-08
+633	http://yo.wikipedia.org/wiki/Allah	2013-03-09
+634	http://yo.wikipedia.org/wiki/Anígunpúpọ̀	2013-03-09
+635	http://yo.wikipedia.org/wiki/Austrálásíà	2013-03-09
+636	http://yo.wikipedia.org/wiki/Bolaji_Akinyemi	2013-03-09
+637	http://yo.wikipedia.org/wiki/C++	2013-03-09
+638	http://yo.wikipedia.org/wiki/C._V._Raman	2013-03-09
+639	http://yo.wikipedia.org/wiki/Carlyle_Glean	2013-03-09
+640	http://yo.wikipedia.org/wiki/Djenné	2013-03-09
+641	http://yo.wikipedia.org/wiki/Edwin_Hubble	2013-03-09
+642	http://yo.wikipedia.org/wiki/Ezra_Pound	2013-03-09
+643	http://yo.wikipedia.org/wiki/Frederick_Sanger	2013-03-09
+644	http://yo.wikipedia.org/wiki/Georg_Cantor	2013-03-09
+645	http://yo.wikipedia.org/wiki/Káábà	2013-03-09
+646	http://yo.wikipedia.org/wiki/Miriam_Makeba	2013-03-09
+647	http://yo.wikipedia.org/wiki/Màríà_(ìyá_Jésù)	2013-03-09
+648	http://yo.wikipedia.org/wiki/Neanderthal	2013-03-09
+649	http://yo.wikipedia.org/wiki/Paul_Hermann_Müller	2013-03-09
+650	http://yo.wikipedia.org/wiki/Pál_Schmitt	2013-03-09
+651	http://yo.wikipedia.org/wiki/Quincy_Jones	2013-03-09
+652	http://yo.wikipedia.org/wiki/Roza_Otunbayeva	2013-03-09
+653	http://yo.wikipedia.org/wiki/V._S._Naipaul	2013-03-09
+654	http://yo.wikipedia.org/wiki/Àgbérò_Pythagoras	2013-03-09
+655	http://yo.wikipedia.org/wiki/Ìdarapọ̀mọ́ra_kẹ́míkà	2013-03-09
+656	http://yo.wikipedia.org/wiki/Ìjìláyípo_Ilẹ̀-Olóoru	2013-03-09
+657	http://yo.wikipedia.org/wiki/Ìṣiṣẹ́oníná	2013-03-09
+658	http://yo.wikipedia.org/wiki/Şalom	2013-03-09
+659	http://yo.wikipedia.org/wiki/Adam_Smith	2013-03-10
+660	http://yo.wikipedia.org/wiki/Baruch_Spinoza	2013-03-10
+661	http://yo.wikipedia.org/wiki/David_Blackwell	2013-03-10
+662	http://yo.wikipedia.org/wiki/Hans_Morgenthau	2013-03-10
+663	http://yo.wikipedia.org/wiki/Jean-Jacques_Dessalines	2013-03-10
+664	http://yo.wikipedia.org/wiki/Julio_Cortázar	2013-03-10
+665	http://yo.wikipedia.org/wiki/Karl_Jaspers	2013-03-10
+666	http://yo.wikipedia.org/wiki/Luther_Vandross	2013-03-10
+667	http://yo.wikipedia.org/wiki/Modibo_Adama	2013-03-10
+668	http://yo.wikipedia.org/wiki/Àròjinlẹ̀_aláyẹ̀wò	2013-03-10
+669	http://yo.wikipedia.org/wiki/Asif_Ali_Zardari	2013-03-11
+670	http://yo.wikipedia.org/wiki/Assyria	2013-03-11
+671	http://yo.wikipedia.org/wiki/Aymara	2013-03-11
+672	http://yo.wikipedia.org/wiki/Erékùṣù_Robben	2013-03-11
+673	http://yo.wikipedia.org/wiki/Frederick_Douglass	2013-03-11
+674	http://yo.wikipedia.org/wiki/Gbogbo_Ìpawó_Orílẹ̀-èdè	2013-03-11
+675	http://yo.wikipedia.org/wiki/Kalulu	2013-03-11
+676	http://yo.wikipedia.org/wiki/Louis_16k_ilẹ̀_Fránsì	2013-03-11
+677	http://yo.wikipedia.org/wiki/Mao_Zedong	2013-03-11
+678	http://yo.wikipedia.org/wiki/Marie_Curie	2013-03-11
+679	http://yo.wikipedia.org/wiki/Mohammadu_Maccido	2013-03-11
+680	http://yo.wikipedia.org/wiki/Mọ́rísì	2013-03-11
+681	http://yo.wikipedia.org/wiki/Orílẹ̀-èdè_Olómìnira_Àpapọ̀_Sósíálístì_ilẹ̀_Yugoslafia	2013-03-11
+682	http://yo.wikipedia.org/wiki/Philip_Seymour_Hoffman	2013-03-11
+683	http://yo.wikipedia.org/wiki/STS-32	2013-03-11
+684	http://yo.wikipedia.org/wiki/Tibet	2013-03-11
+685	http://yo.wikipedia.org/wiki/Tom_Cruise	2013-03-11
+686	http://yo.wikipedia.org/wiki/Winston_Churchill	2013-03-11
+687	http://yo.wikipedia.org/wiki/Ántígúà	2013-03-11
+688	http://yo.wikipedia.org/wiki/Booker_T._Washington	2013-03-14
+689	http://yo.wikipedia.org/wiki/Diana_Ross	2013-03-14
+690	http://yo.wikipedia.org/wiki/Ife_Ẹ̀yẹ_àwọn_Orílẹ̀-èdè_Áfríkà	2013-03-14
+691	http://yo.wikipedia.org/wiki/John_Gurdon	2013-03-14
+692	http://yo.wikipedia.org/wiki/Mẹ́tàlì_álkálì	2013-03-14
+693	http://yo.wikipedia.org/wiki/Núkléù_átọ̀mù	2013-03-14
+694	http://yo.wikipedia.org/wiki/Pam_Grier	2013-03-14
+695	http://yo.wikipedia.org/wiki/Tunde_Baiyewu	2013-03-14
+696	http://yo.wikipedia.org/wiki/Ìdíje_Wimbledon_1971_−_Àwọn_Obìnrin_Ẹnìkan	2013-03-14
+697	http://yo.wikipedia.org/wiki/Ìdíje_Wimbledon_2007_−_Àwọn_Obìnrin_Ẹnìkan	2013-03-14
+698	http://yo.wikipedia.org/wiki/Ìsopọ̀_kẹ́míkà	2013-03-14
+699	http://yo.wikipedia.org/wiki/Nàkádà_Kẹta	2013-03-21
+700	http://yo.wikipedia.org/wiki/Sikiru_Ayinde_Barrister	2013-03-25
+701	http://yo.wikipedia.org/wiki/Esinsin	2013-04-07
+702	http://yo.wikipedia.org/wiki/Kòréà_Gúúsù	2013-04-07
+703	http://yo.wikipedia.org/wiki/Kẹ́nyà	2013-04-11
+704	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Àríwá_Idemili	2013-04-15
+705	http://yo.wikipedia.org/wiki/Orílẹ̀-èdè_Olómìnira_Sósíálístì_ilẹ̀_Kroatíà	2013-06-07
+706	http://yo.wikipedia.org/wiki/Bhùtán	2013-06-13
+707	http://yo.wikipedia.org/wiki/Abiodun_Obafemi	2013-07-28
+708	http://yo.wikipedia.org/wiki/John_Kerry	2013-08-15
+709	http://yo.wikipedia.org/wiki/Timbuktu	2013-08-17
+710	http://yo.wikipedia.org/wiki/Albáníà	2013-09-18
+711	http://yo.wikipedia.org/wiki/Mariano_Rajoy	2013-09-21
+712	http://yo.wikipedia.org/wiki/Charles_de_Gaulle	2013-10-15
+713	http://yo.wikipedia.org/wiki/Pòtásíọ̀mù	2013-10-18
+714	http://yo.wikipedia.org/wiki/Ife_Ẹ̀yẹ_Àgbáyé_FIFA_2010	2013-12-22
+715	http://yo.wikipedia.org/wiki/Marek_Grechuta	2013-12-24
+716	http://yo.wikipedia.org/wiki/Chris_Brown	2013-12-26
+717	http://yo.wikipedia.org/wiki/Cynthia_McKinney	2013-12-26
+718	http://yo.wikipedia.org/wiki/Althea_Gibson	2013-12-28
+719	http://yo.wikipedia.org/wiki/Florence_Griffith-Joyner	2013-12-28
+720	http://yo.wikipedia.org/wiki/Lindsay_Davenport	2013-12-28
+721	http://yo.wikipedia.org/wiki/Novak_Djokovic	2013-12-28
+722	http://yo.wikipedia.org/wiki/Pete_Sampras	2013-12-28
+723	http://yo.wikipedia.org/wiki/Ashanti_(àkọrin)	2014-01-23
+724	http://yo.wikipedia.org/wiki/Látfíà	2014-01-24
+725	http://yo.wikipedia.org/wiki/Pọ́rtúgàl	2014-02-18
+726	http://yo.wikipedia.org/wiki/Pakístàn	2014-02-21
+727	http://yo.wikipedia.org/wiki/Venus_Williams	2014-02-22
+728	http://yo.wikipedia.org/wiki/Satyendra_Nath_Bose	2014-03-06
+729	https://iroyintiwantiwa.wordpress.com/2012/10/02/e-topipipin-oro-awon-nulge-pe-kayode-fayemi-n-yo-owo-awon-ijoba-ibile-ti-ipinle-ekiti/?shared=email=fail	2017-06-22
+730	https://iroyintiwantiwa.wordpress.com/category/iroyin/iroyin-ipinle-osun/	2017-06-22
+731	Balto-Slavic	2007-01-12
+732	Entertainment	2007-06-14
+733	Amazon	2007-06-16
+734	Matimatiiki	2007-06-25
+735	Oba Ikoyi	2007-07-14
+736	Aworan ara owo Naijiria	2008-02-09
+737	Abu	2008-02-15
+738	Egbe Omo Oduduwa	2008-02-19
+739	Abimeleki	2008-03-06
+740	Asaba, Nigeria	2009-04-07
+741	Oba Iseyin	2009-06-21
+742	Abakaliki	2009-08-09
+743	Katsina	2009-08-09
+744	Òfin Mẹ́wàá	2009-08-21
+745	Dylan Thomas	2009-09-05
+746	Betsileo	2009-09-08
+747	Ryszard Kapuscinski	2009-09-24
+748	Ijoidi (Ijoid)	2009-09-25
+749	Adugbo Eko, Ipinle Eko, Naijiria	2009-09-27
+750	Egba ati Awori, Ogun State, Nigeria - Place Names	2009-09-27
+751	100 (nọ́mbà)	2009-09-30
+752	Àwọn èdè Benue-Kongo	2009-09-30
+753	Èdè Ainu	2009-09-30
+754	Iléṣà	2009-10-02
+755	Lagelu	2009-10-03
+756	Olúbàdàn	2009-10-03
+757	Àkójọ àwọn olúìlú ìpínlẹ̀ Nàìjíríà	2009-10-03
+758	Àsìkò	2009-10-04
+759	Èṣù	2009-10-04
+760	Ijebu-Remo, Ogun State, Nigeria, Place Names	2009-10-06
+761	Ige	2009-10-07
+762	Ìṣe Àwọn Ẹ̀tọ́ Aráàlú ti ọdún 1964	2009-10-07
+763	Ṣókúwé	2009-10-07
+764	Olalekan Salami	2009-10-09
+765	Ọ̀rànmíyàn	2009-10-09
+766	Black Panther Party	2009-10-12
+767	Òṣogbo	2009-10-13
+768	Oníbùgbé	2009-10-18
+769	Aginjù	2009-10-22
+770	Bíbélì Mímọ́	2009-10-22
+771	Ìgbìrà	2009-10-23
+772	Àwọn Erékùsù Wúndíá ti Amẹ́ríkà	2009-10-27
+773	Abubakar Tafawa Balewa	2009-10-29
+774	April	2009-11-02
+775	December	2009-11-02
+776	February	2009-11-02
+777	June	2009-11-02
+778	May	2009-11-02
+779	November	2009-11-02
+780	September	2009-11-02
+781	Ellen Johnson-Sirleaf	2009-11-03
+782	Ẹranko	2009-11-05
+783	Julius Nyerere	2009-11-08
+784	Yunifásítì	2009-11-10
+785	Lech Walesa	2009-11-15
+786	Mọ̀námọ́ná	2009-11-17
+787	Èkánná	2009-11-18
+788	March	2009-11-19
+789	Mošovce	2009-11-21
+790	Unicode	2009-11-22
+791	Wákàtí	2009-11-22
+792	Agbára ìtanná	2009-11-26
+793	Gbòngbò alágbáraméjì	2009-11-27
+794	Dwight D. Eisenhower	2009-12-02
+795	Ibrahim Geidam	2009-12-04
+796	Mamman Bello Ali	2009-12-04
+797	Sístẹ̀mù ìwọ̀n mítà	2009-12-04
+798	Abiodun Abodunde	2009-12-05
+799	Adebayo Adefarati	2009-12-05
+800	Chuba Okadigbo	2009-12-05
+801	Idris Kutigi	2009-12-05
+802	Johnson Aguiyi-Ironsi	2009-12-05
+803	Olabiyi Yai	2009-12-05
+804	Samuel Ladoke Akintola	2009-12-05
+805	Wọlé Sóyinká	2009-12-05
+806	October	2009-12-06
+807	Tunde Idiagbon	2009-12-06
+808	Ali Hassan al-Majid	2009-12-07
+809	Irun	2009-12-07
+810	RNA	2009-12-07
+811	Àìní	2009-12-07
+812	Ilẹ̀ Ọba Benin	2009-12-10
+813	Ìdádúró Lílùọkàn	2009-12-10
+814	Ìpínlẹ̀ Adamawa	2009-12-11
+815	Baálẹ̀	2009-12-12
+816	Okoẹrú	2009-12-12
+817	Oprah Winfrey	2009-12-12
+818	Seretse Khama	2009-12-12
+819	Wikipedia	2009-12-12
+820	Lucky Dube	2009-12-13
+821	Mae Jemison	2009-12-13
+822	Oserheimen Osunbor	2009-12-13
+823	Windows XP	2009-12-13
+824	Ìmọ̀nàmúṣe	2009-12-13
+825	Andorra	2009-12-14
+826	Èdè Látìnì	2009-12-14
+827	Amorite	2009-12-15
+828	Giorgio Napolitano	2009-12-15
+829	Hamid Karzai	2009-12-15
+830	Olúìlú	2009-12-15
+831	Krumen	2009-12-16
+832	Olagunsoye Oyinlola	2009-12-17
+833	Ẹ̀bùn Booker	2009-12-17
+834	Agbani Darego	2009-12-19
+835	Bingu wa Mutharika	2009-12-19
+836	Elektroni	2009-12-19
+837	Mósè	2009-12-19
+838	Roberto Micheletti	2009-12-19
+839	Ìsọdipúpọ̀	2009-12-19
+840	Bohemia	2009-12-20
+841	Àyèọmọìlú	2009-12-20
+842	Ìjọba	2009-12-20
+843	Ìwọòrùn Áfríkà	2009-12-21
+844	Kurt Waldheim	2009-12-22
+845	Agbegbe Ijoba Ibile Ariwa Ibarapa	2009-12-23
+846	Agbegbe Ijoba Ibile Itesiwaju	2009-12-23
+847	Agbegbe Ijoba Ibile Iwajowa	2009-12-23
+848	Agbegbe Ijoba Ibile Oluyole	2009-12-23
+849	Dòmíníkà	2009-12-23
+850	Ìlọ́poméjì mítà	2009-12-23
+851	Cristina Fernández de Kirchner	2009-12-24
+852	Kurt Gödel	2009-12-24
+853	Odò Niger	2009-12-24
+854	Ìkẹ́nnẹ́	2009-12-24
+855	Òsùpá	2009-12-24
+856	AIDS	2009-12-25
+857	Àsìá ilẹ̀ Nàìjíríà	2009-12-25
+858	Àwọn ìgbèríko ilẹ̀ Nàìjíríà	2009-12-25
+859	Àṣà Nok	2009-12-25
+860	Ìgba Òṣèlú Àkọ́kọ́ Nàìjíríà	2009-12-25
+861	Ìwàìbàjẹ́ ní Nàìjíríà	2009-12-25
+862	Abdul Kareem Adisa	2009-12-26
+863	Adekunle Lawal	2009-12-26
+864	Adetoye Oyetola Sode	2009-12-26
+865	Ahmed Usman	2009-12-26
+866	Amen Edore Oyakhire	2009-12-26
+867	Chinyere Ike Nwosu	2009-12-26
+868	David Medaiyese Jemibewon	2009-12-26
+869	Ebitu Ukiwe	2009-12-26
+870	Emmanuel Acholonu	2009-12-26
+871	Gbolahan Mudasiru	2009-12-26
+872	Hu Jintao	2009-12-26
+873	John Madaki	2009-12-26
+874	Joseph Akaagerger	2009-12-26
+875	Kolapo Olawuyi Ishola	2009-12-26
+876	Lam Onaolapo Adesina	2009-12-26
+877	Lateef Jakande	2009-12-26
+878	Lawrence Onoja	2009-12-26
+879	Mande	2009-12-26
+880	Michael Otedola	2009-12-26
+881	Mobolaji Johnson	2009-12-26
+882	Mohammed Buba Marwa	2009-12-26
+883	Ndubusi Kanu	2009-12-26
+884	Omi	2009-12-26
+885	Paul C. Tarfa	2009-12-26
+886	Rasheed Ladoja	2009-12-26
+887	Saidu Barda	2009-12-26
+888	Samaila Chama	2009-12-26
+889	Sasaenia Oresanya	2009-12-26
+890	Togo	2009-12-26
+891	Tunji Olurin	2009-12-26
+892	Victor Omololu Olunloyo	2009-12-26
+893	Àkójọ àwọn ìlú Nàìjíríà gẹ́gẹ́ bíi oníbùgbé	2009-12-26
+894	Òmìnira	2009-12-26
+895	Apaiwoorun Sahara	2009-12-27
+896	Ilé-ìgbìmọ̀ Aṣòfin Ìpínlẹ̀ Ọ̀yọ́	2009-12-27
+897	Nọ́mbà átọ̀mù	2009-12-27
+898	Ìpínlẹ̀ Ọ̀yọ́	2009-12-27
+899	Ìránì	2009-12-27
+900	Ìwé-ìkọjá Nàìjíríà	2009-12-27
+901	Agbegbe Ijoba Ibile Ogo-Oluwa	2009-12-28
+902	Gottfried Leibniz	2009-12-28
+903	Àwọn èdè Nàìjíríà	2009-12-28
+904	Ìgbà Ààrẹ Umaru Musa Yar'Adua	2009-12-28
+905	ISO 3166-2:NG	2009-12-29
+906	Kwasi Wiredu	2009-12-29
+907	Àkójọ àwọn olórí orílẹ̀-èdè ilẹ̀ Ghánà	2009-12-29
+908	Àkójọ àwọn olórí orílẹ̀-èdè ilẹ̀ Nàìjíríà	2009-12-29
+909	Àwọn àdúgbò ilẹ̀ Ghánà	2009-12-29
+910	Iná	2009-12-30
+911	Oladayo Popoola	2009-12-30
+912	Olómìnira ilẹ̀ Kóngò (Léopoldville)	2009-12-30
+913	Raji Rasaki	2009-12-30
+914	Acholi	2009-12-31
+915	Agbègbè àkókò	2009-12-31
+916	Daniel Akintonde	2009-12-31
+917	H. Eghagha	2009-12-31
+918	ISO 3166-2:GH	2009-12-31
+919	Ilé-ẹjọ́ Gígajùlọ ilẹ̀ Nàìjíríà	2009-12-31
+920	January	2009-12-31
+921	Kayode Olukimo	2009-12-31
+922	Mike Akhigbe	2009-12-31
+923	Mohammed Lawal	2009-12-31
+924	Mossi	2009-12-31
+925	Mumuye	2009-12-31
+926	Olabisi Onabanjo	2009-12-31
+927	Oladeinde O. Joseph	2009-12-31
+928	Rómù Olómìnira	2009-12-31
+929	Saidu Ayodele Balogun	2009-12-31
+930	Sam Ewang	2009-12-31
+931	Segun Osoba	2009-12-31
+932	William Butler Yeats	2009-12-31
+933	Action Group	2010-01-01
+934	Georgia	2010-01-01
+935	Kọ̀mpútà	2010-01-01
+936	Àkójọ àwọn ìpínlẹ̀ Nàìjíríà bíi agbègbè	2010-01-01
+937	Denzel Washington	2010-01-02
+938	Irẹlandi Apáàríwá	2010-01-02
+939	Rio de Janeiro	2010-01-02
+940	Ìbejì	2010-01-02
+941	Moroni, Comoros	2010-01-03
+942	Ẹ̀jẹ̀	2010-01-03
+943	Erékùsù	2010-01-04
+944	Àdánidá	2010-01-04
+945	Áljẹ́brà	2010-01-04
+946	Nọ́mbà àdábáyé	2010-01-05
+947	Ibà	2010-01-06
+948	Muhammad Ali	2010-01-06
+949	Dogon	2010-01-07
+950	Jan Fischer (Olóṣèlú ilẹ̀ Tṣẹ́skì)	2010-01-07
+951	Mathimátíìkì	2010-01-07
+952	Toni Morrison	2010-01-07
+953	Ìwé	2010-01-08
+954	Jürgen Habermas	2010-01-10
+955	Woodrow Wilson	2010-01-10
+956	Èdè iṣẹ́ọba	2010-01-10
+957	Charles Darwin	2010-01-11
+958	Dante Alighieri	2010-01-11
+959	Síṣọ̀kan Ilẹ̀-ọba	2010-01-11
+960	Festus Mogae	2010-01-12
+961	Iolu Abil	2010-01-12
+962	Odò	2010-01-12
+963	Wangari Maathai	2010-01-12
+964	Ọdún Tódọ́gba	2010-01-12
+965	Àríwá	2010-01-13
+966	Ọ̀sẹ̀	2010-01-13
+967	22 October	2010-01-14
+968	24 December	2010-01-14
+969	25 October	2010-01-14
+970	Anwar El Sadat	2010-01-14
+971	Ignatius Kutu Acheampong	2010-01-14
+972	Ogun Àgbáyé Ẹlẹ́ẹ̀kejì	2010-01-14
+973	Thomas Jefferson	2010-01-14
+974	Baktéríà	2010-01-15
+975	Ogun àgbáyé	2010-01-15
+976	Àsìá ilẹ̀ Kẹ́nyà	2010-01-15
+977	East Germany	2010-01-16
+978	Olùkọ̀wé	2010-01-16
+979	Sùrìnámù	2010-01-16
+980	Umaru Farouk Abdul Mutallab	2010-01-16
+981	Adágún	2010-01-17
+982	Azerbaijan	2010-01-17
+983	Ìmọ̀dánidá	2010-01-17
+984	Ọ̀gbìn	2010-01-17
+985	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Lituéníà	2010-04-04
+986	http://yo.wikipedia.org/wiki/Alábùgbé	2011-11-10
+987	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Buryatia	2012-05-09
+988	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Chechnya	2012-05-09
+989	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Chuvashia	2012-05-09
+990	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Guangxi	2012-05-09
+991	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Khakassia	2012-05-09
+992	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Mordovia	2012-05-09
+993	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Nakhchivan	2012-05-09
+994	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Ningxia	2012-05-09
+995	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Xinjiang	2012-05-09
+996	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Altai	2012-06-08
+997	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Bashkortostan	2012-06-08
+998	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Erékùṣù_Kérésìmesì	2012-06-08
+999	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Inner_Mòngólíà	2012-06-08
+1000	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Kabardino-Balkaria	2012-06-08
+1001	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Karachay-Cherkessia	2012-06-08
+1002	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Mari_El	2012-06-08
+1003	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Plazas_de_soberanía	2012-06-08
+1004	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Sakha	2012-06-08
+1005	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ekwusigo	2012-07-28
+1006	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Emure	2012-07-28
+1007	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ezeagu	2012-07-28
+1008	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gbonyin	2012-07-28
+1009	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gúúsù_Idemili	2012-07-28
+1010	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ido-Osi	2012-07-28
+1011	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Igbo-Etiti	2012-07-28
+1012	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ihiala	2012-07-28
+1013	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ijero	2012-07-28
+1014	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ikere	2012-07-28
+1015	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ikole	2012-07-28
+1016	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ilejemeje	2012-07-28
+1017	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Irepodun/Ifelodun	2012-07-28
+1018	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Moba	2012-07-28
+1019	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Oye	2012-07-28
+1020	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Oyi	2012-07-28
+1021	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Donga	2012-07-29
+1022	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ejigbo	2012-07-29
+1023	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ibi	2012-07-29
+1024	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Karim-Lamido	2012-07-29
+1025	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Lau	2012-07-29
+1026	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Mangu	2012-07-29
+1027	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Obokun	2012-07-29
+1028	http://yo.wikipedia.org/wiki/George_Sodeinde_Sowemimo	2012-10-28
+1029	http://yo.wikipedia.org/wiki/Káyọ̀dé_Ẹ̀ṣọ́	2012-11-17
+1030	http://yo.wikipedia.org/wiki/Ehoro	2012-12-04
+1031	http://yo.wikipedia.org/wiki/Sámúẹ́lì_Odulana_Odugade_I	2012-12-04
+1032	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Wukari	2013-01-22
+1033	http://yo.wikipedia.org/wiki/George_Chambers	2013-01-22
+1034	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Puntland	2013-01-22
+1035	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Zanzibar	2013-01-22
+1036	http://yo.wikipedia.org/wiki/Òbí_ilẹ̀_àwọn_Alákóso_Àgbà_ilẹ̀_Kánádà	2013-01-22
+1037	http://yo.wikipedia.org/wiki/10_December	2013-03-07
+1038	http://yo.wikipedia.org/wiki/11_December	2013-03-07
+1039	http://yo.wikipedia.org/wiki/12_December	2013-03-07
+1040	http://yo.wikipedia.org/wiki/13_December	2013-03-07
+1041	http://yo.wikipedia.org/wiki/14_December	2013-03-07
+1042	http://yo.wikipedia.org/wiki/15_December	2013-03-07
+1043	http://yo.wikipedia.org/wiki/16_December	2013-03-07
+1044	http://yo.wikipedia.org/wiki/17_December	2013-03-07
+1045	http://yo.wikipedia.org/wiki/19_December	2013-03-07
+1046	http://yo.wikipedia.org/wiki/3_November	2013-03-07
+1047	http://yo.wikipedia.org/wiki/7_December	2013-03-07
+1048	http://yo.wikipedia.org/wiki/Kurt_Waldheim	2013-03-07
+1049	http://yo.wikipedia.org/wiki/Kurów	2013-03-07
+1050	http://yo.wikipedia.org/wiki/Shannon_Lucid	2013-03-07
+1051	http://yo.wikipedia.org/wiki/Yakubu_Gowon	2013-03-07
+1052	http://yo.wikipedia.org/wiki/Èdè_Ìgbìrà	2013-03-07
+1053	http://yo.wikipedia.org/wiki/Ìjẹ̀ṣà	2013-03-07
+1054	http://yo.wikipedia.org/wiki/Ìnáwó	2013-03-07
+1055	http://yo.wikipedia.org/wiki/Òrùn	2013-03-07
+1056	http://yo.wikipedia.org/wiki/Ẹ́límẹ̀ntì_kẹ́míkà	2013-03-07
+1057	http://yo.wikipedia.org/wiki/100_(nọ́mbà)	2013-03-08
+1058	http://yo.wikipedia.org/wiki/2_(nọ́mbà)	2013-03-08
+1059	http://yo.wikipedia.org/wiki/3_(nọ́mbà)	2013-03-08
+1060	http://yo.wikipedia.org/wiki/Abdulkareem_Adisa	2013-03-08
+1061	http://yo.wikipedia.org/wiki/Adebayo_Adefarati	2013-03-08
+1062	http://yo.wikipedia.org/wiki/Adekunle_Lawal	2013-03-08
+1063	http://yo.wikipedia.org/wiki/Adil_Abdul_Mahdi	2013-03-08
+1064	http://yo.wikipedia.org/wiki/Adolf_Hitler	2013-03-08
+1065	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Aiyedire	2013-03-08
+1066	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Anaocha	2013-03-08
+1067	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Aninri	2013-03-08
+1068	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Awgu	2013-03-08
+1069	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ayamelum	2013-03-08
+1070	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Bassa,_Ìpínlẹ̀_Plateau	2013-03-08
+1071	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Bokkos	2013-03-08
+1072	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Boluwaduro	2013-03-08
+1073	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Dunukofia	2013-03-08
+1074	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Egbedore	2013-03-08
+1075	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gashaka	2013-03-08
+1076	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gassol	2013-03-08
+1077	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gúúsù-Ìwọòrùn_Ìbàdàn	2013-03-08
+1078	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gúúsù_Afikpo	2013-03-08
+1079	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gúúsù_Igbo-Eze	2013-03-08
+1080	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gúúsù_Jos	2013-03-08
+1081	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gúúsù_Langtang	2013-03-08
+1082	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gúúsù_Onitsha	2013-03-08
+1083	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gúúsù_Ẹnúgu	2013-03-08
+1084	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ifedayo	2013-03-08
+1085	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Irepodun,_Ìpínlẹ̀_Ọ̀ṣun	2013-03-08
+1086	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ishielu	2013-03-08
+1087	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Isokan	2013-03-08
+1088	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Izzi	2013-03-08
+1089	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Kanke	2013-03-08
+1090	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Kurmi	2013-03-08
+1091	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Odo_Otin	2013-03-08
+1092	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ola_Oluwa	2013-03-08
+1093	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Olorunda	2013-03-08
+1094	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Orolu	2013-03-08
+1095	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ussa	2013-03-08
+1096	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Àríwá_Afikpo	2013-03-08
+1097	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Àríwá_Ede	2013-03-08
+1098	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Àríwá_Ezza	2013-03-08
+1099	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Àríwá_Igbo-Eze	2013-03-08
+1100	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Àríwá_Langtang	2013-03-08
+1101	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ìlàòrùn_Anámbra	2013-03-08
+1102	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ìlàòrùn_Atakunmosa	2013-03-08
+1103	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ìlàòrùn_Jos	2013-03-08
+1104	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ìlàòrùn_Èkìtì	2013-03-08
+1105	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ìlàòrùn_Ẹnúgu	2013-03-08
+1106	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ìwọòrùn_Anámbra	2013-03-08
+1107	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ìwọòrùn_Atakunmosa	2013-03-08
+1108	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ìwọòrùn_Ilesa	2013-03-08
+1109	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ìwọòrùn_Èkìtì	2013-03-08
+1110	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ẹ̀bọ́nyì	2013-03-08
+1111	http://yo.wikipedia.org/wiki/Ali_Abdullah_Saleh	2013-03-08
+1112	http://yo.wikipedia.org/wiki/Anand_Satyanand	2013-03-08
+1113	http://yo.wikipedia.org/wiki/Astatínì	2013-03-08
+1114	http://yo.wikipedia.org/wiki/Baktéríà	2013-03-08
+1115	http://yo.wikipedia.org/wiki/Bharrat_Jagdeo	2013-03-08
+1116	http://yo.wikipedia.org/wiki/Boris_Tadić	2013-03-08
+1117	http://yo.wikipedia.org/wiki/Brookline,_Massachusetts	2013-03-08
+1118	http://yo.wikipedia.org/wiki/Bukola_Saraki	2013-03-08
+1119	http://yo.wikipedia.org/wiki/Bùrúndì	2013-03-08
+1120	http://yo.wikipedia.org/wiki/Charles_Olson	2013-03-08
+1121	http://yo.wikipedia.org/wiki/Christian_Frémont	2013-03-08
+1122	http://yo.wikipedia.org/wiki/David_Jemibewon	2013-03-08
+1123	http://yo.wikipedia.org/wiki/Denis_Sassou-Nguesso	2013-03-08
+1124	http://yo.wikipedia.org/wiki/Denzil_Douglas	2013-03-08
+1125	http://yo.wikipedia.org/wiki/Délé_Giwa	2013-03-08
+1126	http://yo.wikipedia.org/wiki/Emmanuel_Uduaghan	2013-03-08
+1127	http://yo.wikipedia.org/wiki/Euclid	2013-03-08
+1128	http://yo.wikipedia.org/wiki/Fernando_Lugo	2013-03-08
+1129	http://yo.wikipedia.org/wiki/Funtua	2013-03-08
+1130	http://yo.wikipedia.org/wiki/Fínlándì	2013-03-08
+1131	http://yo.wikipedia.org/wiki/Fósfórù	2013-03-08
+1132	http://yo.wikipedia.org/wiki/Galileo_Galilei	2013-03-08
+1133	http://yo.wikipedia.org/wiki/Gbéringbérin	2013-03-08
+1134	http://yo.wikipedia.org/wiki/Gbọ̀ngàn_Òfurufú_Kennedy	2013-03-08
+1135	http://yo.wikipedia.org/wiki/Gbọ̀ngán	2013-03-08
+1136	http://yo.wikipedia.org/wiki/Girma_Wolde-Giorgis	2013-03-08
+1137	http://yo.wikipedia.org/wiki/Goodluck_Jonathan	2013-03-08
+1138	http://yo.wikipedia.org/wiki/Gúúsù_Dakota	2013-03-08
+1139	http://yo.wikipedia.org/wiki/Huang_Xianfan	2013-03-08
+1140	http://yo.wikipedia.org/wiki/Háídrójìn	2013-03-08
+1141	http://yo.wikipedia.org/wiki/Hílíọ̀mù	2013-03-08
+1142	http://yo.wikipedia.org/wiki/Ibrahim_Geidam	2013-03-08
+1143	http://yo.wikipedia.org/wiki/Internet	2013-03-08
+1144	http://yo.wikipedia.org/wiki/Jacksonville	2013-03-08
+1145	http://yo.wikipedia.org/wiki/Jan_Fischer_(Olóṣèlú_ilẹ̀_Tṣẹ́skì)	2013-03-08
+1146	http://yo.wikipedia.org/wiki/Jan_Peter_Balkenende	2013-03-08
+1147	http://yo.wikipedia.org/wiki/Jean-Max_Bellerive	2013-03-08
+1148	http://yo.wikipedia.org/wiki/John_Evans_Atta_Mills	2013-03-08
+1149	http://yo.wikipedia.org/wiki/John_Quincy_Adams	2013-03-08
+1150	http://yo.wikipedia.org/wiki/Kalifọ́rníọ̀m	2013-03-08
+1151	http://yo.wikipedia.org/wiki/Khalifa_bin_Zayed_Al_Nahyan	2013-03-08
+1152	http://yo.wikipedia.org/wiki/Knut_Hamsun	2013-03-08
+1153	http://yo.wikipedia.org/wiki/Kofi_Annan	2013-03-08
+1154	http://yo.wikipedia.org/wiki/Ksenon	2013-03-08
+1155	http://yo.wikipedia.org/wiki/Kúbà	2013-03-08
+1156	http://yo.wikipedia.org/wiki/Lagelu	2013-03-08
+1157	http://yo.wikipedia.org/wiki/Lam_Adesina	2013-03-08
+1158	http://yo.wikipedia.org/wiki/Lateef_Jakande	2013-03-08
+1159	http://yo.wikipedia.org/wiki/Lawrence_Gonzi	2013-03-08
+1160	http://yo.wikipedia.org/wiki/Lawrence_Onoja	2013-03-08
+1161	http://yo.wikipedia.org/wiki/Leonel_Fernández	2013-03-08
+1162	http://yo.wikipedia.org/wiki/Livermorium	2013-03-08
+1163	http://yo.wikipedia.org/wiki/Ludwig_van_Beethoven	2013-03-08
+1164	http://yo.wikipedia.org/wiki/Lúksẹ́mbọ̀rg	2013-03-08
+1165	http://yo.wikipedia.org/wiki/Magnésíọ̀mù	2013-03-08
+1166	http://yo.wikipedia.org/wiki/Mike_Akhigbe	2013-03-08
+1167	http://yo.wikipedia.org/wiki/Milo_Đukanović	2013-03-08
+1168	http://yo.wikipedia.org/wiki/Mohamed_Abdelaziz	2013-03-08
+1169	http://yo.wikipedia.org/wiki/Mohammed_Namadi_Sambo	2013-03-08
+1170	http://yo.wikipedia.org/wiki/Mojave_Desert	2013-03-08
+1171	http://yo.wikipedia.org/wiki/Moussa_Camara	2013-03-08
+1172	http://yo.wikipedia.org/wiki/Nader_al-Dahabi	2013-03-08
+1173	http://yo.wikipedia.org/wiki/Niels_Bohr	2013-03-08
+1174	http://yo.wikipedia.org/wiki/Orílẹ̀-èdè	2013-03-08
+1175	http://yo.wikipedia.org/wiki/Patrick_Manning	2013-03-08
+1176	http://yo.wikipedia.org/wiki/Paul_Biya	2013-03-08
+1177	http://yo.wikipedia.org/wiki/Paul_Biyoghé_Mba	2013-03-08
+1178	http://yo.wikipedia.org/wiki/Paul_Kagame	2013-03-08
+1179	http://yo.wikipedia.org/wiki/Paulo_Kassoma	2013-03-08
+1180	http://yo.wikipedia.org/wiki/Pedro_Pires	2013-03-08
+1181	http://yo.wikipedia.org/wiki/Philip_Effiong	2013-03-08
+1182	http://yo.wikipedia.org/wiki/Pólàndì	2013-03-08
+1183	http://yo.wikipedia.org/wiki/Rafael_Correa	2013-03-08
+1184	http://yo.wikipedia.org/wiki/Riyadh	2013-03-08
+1185	http://yo.wikipedia.org/wiki/Roberto_Micheletti	2013-03-08
+1186	http://yo.wikipedia.org/wiki/Ryszard_Kapuscinski	2013-03-08
+1187	http://yo.wikipedia.org/wiki/Rọ́síà	2013-03-08
+1188	http://yo.wikipedia.org/wiki/STS-100	2013-03-08
+1189	http://yo.wikipedia.org/wiki/Sali_Berisha	2013-03-08
+1190	http://yo.wikipedia.org/wiki/Sam_Hinds	2013-03-08
+1191	http://yo.wikipedia.org/wiki/Serzh_Sargsyan	2013-03-08
+1192	http://yo.wikipedia.org/wiki/Shimon_Peres	2013-03-08
+1193	http://yo.wikipedia.org/wiki/Sullivan_Chime	2013-03-08
+1194	http://yo.wikipedia.org/wiki/Toni_Morrison	2013-03-08
+1195	http://yo.wikipedia.org/wiki/Tsad	2013-03-08
+1196	http://yo.wikipedia.org/wiki/Ulan_Bator	2013-03-08
+1197	http://yo.wikipedia.org/wiki/Unicode	2013-03-08
+1198	http://yo.wikipedia.org/wiki/Valdis_Zatlers	2013-03-08
+1199	http://yo.wikipedia.org/wiki/Wangari_Maathai	2013-03-08
+1200	http://yo.wikipedia.org/wiki/Àmọ́dù_Béllò	2013-03-08
+1201	http://yo.wikipedia.org/wiki/Àwọn_Ilé-iṣẹ́_Ológun_Nàìjíríà	2013-03-08
+1202	http://yo.wikipedia.org/wiki/Árgọ̀nù	2013-03-08
+1203	http://yo.wikipedia.org/wiki/Ìdìbòyàn	2013-03-08
+1204	http://yo.wikipedia.org/wiki/Ìkàrẹ́-Akóko	2013-03-08
+1205	http://yo.wikipedia.org/wiki/Óscar_Arias	2013-03-08
+1206	http://yo.wikipedia.org/wiki/Ùráníọ̀m	2013-03-08
+1207	http://yo.wikipedia.org/wiki/Ẹ̀bùn_Nobel_nínú_Ìṣiṣẹ́ògùn	2013-03-08
+1208	http://yo.wikipedia.org/wiki/Agbègbè_Àrin-Apáìwọ̀òrùn_Nàìjíríà	2013-03-09
+1209	http://yo.wikipedia.org/wiki/Ahmed_Balafrej	2013-03-09
+1210	http://yo.wikipedia.org/wiki/Akademio_de_Esperanto	2013-03-09
+1211	http://yo.wikipedia.org/wiki/Akọ̀wé-Àgbà_Àjọni_àwọn_Orílẹ̀-èdè	2013-03-09
+1212	http://yo.wikipedia.org/wiki/Akọ́dièyàn	2013-03-09
+1213	http://yo.wikipedia.org/wiki/Albert_Lutuli	2013-03-09
+1214	http://yo.wikipedia.org/wiki/Alfred_Hitchcock	2013-03-09
+1215	http://yo.wikipedia.org/wiki/Amadou_&_Mariam	2013-03-09
+1216	http://yo.wikipedia.org/wiki/André-Marie_Ampère	2013-03-09
+1217	http://yo.wikipedia.org/wiki/Antoine_Gizenga	2013-03-09
+1218	http://yo.wikipedia.org/wiki/Arnold_Smith	2013-03-09
+1219	http://yo.wikipedia.org/wiki/Augustine_ará_Híppò	2013-03-09
+1220	http://yo.wikipedia.org/wiki/Beloved_Isle_Cayman	2013-03-09
+1221	http://yo.wikipedia.org/wiki/Bernardo_Houssay	2013-03-09
+1222	http://yo.wikipedia.org/wiki/Bill_Gates	2013-03-09
+1223	http://yo.wikipedia.org/wiki/Billie_Jean	2013-03-09
+1224	http://yo.wikipedia.org/wiki/Bonaire	2013-03-09
+1225	http://yo.wikipedia.org/wiki/Bàrbúdà	2013-03-09
+1226	http://yo.wikipedia.org/wiki/Choe_Yong-rim	2013-03-09
+1227	http://yo.wikipedia.org/wiki/Constantine_2k_ilẹ̀_Gríìsì	2013-03-09
+1228	http://yo.wikipedia.org/wiki/Dag_Hammarskjöld	2013-03-09
+1229	http://yo.wikipedia.org/wiki/Damaskinos_ilẹ̀_Áténì	2013-03-09
+1230	http://yo.wikipedia.org/wiki/Derek_Walcott	2013-03-09
+1231	http://yo.wikipedia.org/wiki/Didius_Julianus	2013-03-09
+1232	http://yo.wikipedia.org/wiki/Douala	2013-03-09
+1233	http://yo.wikipedia.org/wiki/Edmund_Barton	2013-03-09
+1234	http://yo.wikipedia.org/wiki/Elfriede_Jelinek	2013-03-09
+1235	http://yo.wikipedia.org/wiki/Elisabeti_Kìnní_Ilẹ̀gẹ̀ẹ́sì	2013-03-09
+1236	http://yo.wikipedia.org/wiki/Emil_Jannings	2013-03-09
+1237	http://yo.wikipedia.org/wiki/Erykah_Badu	2013-03-09
+1238	http://yo.wikipedia.org/wiki/François_Mitterrand	2013-03-09
+1239	http://yo.wikipedia.org/wiki/François_Tombalbaye	2013-03-09
+1240	http://yo.wikipedia.org/wiki/Frederik_Willem_de_Klerk	2013-03-09
+1241	http://yo.wikipedia.org/wiki/Friedrich_Engels	2013-03-09
+1242	http://yo.wikipedia.org/wiki/Félix_Houphouët-Boigny	2013-03-09
+1243	http://yo.wikipedia.org/wiki/Gbenga_Aluko	2013-03-09
+1244	http://yo.wikipedia.org/wiki/Georg_von_Hertling	2013-03-09
+1245	http://yo.wikipedia.org/wiki/George_Akume	2013-03-09
+1246	http://yo.wikipedia.org/wiki/George_Smoot	2013-03-09
+1247	http://yo.wikipedia.org/wiki/George_Washington_Carver	2013-03-09
+1248	http://yo.wikipedia.org/wiki/Glenn_T._Seaborg	2013-03-09
+1249	http://yo.wikipedia.org/wiki/Gore_Vidal	2013-03-09
+1250	http://yo.wikipedia.org/wiki/Gough_Whitlam	2013-03-09
+1251	http://yo.wikipedia.org/wiki/Gwendolyn_Brooks	2013-03-09
+1252	http://yo.wikipedia.org/wiki/Hans_Luther	2013-03-09
+1253	http://yo.wikipedia.org/wiki/Hassan_Gouled_Aptidon	2013-03-09
+1254	http://yo.wikipedia.org/wiki/Honiara	2013-03-09
+1255	http://yo.wikipedia.org/wiki/Hope,_Arkansas	2013-03-09
+1256	http://yo.wikipedia.org/wiki/Human_Rights_Watch	2013-03-09
+1257	http://yo.wikipedia.org/wiki/Hypertext	2013-03-09
+1258	http://yo.wikipedia.org/wiki/Ibikunle_Amosun	2013-03-09
+1259	http://yo.wikipedia.org/wiki/Ibà	2013-03-09
+1260	http://yo.wikipedia.org/wiki/Ilẹ̀_ọbalúayé	2013-03-09
+1261	http://yo.wikipedia.org/wiki/Indira_Gandhi	2013-03-09
+1262	http://yo.wikipedia.org/wiki/Itamar_Franco	2013-03-09
+1263	http://yo.wikipedia.org/wiki/J._E._A._Wey	2013-03-09
+1264	http://yo.wikipedia.org/wiki/James_Weldon_Johnson	2013-03-09
+1265	http://yo.wikipedia.org/wiki/Jamie_Foxx	2013-03-09
+1266	http://yo.wikipedia.org/wiki/John_Dramani_Mahama	2013-03-09
+1267	http://yo.wikipedia.org/wiki/John_Polanyi	2013-03-09
+1268	http://yo.wikipedia.org/wiki/Joseph_Conombo	2013-03-09
+1269	http://yo.wikipedia.org/wiki/Joseph_Conrad	2013-03-09
+1270	http://yo.wikipedia.org/wiki/Joseph_Oni	2013-03-09
+1271	http://yo.wikipedia.org/wiki/Julia_Gillard	2013-03-09
+1272	http://yo.wikipedia.org/wiki/Jóṣúà_Dariye	2013-03-09
+1273	http://yo.wikipedia.org/wiki/Kamalesh_Sharma	2013-03-09
+1274	http://yo.wikipedia.org/wiki/Kayode_Fayemi	2013-03-09
+1275	http://yo.wikipedia.org/wiki/Kayode_Olofinmoyin	2013-03-09
+1276	http://yo.wikipedia.org/wiki/Las_Vegas	2013-03-09
+1277	http://yo.wikipedia.org/wiki/Laura_Chinchilla	2013-03-09
+1278	http://yo.wikipedia.org/wiki/Luis_Federico_Leloir	2013-03-09
+1279	http://yo.wikipedia.org/wiki/Luisa_Diogo	2013-03-09
+1280	http://yo.wikipedia.org/wiki/MPEG-3	2013-03-09
+1281	http://yo.wikipedia.org/wiki/Mary_J._Blige	2013-03-09
+1282	http://yo.wikipedia.org/wiki/Maurice_Yaméogo	2013-03-09
+1283	http://yo.wikipedia.org/wiki/Maximilian_ilẹ̀_Baden	2013-03-09
+1284	http://yo.wikipedia.org/wiki/Mikhail_Bakhtin	2013-03-09
+1285	http://yo.wikipedia.org/wiki/Milton_Obote	2013-03-09
+1286	http://yo.wikipedia.org/wiki/Motorhead	2013-03-09
+1287	http://yo.wikipedia.org/wiki/Màláríà	2013-03-09
+1288	http://yo.wikipedia.org/wiki/Mùhammédù_6k_ilẹ̀_Mòrókò	2013-03-09
+1289	http://yo.wikipedia.org/wiki/Mẹ̀túsélà	2013-03-09
+1290	http://yo.wikipedia.org/wiki/Nadine_Gordimer	2013-03-09
+1291	http://yo.wikipedia.org/wiki/Nikolaos_Plastiras	2013-03-09
+1292	http://yo.wikipedia.org/wiki/Néstor_Kirchner	2013-03-09
+1293	http://yo.wikipedia.org/wiki/Nọ́mbà_áljẹ́brà	2013-03-09
+1294	http://yo.wikipedia.org/wiki/Odò_Dánúbì	2013-03-09
+1295	http://yo.wikipedia.org/wiki/Open_Austrálíà	2013-03-09
+1296	http://yo.wikipedia.org/wiki/Orílẹ̀-èdè_kọ́múnístì	2013-03-09
+1297	http://yo.wikipedia.org/wiki/Orúkọ	2013-03-09
+1298	http://yo.wikipedia.org/wiki/Paul_Johann_Ludwig_von_Heyse	2013-03-09
+1299	http://yo.wikipedia.org/wiki/Paul_Krugman	2013-03-09
+1300	http://yo.wikipedia.org/wiki/Petr_Nečas	2013-03-09
+1301	http://yo.wikipedia.org/wiki/Princeton,_New_Jersey	2013-03-09
+1302	http://yo.wikipedia.org/wiki/Pròkáríọ́tì	2013-03-09
+1303	http://yo.wikipedia.org/wiki/Prótókólù_Lusaka	2013-03-09
+1304	http://yo.wikipedia.org/wiki/Páúlù_ilẹ̀_Gríìsì	2013-03-09
+1305	http://yo.wikipedia.org/wiki/René_Mayer	2013-03-09
+1306	http://yo.wikipedia.org/wiki/Richard_E._Taylor	2013-03-09
+1307	http://yo.wikipedia.org/wiki/Robert_G._Edwards	2013-03-09
+1308	http://yo.wikipedia.org/wiki/Roger_D._Kornberg	2013-03-09
+1309	http://yo.wikipedia.org/wiki/Rudolf_Christoph_Eucken	2013-03-09
+1310	http://yo.wikipedia.org/wiki/STS-131	2013-03-09
+1311	http://yo.wikipedia.org/wiki/Salvatore_Quasimodo	2013-03-09
+1312	http://yo.wikipedia.org/wiki/Sebastián_Piñera	2013-03-09
+1313	http://yo.wikipedia.org/wiki/Sergei_Sidorsky	2013-03-09
+1314	http://yo.wikipedia.org/wiki/Sidney_Poitier	2013-03-09
+1315	http://yo.wikipedia.org/wiki/T._S._Eliot	2013-03-09
+1316	http://yo.wikipedia.org/wiki/Tenerife	2013-03-09
+1317	http://yo.wikipedia.org/wiki/Tenzin_Gyatso,_14th_Dalai_Lama	2013-03-09
+1318	http://yo.wikipedia.org/wiki/The_Beatles	2013-03-09
+1319	http://yo.wikipedia.org/wiki/Theodor_Heuss	2013-03-09
+1320	http://yo.wikipedia.org/wiki/Thucydides	2013-03-09
+1321	http://yo.wikipedia.org/wiki/Tsung-Dao_Lee	2013-03-09
+1322	http://yo.wikipedia.org/wiki/Tẹ́lískópù	2013-03-09
+1323	http://yo.wikipedia.org/wiki/Victor_Attah	2013-03-09
+1324	http://yo.wikipedia.org/wiki/Victorino_de_la_Plaza	2013-03-09
+1325	http://yo.wikipedia.org/wiki/Virginia_Woolf	2013-03-09
+1326	http://yo.wikipedia.org/wiki/Walter_Sisulu	2013-03-09
+1327	http://yo.wikipedia.org/wiki/Wilhelm_Marx	2013-03-09
+1328	http://yo.wikipedia.org/wiki/Wilhelm_Miklas	2013-03-09
+1329	http://yo.wikipedia.org/wiki/Willy_Brandt	2013-03-09
+1330	http://yo.wikipedia.org/wiki/Wolfgang_Pauli	2013-03-09
+1331	http://yo.wikipedia.org/wiki/XHTML	2013-03-09
+1332	http://yo.wikipedia.org/wiki/Àgbàjọ	2013-03-09
+1333	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Adjara	2013-03-09
+1334	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Adygea	2013-03-09
+1335	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Agbègbè_Òkun_Índíà_Brítánì	2013-03-09
+1336	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Albáníà	2013-03-09
+1337	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Austríà	2013-03-09
+1338	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Azerbaijan	2013-03-09
+1339	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Bhùtán	2013-03-09
+1340	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Brunei	2013-03-09
+1341	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Bósníà_àti_Hẹrjẹgòfínà	2013-03-09
+1342	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Bẹ̀lárùs	2013-03-09
+1343	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Ceuta	2013-03-09
+1344	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Dagestan	2013-03-09
+1345	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Gagauzia	2013-03-09
+1346	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Gibraltar	2013-03-09
+1347	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Guinea	2013-03-09
+1348	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Ingushetia	2013-03-09
+1349	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Itálíà	2013-03-09
+1350	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Jọ́rdánì	2013-03-09
+1351	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Kalmykia	2013-03-09
+1352	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Karelia	2013-03-09
+1353	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Komi	2013-03-09
+1354	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Kurdistan_Irak	2013-03-09
+1355	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Kòréà_Àríwá	2013-03-09
+1356	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Láọ̀s	2013-03-09
+1357	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Mayotte	2013-03-09
+1358	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Melilla	2013-03-09
+1359	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Montenẹ́grò	2013-03-09
+1360	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Màkáù	2013-03-09
+1361	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Móldófà	2013-03-09
+1362	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_New_Zealand	2013-03-09
+1363	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Nìjẹ̀r	2013-03-09
+1364	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Orílẹ̀-èdè_Olómìnira_Tòṣèlúaráìlú_ilẹ̀_Kóngò	2013-03-09
+1365	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Orílẹ̀-èdè_Olómìnira_àwọn_Ará_ilẹ̀_Ṣáínà	2013-03-09
+1366	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Pọ́rtúgàl	2013-03-09
+1367	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Réunion	2013-03-09
+1368	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Saint_Helena,_Ascension_àti_Tristan_da_Cunha	2013-03-09
+1369	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Saint_Kitts_àti_Nevis	2013-03-09
+1370	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_San_Màrínò	2013-03-09
+1371	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Sao_Tome_àti_Principe	2013-03-09
+1372	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Singapore	2013-03-09
+1373	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Spéìn	2013-03-09
+1374	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Sri_Lanka	2013-03-09
+1375	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Swásílándì	2013-03-09
+1376	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Swídìn	2013-03-09
+1377	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Swítsàlandì	2013-03-09
+1378	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Sáúdí_Arábíà	2013-03-09
+1379	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Sùrìnámù	2013-03-09
+1380	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Tajikistan	2013-03-09
+1381	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Tháílàndì	2013-03-09
+1382	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Transnistria	2013-03-09
+1383	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Turkmẹ́nìstán	2013-03-09
+1384	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Tànsáníà	2013-03-09
+1385	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Tùnísíà	2013-03-09
+1386	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Túrkì	2013-03-09
+1387	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Àndórà	2013-03-09
+1388	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Àríwá_Ossetia-Alania	2013-03-09
+1389	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Àrúbà	2013-03-09
+1390	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Åland	2013-03-09
+1391	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Ìlàòrùn_Timor	2013-03-09
+1392	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Írẹ́lándì_Apáàríwá	2013-03-09
+1393	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Ùgándà	2013-03-09
+1394	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_àwọn_Azores	2013-03-09
+1395	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_àwọn_Erékùṣù_Apáàríwá_Mariana	2013-03-09
+1396	http://yo.wikipedia.org/wiki/Àrùn	2013-03-09
+1397	http://yo.wikipedia.org/wiki/Àsìá_ilẹ̀_Bárbádọ̀s	2013-03-09
+1398	http://yo.wikipedia.org/wiki/Àsìá_ilẹ̀_Bẹ̀rmúdà	2013-03-09
+1399	http://yo.wikipedia.org/wiki/Àsìá_ilẹ̀_Kalẹdóníà_Tuntun	2013-03-09
+1400	http://yo.wikipedia.org/wiki/Àsìá_ilẹ̀_Kúbà	2013-03-09
+1401	http://yo.wikipedia.org/wiki/Àsìá_ilẹ̀_Mọ́rísì	2013-03-09
+1402	http://yo.wikipedia.org/wiki/Àsìá_ilẹ̀_Trínídád_àti_Tòbágò	2013-03-09
+1403	http://yo.wikipedia.org/wiki/Àwọn_Króátì	2013-03-09
+1404	http://yo.wikipedia.org/wiki/Àwọn_Ìpínlẹ̀_Jẹ́mánì	2013-03-09
+1405	http://yo.wikipedia.org/wiki/Àwọn_Ẹ́mírátì	2013-03-09
+1406	http://yo.wikipedia.org/wiki/Ààrẹ_ilẹ̀_Làìbéríà	2013-03-09
+1407	http://yo.wikipedia.org/wiki/Èdè_Sindhi	2013-03-09
+1408	http://yo.wikipedia.org/wiki/Èdè_Ìṣèlànà_Kọ̀mpútà	2013-03-09
+1409	http://yo.wikipedia.org/wiki/Èdè_Írẹ́lándì	2013-03-09
+1410	http://yo.wikipedia.org/wiki/Ìdìmúlẹ̀	2013-03-09
+1411	http://yo.wikipedia.org/wiki/Ìjẹ́ẹ̀rí	2013-03-09
+1412	http://yo.wikipedia.org/wiki/Ìpínlẹ̀_Ìlàòrùn-Àrin	2013-03-09
+1413	http://yo.wikipedia.org/wiki/Ìwo_Orí_ilẹ̀_Áfríkà	2013-03-09
+1414	http://yo.wikipedia.org/wiki/Ìṣekọ́múnístì	2013-03-09
+1415	http://yo.wikipedia.org/wiki/Ìṣesósíálístì	2013-03-09
+1416	http://yo.wikipedia.org/wiki/Ìṣèlú_ilẹ̀_Nàìjíríà	2013-03-09
+1417	http://yo.wikipedia.org/wiki/Òkun_Kàríbẹ́ánì	2013-03-09
+1418	http://yo.wikipedia.org/wiki/Òkun_Índíà	2013-03-09
+1419	http://yo.wikipedia.org/wiki/Ónjẹ_Alẹ́_Olúwa	2013-03-09
+1420	http://yo.wikipedia.org/wiki/Ṣìkágò	2013-03-09
+1421	http://yo.wikipedia.org/wiki/Ẹgbẹ́_Rẹ̀públíkánì_(USA)	2013-03-09
+1422	http://yo.wikipedia.org/wiki/Ẹ̀bùn_Nobel_nínú_Lítíréṣọ̀	2013-03-09
+1423	http://yo.wikipedia.org/wiki/Ẹ̀bùn_Ìṣèrántí_Nobel_nínú_àwọn_Sáyẹ́nsì_Ọ̀rọ̀-Òkòwò	2013-03-09
+1424	http://yo.wikipedia.org/wiki/Ẹ̀rúndún_1k	2013-03-09
+1425	http://yo.wikipedia.org/wiki/Ẹ̀rúndún_2k	2013-03-09
+1426	http://yo.wikipedia.org/wiki/Ẹ̀rúndún_3k	2013-03-09
+1427	http://yo.wikipedia.org/wiki/Ẹ̀sìn	2013-03-09
+1428	http://yo.wikipedia.org/wiki/Ẹ̀ùkáríọ́tì	2013-03-09
+1429	http://yo.wikipedia.org/wiki/Ọbàtálá	2013-03-09
+1430	http://yo.wikipedia.org/wiki/Ọjọ́ọ̀bí	2013-03-09
+1431	http://yo.wikipedia.org/wiki/Ọ̀pọ̀lọ́	2013-03-09
+1432	http://yo.wikipedia.org/wiki/4_(nọ́mbà)	2013-03-10
+1433	http://yo.wikipedia.org/wiki/5_(nọ́mbà)	2013-03-10
+1434	http://yo.wikipedia.org/wiki/Abdulfatah_Ahmed	2013-03-10
+1435	http://yo.wikipedia.org/wiki/Adebisi_Agboola	2013-03-10
+1436	http://yo.wikipedia.org/wiki/Adel_Safar	2013-03-10
+1437	http://yo.wikipedia.org/wiki/Adrien_Brody	2013-03-10
+1438	http://yo.wikipedia.org/wiki/Alain_Badiou	2013-03-10
+1439	http://yo.wikipedia.org/wiki/Alan_Arkin	2013-03-10
+1440	http://yo.wikipedia.org/wiki/Alfred_Tarski	2013-03-10
+1441	http://yo.wikipedia.org/wiki/Amartya_Sen	2013-03-10
+1442	http://yo.wikipedia.org/wiki/Anjelica_Huston	2013-03-10
+1443	http://yo.wikipedia.org/wiki/Anna_Magnani	2013-03-10
+1444	http://yo.wikipedia.org/wiki/Anna_Paquin	2013-03-10
+1445	http://yo.wikipedia.org/wiki/Anne_Bancroft	2013-03-10
+1446	http://yo.wikipedia.org/wiki/Anne_Baxter	2013-03-10
+1447	http://yo.wikipedia.org/wiki/Anne_Revere	2013-03-10
+1448	http://yo.wikipedia.org/wiki/Anthony_Quinn	2013-03-10
+1449	http://yo.wikipedia.org/wiki/Arthur_Foulkes	2013-03-10
+1450	http://yo.wikipedia.org/wiki/Barry_Fitzgerald	2013-03-10
+1451	http://yo.wikipedia.org/wiki/Beatrice_Straight	2013-03-10
+1452	http://yo.wikipedia.org/wiki/Bette_Davis	2013-03-10
+1453	http://yo.wikipedia.org/wiki/Brenda_Fricker	2013-03-10
+1454	http://yo.wikipedia.org/wiki/Burl_Ives	2013-03-10
+1455	http://yo.wikipedia.org/wiki/Cate_Blanchett	2013-03-10
+1456	http://yo.wikipedia.org/wiki/Celeste_Holm	2013-03-10
+1457	http://yo.wikipedia.org/wiki/Charles_Coburn	2013-03-10
+1458	http://yo.wikipedia.org/wiki/Charlize_Theron	2013-03-10
+1459	http://yo.wikipedia.org/wiki/Claire_Trevor	2013-03-10
+1460	http://yo.wikipedia.org/wiki/Claudette_Colbert	2013-03-10
+1461	http://yo.wikipedia.org/wiki/Cloris_Leachman	2013-03-10
+1462	http://yo.wikipedia.org/wiki/Dean_Jagger	2013-03-10
+1463	http://yo.wikipedia.org/wiki/Diane_Keaton	2013-03-10
+1464	http://yo.wikipedia.org/wiki/Dianne_Wiest	2013-03-10
+1465	http://yo.wikipedia.org/wiki/Donald_Crisp	2013-03-10
+1466	http://yo.wikipedia.org/wiki/Donald_Knuth	2013-03-10
+1467	http://yo.wikipedia.org/wiki/Donald_M._Payne	2013-03-10
+1468	http://yo.wikipedia.org/wiki/Dorothy_Malone	2013-03-10
+1469	http://yo.wikipedia.org/wiki/Ed_Begley	2013-03-10
+1470	http://yo.wikipedia.org/wiki/Edmond_O'Brien	2013-03-10
+1471	http://yo.wikipedia.org/wiki/Edmund_Gwenn	2013-03-10
+1472	http://yo.wikipedia.org/wiki/Eileen_Heckart	2013-03-10
+1473	http://yo.wikipedia.org/wiki/Ellen_Burstyn	2013-03-10
+1474	http://yo.wikipedia.org/wiki/Eric_Williams	2013-03-10
+1475	http://yo.wikipedia.org/wiki/Estelle_Parsons	2013-03-10
+1476	http://yo.wikipedia.org/wiki/Ethel_Barrymore	2013-03-10
+1477	http://yo.wikipedia.org/wiki/Fay_Bainter	2013-03-10
+1478	http://yo.wikipedia.org/wiki/Faye_Dunaway	2013-03-10
+1479	http://yo.wikipedia.org/wiki/Felipe_S._Guzmán	2013-03-10
+1480	http://yo.wikipedia.org/wiki/Francesco_Totti	2013-03-10
+1481	http://yo.wikipedia.org/wiki/Francisco_S._Carvajal	2013-03-10
+1482	http://yo.wikipedia.org/wiki/Gale_Sondergaard	2013-03-10
+1483	http://yo.wikipedia.org/wiki/Garrincha	2013-03-10
+1484	http://yo.wikipedia.org/wiki/Geena_Davis	2013-03-10
+1485	http://yo.wikipedia.org/wiki/Georg_Ohm	2013-03-10
+1486	http://yo.wikipedia.org/wiki/George_Burns	2013-03-10
+1487	http://yo.wikipedia.org/wiki/George_Chakiris	2013-03-10
+1488	http://yo.wikipedia.org/wiki/George_Foreman	2013-03-10
+1489	http://yo.wikipedia.org/wiki/George_Kennedy	2013-03-10
+1490	http://yo.wikipedia.org/wiki/George_Sanders	2013-03-10
+1491	http://yo.wikipedia.org/wiki/Geraldine_Page	2013-03-10
+1492	http://yo.wikipedia.org/wiki/Gig_Young	2013-03-10
+1493	http://yo.wikipedia.org/wiki/Ginger_Rogers	2013-03-10
+1494	http://yo.wikipedia.org/wiki/Giordano_Bruno	2013-03-10
+1495	http://yo.wikipedia.org/wiki/Glenda_Jackson	2013-03-10
+1496	http://yo.wikipedia.org/wiki/Gloria_Grahame	2013-03-10
+1497	http://yo.wikipedia.org/wiki/Goldie_Hawn	2013-03-10
+1498	http://yo.wikipedia.org/wiki/Grace_Kelly	2013-03-10
+1499	http://yo.wikipedia.org/wiki/Greer_Garson	2013-03-10
+1500	http://yo.wikipedia.org/wiki/Gregor_Mendel	2013-03-10
+1501	http://yo.wikipedia.org/wiki/Harold_Russell	2013-03-10
+1502	http://yo.wikipedia.org/wiki/Hattie_McDaniel	2013-03-10
+1503	http://yo.wikipedia.org/wiki/Helen_Hayes	2013-03-10
+1504	http://yo.wikipedia.org/wiki/Helen_Mirren	2013-03-10
+1505	http://yo.wikipedia.org/wiki/Holly_Hunter	2013-03-10
+1506	http://yo.wikipedia.org/wiki/Hugh_Griffith	2013-03-10
+1507	http://yo.wikipedia.org/wiki/Ingrid_Bergman	2013-03-10
+1508	http://yo.wikipedia.org/wiki/Irin_olọ́ksíjìn	2013-03-10
+1509	http://yo.wikipedia.org/wiki/Jack_Albertson	2013-03-10
+1510	http://yo.wikipedia.org/wiki/Jack_Palance	2013-03-10
+1511	http://yo.wikipedia.org/wiki/James_Coburn	2013-03-10
+1512	http://yo.wikipedia.org/wiki/Jane_Darwell	2013-03-10
+1513	http://yo.wikipedia.org/wiki/Jane_Wyman	2013-03-10
+1514	http://yo.wikipedia.org/wiki/Jason_Robards	2013-03-10
+1515	http://yo.wikipedia.org/wiki/Jean-Claude_Duvalier	2013-03-10
+1516	http://yo.wikipedia.org/wiki/Jean-Jacques_Rousseau	2013-03-10
+1517	http://yo.wikipedia.org/wiki/Jennifer_Connelly	2013-03-10
+1518	http://yo.wikipedia.org/wiki/Jennifer_Hudson	2013-03-10
+1519	http://yo.wikipedia.org/wiki/Jennifer_Jones	2013-03-10
+1520	http://yo.wikipedia.org/wiki/Jessica_Lange	2013-03-10
+1521	http://yo.wikipedia.org/wiki/Jessica_Tandy	2013-03-10
+1522	http://yo.wikipedia.org/wiki/Jim_Broadbent	2013-03-10
+1523	http://yo.wikipedia.org/wiki/Joan_Crawford	2013-03-10
+1524	http://yo.wikipedia.org/wiki/Joan_Fontaine	2013-03-10
+1525	http://yo.wikipedia.org/wiki/Joanne_Woodward	2013-03-10
+1526	http://yo.wikipedia.org/wiki/Joe_Pesci	2013-03-10
+1527	http://yo.wikipedia.org/wiki/Joel_Grey	2013-03-10
+1528	http://yo.wikipedia.org/wiki/Johann_Bernoulli	2013-03-10
+1529	http://yo.wikipedia.org/wiki/John_Gielgud	2013-03-10
+1530	http://yo.wikipedia.org/wiki/John_Houseman	2013-03-10
+1531	http://yo.wikipedia.org/wiki/John_Maynard_Keynes	2013-03-10
+1532	http://yo.wikipedia.org/wiki/John_Mills	2013-03-10
+1533	http://yo.wikipedia.org/wiki/Joseph_E._Stiglitz	2013-03-10
+1534	http://yo.wikipedia.org/wiki/Joseph_Schildkraut	2013-03-10
+1535	http://yo.wikipedia.org/wiki/Josephine_Hull	2013-03-10
+1536	http://yo.wikipedia.org/wiki/Judi_Dench	2013-03-10
+1537	http://yo.wikipedia.org/wiki/Judy_Holliday	2013-03-10
+1538	http://yo.wikipedia.org/wiki/Julie_Andrews	2013-03-10
+1539	http://yo.wikipedia.org/wiki/Julie_Christie	2013-03-10
+1540	http://yo.wikipedia.org/wiki/Juliette_Binoche	2013-03-10
+1541	http://yo.wikipedia.org/wiki/Jòhánù_1k_ilẹ̀_Fránsì	2013-03-10
+1542	http://yo.wikipedia.org/wiki/Karl_Malden	2013-03-10
+1543	http://yo.wikipedia.org/wiki/Katharine_Hepburn	2013-03-10
+1544	http://yo.wikipedia.org/wiki/Kathy_Bates	2013-03-10
+1545	http://yo.wikipedia.org/wiki/Katina_Paxinou	2013-03-10
+1546	http://yo.wikipedia.org/wiki/Kevin_Kline	2013-03-10
+1547	http://yo.wikipedia.org/wiki/Kim_Basinger	2013-03-10
+1548	http://yo.wikipedia.org/wiki/Kim_Hunter	2013-03-10
+1549	http://yo.wikipedia.org/wiki/Langston_Hughes	2013-03-10
+1550	http://yo.wikipedia.org/wiki/Lee_Grant	2013-03-10
+1551	http://yo.wikipedia.org/wiki/Leopold_2k_ilẹ̀_Bẹ́ljíọ̀m	2013-03-10
+1552	http://yo.wikipedia.org/wiki/Lila_Kedrova	2013-03-10
+1553	http://yo.wikipedia.org/wiki/Loretta_Young	2013-03-10
+1554	http://yo.wikipedia.org/wiki/Louise_Fletcher	2013-03-10
+1555	http://yo.wikipedia.org/wiki/Luise_Rainer	2013-03-10
+1556	http://yo.wikipedia.org/wiki/Maggie_Smith	2013-03-10
+1557	http://yo.wikipedia.org/wiki/Mamerto_Urriolagoitia	2013-03-10
+1558	http://yo.wikipedia.org/wiki/Margaret_Rutherford	2013-03-10
+1559	http://yo.wikipedia.org/wiki/Marion_Cotillard	2013-03-10
+1560	http://yo.wikipedia.org/wiki/Marisa_Tomei	2013-03-10
+1561	http://yo.wikipedia.org/wiki/Marlee_Matlin	2013-03-10
+1562	http://yo.wikipedia.org/wiki/Martin_Balsam	2013-03-10
+1563	http://yo.wikipedia.org/wiki/Martin_Landau	2013-03-10
+1564	http://yo.wikipedia.org/wiki/Mary_Astor	2013-03-10
+1565	http://yo.wikipedia.org/wiki/Mary_Pickford	2013-03-10
+1566	http://yo.wikipedia.org/wiki/Mary_Steenburgen	2013-03-10
+1567	http://yo.wikipedia.org/wiki/Melissa_Leo	2013-03-10
+1568	http://yo.wikipedia.org/wiki/Melvyn_Douglas	2013-03-10
+1569	http://yo.wikipedia.org/wiki/Mercedes_McCambridge	2013-03-10
+1570	http://yo.wikipedia.org/wiki/Mercedes_Ruehl	2013-03-10
+1571	http://yo.wikipedia.org/wiki/Meryl_Streep	2013-03-10
+1572	http://yo.wikipedia.org/wiki/Mike_Tyson	2013-03-10
+1573	http://yo.wikipedia.org/wiki/Mira_Sorvino	2013-03-10
+1574	http://yo.wikipedia.org/wiki/Miyoshi_Umeki	2013-03-10
+1575	http://yo.wikipedia.org/wiki/Natalie_Cole	2013-03-10
+1576	http://yo.wikipedia.org/wiki/Nicolas_Steno	2013-03-10
+1577	http://yo.wikipedia.org/wiki/Nicole_Kidman	2013-03-10
+1578	http://yo.wikipedia.org/wiki/Noam_Chomsky	2013-03-10
+1579	http://yo.wikipedia.org/wiki/Norma_Shearer	2013-03-10
+1580	http://yo.wikipedia.org/wiki/Octavia_Butler	2013-03-10
+1581	http://yo.wikipedia.org/wiki/Olivia_de_Havilland	2013-03-10
+1582	http://yo.wikipedia.org/wiki/Patricia_Neal	2013-03-10
+1583	http://yo.wikipedia.org/wiki/Patty_Duke	2013-03-10
+1584	http://yo.wikipedia.org/wiki/Peggy_Ashcroft	2013-03-10
+1585	http://yo.wikipedia.org/wiki/Penélope_Cruz	2013-03-10
+1586	http://yo.wikipedia.org/wiki/Peter_Ustinov	2013-03-10
+1587	http://yo.wikipedia.org/wiki/Pierre-Joseph_Proudhon	2013-03-10
+1588	http://yo.wikipedia.org/wiki/Podolsk	2013-03-10
+1589	http://yo.wikipedia.org/wiki/Rachel_Weisz	2013-03-10
+1590	http://yo.wikipedia.org/wiki/Ram_Narayan	2013-03-10
+1591	http://yo.wikipedia.org/wiki/Red_Buttons	2013-03-10
+1592	http://yo.wikipedia.org/wiki/Reese_Witherspoon	2013-03-10
+1593	http://yo.wikipedia.org/wiki/Renée_Zellweger	2013-03-10
+1594	http://yo.wikipedia.org/wiki/Ricardo_Pérez_Godoy	2013-03-10
+1595	http://yo.wikipedia.org/wiki/Rita_Moreno	2013-03-10
+1596	http://yo.wikipedia.org/wiki/Ruth_Gordon	2013-03-10
+1597	http://yo.wikipedia.org/wiki/Sam_Cooke	2013-03-10
+1598	http://yo.wikipedia.org/wiki/Sandy_Dennis	2013-03-10
+1599	http://yo.wikipedia.org/wiki/Shelley_Winters	2013-03-10
+1600	http://yo.wikipedia.org/wiki/Shirley_Booth	2013-03-10
+1601	http://yo.wikipedia.org/wiki/Shirley_Jones	2013-03-10
+1602	http://yo.wikipedia.org/wiki/Shirley_MacLaine	2013-03-10
+1603	http://yo.wikipedia.org/wiki/Simone_Signoret	2013-03-10
+1604	http://yo.wikipedia.org/wiki/Sissy_Spacek	2013-03-10
+1605	http://yo.wikipedia.org/wiki/Sophia_Loren	2013-03-10
+1606	http://yo.wikipedia.org/wiki/Susan_Hayward	2013-03-10
+1607	http://yo.wikipedia.org/wiki/Tatum_O'Neal	2013-03-10
+1608	http://yo.wikipedia.org/wiki/Telly_Savalas	2013-03-10
+1609	http://yo.wikipedia.org/wiki/Teresa_Wright	2013-03-10
+1610	http://yo.wikipedia.org/wiki/Thomas_Carlyle	2013-03-10
+1611	http://yo.wikipedia.org/wiki/Tilda_Swinton	2013-03-10
+1612	http://yo.wikipedia.org/wiki/Timothy_Hutton	2013-03-10
+1613	http://yo.wikipedia.org/wiki/Tòbágò	2013-03-10
+1614	http://yo.wikipedia.org/wiki/Van_Heflin	2013-03-10
+1615	http://yo.wikipedia.org/wiki/Vanessa_Redgrave	2013-03-10
+1616	http://yo.wikipedia.org/wiki/Vivien_Leigh	2013-03-10
+1617	http://yo.wikipedia.org/wiki/Walter_Brennan	2013-03-10
+1618	http://yo.wikipedia.org/wiki/Walter_Huston	2013-03-10
+1619	http://yo.wikipedia.org/wiki/Walter_Matthau	2013-03-10
+1620	http://yo.wikipedia.org/wiki/Wendy_Hiller	2013-03-10
+1621	http://yo.wikipedia.org/wiki/Yoshio_Nishina	2013-03-10
+1622	http://yo.wikipedia.org/wiki/Zhao_Ziyang	2013-03-10
+1623	http://yo.wikipedia.org/wiki/Àmì-ìdámọ̀_kẹ́míkà	2013-03-10
+1624	http://yo.wikipedia.org/wiki/Àwọn_Ìdíje_Òlímpíkì_Ìgbà_Otútù	2013-03-10
+1625	http://yo.wikipedia.org/wiki/10201_Korado	2013-03-11
+1626	http://yo.wikipedia.org/wiki/1490_Limpopo	2013-03-11
+1627	http://yo.wikipedia.org/wiki/19464_Ciarabarr	2013-03-11
+1628	http://yo.wikipedia.org/wiki/Abdoulaye_Wade	2013-03-11
+1629	http://yo.wikipedia.org/wiki/Agbègbè_Apáàríwá_Brasil	2013-03-11
+1630	http://yo.wikipedia.org/wiki/Akihito	2013-03-11
+1631	http://yo.wikipedia.org/wiki/Al_Capone	2013-03-11
+1632	http://yo.wikipedia.org/wiki/Alasdair_MacIntyre	2013-03-11
+1633	http://yo.wikipedia.org/wiki/Ali_Hassan_al-Majid	2013-03-11
+1634	http://yo.wikipedia.org/wiki/Andrew_Johnson	2013-03-11
+1635	http://yo.wikipedia.org/wiki/Angelina_Jolie	2013-03-11
+1636	http://yo.wikipedia.org/wiki/Aristides_Royo	2013-03-11
+1637	http://yo.wikipedia.org/wiki/Baháí	2013-03-11
+1638	http://yo.wikipedia.org/wiki/Curtis_Mayfield	2013-03-11
+1639	http://yo.wikipedia.org/wiki/Danilo_Türk	2013-03-11
+1640	http://yo.wikipedia.org/wiki/Deng_Xiaoping	2013-03-11
+1641	http://yo.wikipedia.org/wiki/Detroit	2013-03-11
+1642	http://yo.wikipedia.org/wiki/Donna_Reed	2013-03-11
+1643	http://yo.wikipedia.org/wiki/Eleanor_Roosevelt	2013-03-11
+1644	http://yo.wikipedia.org/wiki/Emma_Thompson	2013-03-11
+1645	http://yo.wikipedia.org/wiki/Etta_James	2013-03-11
+1646	http://yo.wikipedia.org/wiki/Eugene_Wigner	2013-03-11
+1647	http://yo.wikipedia.org/wiki/Farooq_Leghari	2013-03-11
+1648	http://yo.wikipedia.org/wiki/Felipe_Calderón	2013-03-11
+1649	http://yo.wikipedia.org/wiki/George_2k_ilẹ̀_Gríìsì	2013-03-11
+1650	http://yo.wikipedia.org/wiki/George_M._Dallas	2013-03-11
+1651	http://yo.wikipedia.org/wiki/Gottfried_Leibniz	2013-03-11
+1652	http://yo.wikipedia.org/wiki/Hosni_Mubarak	2013-03-11
+1653	http://yo.wikipedia.org/wiki/Humphrey_Bogart	2013-03-11
+1654	http://yo.wikipedia.org/wiki/Ibrahim_Shekarau	2013-03-11
+1655	http://yo.wikipedia.org/wiki/Ibùdó_Òfurufú_Akáríayé	2013-03-11
+1656	http://yo.wikipedia.org/wiki/Ikililou_Dhoinine	2013-03-11
+1657	http://yo.wikipedia.org/wiki/Irène_Joliot-Curie	2013-03-11
+1658	http://yo.wikipedia.org/wiki/Jacob_Bernoulli	2013-03-11
+1659	http://yo.wikipedia.org/wiki/Jacques_Cartier	2013-03-11
+1660	http://yo.wikipedia.org/wiki/Jakaya_Kikwete	2013-03-11
+1661	http://yo.wikipedia.org/wiki/Janet_Gaynor	2013-03-11
+1662	http://yo.wikipedia.org/wiki/Jigme_Khesar_Namgyal_Wangchuck	2013-03-11
+1663	http://yo.wikipedia.org/wiki/Jòhánù_2k_ilẹ̀_Fránsì	2013-03-11
+1664	http://yo.wikipedia.org/wiki/Karl_Renner	2013-03-11
+1665	http://yo.wikipedia.org/wiki/Kim_Jong-il	2013-03-11
+1666	http://yo.wikipedia.org/wiki/Kánsílọ̀_ilẹ̀_Jẹ́mánì	2013-03-11
+1667	http://yo.wikipedia.org/wiki/Kẹ́tẹ́kẹ́tẹ́_abilà	2013-03-11
+1668	http://yo.wikipedia.org/wiki/Linda_Hunt	2013-03-11
+1669	http://yo.wikipedia.org/wiki/Louis_14k_ilẹ̀_Fránsì	2013-03-11
+1670	http://yo.wikipedia.org/wiki/Maureen_Stapleton	2013-03-11
+1671	http://yo.wikipedia.org/wiki/Mustapha_Hadji	2013-03-11
+1672	http://yo.wikipedia.org/wiki/Mykola_Azarov	2013-03-11
+1673	http://yo.wikipedia.org/wiki/Peter_D._Mitchell	2013-03-11
+1674	http://yo.wikipedia.org/wiki/Richard_Francis_Burton	2013-03-11
+1675	http://yo.wikipedia.org/wiki/STS-51-A	2013-03-11
+1676	http://yo.wikipedia.org/wiki/STS-7	2013-03-11
+1677	http://yo.wikipedia.org/wiki/Subrahmanyan_Chandrasekhar	2013-03-11
+1678	http://yo.wikipedia.org/wiki/Sékou_Touré	2013-03-11
+1679	http://yo.wikipedia.org/wiki/Sìnáì	2013-03-11
+1680	http://yo.wikipedia.org/wiki/Tsẹ́kì_Olómìnira	2013-03-11
+1681	http://yo.wikipedia.org/wiki/Václav_Klaus	2013-03-11
+1682	http://yo.wikipedia.org/wiki/Wọlé_Sóyinká	2013-03-11
+1683	http://yo.wikipedia.org/wiki/Yukio_Hatoyama	2013-03-11
+1684	http://yo.wikipedia.org/wiki/Àjọṣepọ̀	2013-03-11
+1685	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Apáàríwá_Kíprù	2013-03-11
+1686	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Arméníà	2013-03-11
+1687	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Erékùṣù_ilẹ̀_Man	2013-03-11
+1688	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Kàmbódíà	2013-03-11
+1689	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Kòréà_Gúúsù	2013-03-11
+1690	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Orílẹ̀-èdè_Olómìnira_ilẹ̀_Makẹdóníà	2013-03-11
+1691	http://yo.wikipedia.org/wiki/Àsìá_ilẹ̀_àwọn_Erékùsù_Sólómọ́nì	2013-03-11
+1692	http://yo.wikipedia.org/wiki/Àsìá_ilẹ̀_àwọn_Erékùṣù_Apáàríwá_Mariana	2013-03-11
+1693	http://yo.wikipedia.org/wiki/Àsìá_ilẹ̀_àwọn_Ìpínlẹ̀_Àṣepapọ̀_ilẹ̀_Mikronésíà	2013-03-11
+1694	http://yo.wikipedia.org/wiki/Ìfonífojì_àwọn_Ọba	2013-03-11
+1695	http://yo.wikipedia.org/wiki/Ìpínlẹ̀_Ògùn	2013-03-11
+1696	http://yo.wikipedia.org/wiki/Ìṣúpọ̀_olùgbé	2013-03-11
+1697	http://yo.wikipedia.org/wiki/Ẹgbẹ́_Dẹmọkrátíkì_(USA)	2013-03-11
+1698	http://yo.wikipedia.org/wiki/Ẹgbẹ́_olóṣèlú	2013-03-11
+1699	http://yo.wikipedia.org/wiki/Ẹgbẹ́_Ìsọdàmúsìn_Amẹ́ríkà	2013-03-11
+1700	http://yo.wikipedia.org/wiki/Ọkàn	2013-03-11
+1701	http://yo.wikipedia.org/wiki/Ọ̀rúndún_17k	2013-03-11
+1702	http://yo.wikipedia.org/wiki/4631_Yabu	2013-03-14
+1703	http://yo.wikipedia.org/wiki/50_Cent	2013-03-14
+1704	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gúúsù_Nnewi	2013-03-14
+1705	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gúúsù_Ogbomosho	2013-03-14
+1706	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gúúsù_Orumba	2013-03-14
+1707	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ogbaru	2013-03-14
+1708	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ohaozara	2013-03-14
+1709	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ohaukwu	2013-03-14
+1710	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Onicha	2013-03-14
+1711	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Àríwá_Ogbomosho	2013-03-14
+1712	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ìlàòrùn_Nkanu	2013-03-14
+1713	http://yo.wikipedia.org/wiki/Akádẹ́mì	2013-03-14
+1714	http://yo.wikipedia.org/wiki/Alex_Bogomolov,_Jr.	2013-03-14
+1715	http://yo.wikipedia.org/wiki/Ana_Ivanovic	2013-03-14
+1716	http://yo.wikipedia.org/wiki/Ann_Haydon-Jones	2013-03-14
+1717	http://yo.wikipedia.org/wiki/Bruce_Beutler	2013-03-14
+1718	http://yo.wikipedia.org/wiki/Buba_Marwa	2013-03-14
+1719	http://yo.wikipedia.org/wiki/CERN	2013-03-14
+1720	http://yo.wikipedia.org/wiki/Carlos_Fuentes	2013-03-14
+1721	http://yo.wikipedia.org/wiki/Christy_Essien-Igbokwe	2013-03-14
+1722	http://yo.wikipedia.org/wiki/Cleveland	2013-03-14
+1723	http://yo.wikipedia.org/wiki/Dinara_Safina	2013-03-14
+1724	http://yo.wikipedia.org/wiki/Donna_Summer	2013-03-14
+1725	http://yo.wikipedia.org/wiki/Duke_Ellington	2013-03-14
+1726	http://yo.wikipedia.org/wiki/George_Clinton_(olórin)	2013-03-14
+1727	http://yo.wikipedia.org/wiki/Gianna_Angelopoulos-Daskalaki	2013-03-14
+1728	http://yo.wikipedia.org/wiki/Gáláksì_Andromẹ́dà	2013-03-14
+1729	http://yo.wikipedia.org/wiki/Harry_Belafonte	2013-03-14
+1730	http://yo.wikipedia.org/wiki/Ice_Cube	2013-03-14
+1731	http://yo.wikipedia.org/wiki/Ilé-iṣẹ́_Àgbéṣe_Ìgbédìde_àti_Ìwáàdí_Òfurufú_Orílẹ̀-èdè_Nàìjíríà	2013-03-14
+1732	http://yo.wikipedia.org/wiki/Immanuel_Hermann_Fichte	2013-03-14
+1733	http://yo.wikipedia.org/wiki/Iva_Majoli	2013-03-14
+1734	http://yo.wikipedia.org/wiki/J._B._S._Haldane	2013-03-14
+1735	http://yo.wikipedia.org/wiki/Jelena_Janković	2013-03-14
+1736	http://yo.wikipedia.org/wiki/Joe_Frazier	2013-03-14
+1737	http://yo.wikipedia.org/wiki/Joe_Louis	2013-03-14
+1738	http://yo.wikipedia.org/wiki/Joplin	2013-03-14
+1739	http://yo.wikipedia.org/wiki/Joyce_Banda	2013-03-14
+1740	http://yo.wikipedia.org/wiki/Jules_A._Hoffmann	2013-03-14
+1741	http://yo.wikipedia.org/wiki/Lewis_Howard_Latimer	2013-03-14
+1742	http://yo.wikipedia.org/wiki/Leymah_Gbowee	2013-03-14
+1743	http://yo.wikipedia.org/wiki/Marco_Maia	2013-03-14
+1744	http://yo.wikipedia.org/wiki/Moncef_Marzouki	2013-03-14
+1745	http://yo.wikipedia.org/wiki/Morris_Chestnut	2013-03-14
+1746	http://yo.wikipedia.org/wiki/Mẹ́tàlì	2013-03-14
+1747	http://yo.wikipedia.org/wiki/Nia_Long	2013-03-14
+1748	http://yo.wikipedia.org/wiki/Nicolás_Almagro	2013-03-14
+1749	http://yo.wikipedia.org/wiki/Odùduwà	2013-03-14
+1750	http://yo.wikipedia.org/wiki/Olabisi_Onabanjo	2013-03-14
+1751	http://yo.wikipedia.org/wiki/Olu_Jacobs	2013-03-14
+1752	http://yo.wikipedia.org/wiki/Oládayọ̀_Pópóọlá	2013-03-14
+1753	http://yo.wikipedia.org/wiki/Open_Fránsì	2013-03-14
+1754	http://yo.wikipedia.org/wiki/Park_Geun-hye	2013-03-14
+1755	http://yo.wikipedia.org/wiki/Patti_LaBelle	2013-03-14
+1756	http://yo.wikipedia.org/wiki/Paul_Ricoeur	2013-03-14
+1757	http://yo.wikipedia.org/wiki/Paul_Tarfa	2013-03-14
+1758	http://yo.wikipedia.org/wiki/Rosa_Parks	2013-03-14
+1759	http://yo.wikipedia.org/wiki/Santería	2013-03-14
+1760	http://yo.wikipedia.org/wiki/Segun_Osoba	2013-03-14
+1761	http://yo.wikipedia.org/wiki/Serge_Haroche	2013-03-14
+1762	http://yo.wikipedia.org/wiki/Spẹ́ktróskópì	2013-03-14
+1763	http://yo.wikipedia.org/wiki/Susan_Rice	2013-03-14
+1764	http://yo.wikipedia.org/wiki/Teófilo_Stevenson	2013-03-14
+1765	http://yo.wikipedia.org/wiki/Truong_Tan_Sang	2013-03-14
+1766	http://yo.wikipedia.org/wiki/Tẹ́lískópù_òfurufú	2013-03-14
+1767	http://yo.wikipedia.org/wiki/Yosef_Ben-Jochannan	2013-03-14
+1768	http://yo.wikipedia.org/wiki/Àgbọ̀rín	2013-03-14
+1769	http://yo.wikipedia.org/wiki/Àwọn_ará_Kúbà	2013-03-14
+1770	http://yo.wikipedia.org/wiki/Èdè_Efik	2013-03-14
+1771	http://yo.wikipedia.org/wiki/Èdè_Fúlàní_Adámáwá	2013-03-14
+1772	http://yo.wikipedia.org/wiki/Èdè_Igala	2013-03-14
+1773	http://yo.wikipedia.org/wiki/Èdè_Itsekiri	2013-03-14
+1774	http://yo.wikipedia.org/wiki/Èdè_Izọn	2013-03-14
+1775	http://yo.wikipedia.org/wiki/Èdè_Nupe	2013-03-14
+1776	http://yo.wikipedia.org/wiki/Èdè_Ulukwumi	2013-03-14
+1777	http://yo.wikipedia.org/wiki/Èdè_Ìdomà	2013-03-14
+1778	http://yo.wikipedia.org/wiki/Ìdíje_Wimbledon_1969_−_Àwọn_Obìnrin_Ẹnìkan	2013-03-14
+1779	http://yo.wikipedia.org/wiki/Ìdíje_Wimbledon_2000_−_Àwọn_Obìnrin_Ẹnìkan	2013-03-14
+1780	http://yo.wikipedia.org/wiki/Ìdíje_Wimbledon_2006_−_Àwọn_Obìnrin_Ẹnìkan	2013-03-14
+1781	http://yo.wikipedia.org/wiki/Ìdíje_Wimbledon_2008_−_Àwọn_Obìnrin_Ẹnìkan	2013-03-14
+1782	http://yo.wikipedia.org/wiki/Ìdíje_Wimbledon_2012_−_Àwọn_Obìnrin_Ẹnìkan	2013-03-14
+1783	http://yo.wikipedia.org/wiki/Òrùlé	2013-03-14
+1784	http://yo.wikipedia.org/wiki/Ẹgbẹ́_kárbọ̀nù	2013-03-14
+1785	http://yo.wikipedia.org/wiki/Ẹ̀rọ_Ìmúsáré_Hádrónì_Gbàngbà	2013-03-14
+1786	http://yo.wikipedia.org/wiki/Ọlagunsoye_Oyinlọla	2013-03-14
+1787	http://yo.wikipedia.org/wiki/Aléegunẹ̀yìn	2013-03-15
+1788	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Sardauna	2013-03-16
+1789	http://yo.wikipedia.org/wiki/C._Everett_Koop	2013-03-16
+1790	http://yo.wikipedia.org/wiki/Sasaenia_Oresanya	2013-03-16
+1791	http://yo.wikipedia.org/wiki/São_Tomé	2013-03-16
+1792	http://yo.wikipedia.org/wiki/Topeka	2013-03-16
+1793	http://yo.wikipedia.org/wiki/Erékùṣù_Newfoundland	2013-03-17
+1794	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Takum	2013-03-19
+1795	http://yo.wikipedia.org/wiki/Teslim_Folarin	2013-03-19
+1796	http://yo.wikipedia.org/wiki/Àgbájọ_fún_Oúnjẹ_àti_Iṣẹ́àgbẹ̀	2013-03-19
+1797	http://yo.wikipedia.org/wiki/Àgbájọ_Òṣìṣẹ́_Akáríayé	2013-03-20
+1798	http://yo.wikipedia.org/wiki/Òfin_ìṣèfà_àgbálá-ayé_Newton	2013-03-20
+1799	http://yo.wikipedia.org/wiki/Tunde_Ogbeha	2013-03-21
+1800	http://yo.wikipedia.org/wiki/Àdéhùn_Versailles	2013-03-21
+1801	http://yo.wikipedia.org/wiki/Ìṣọ̀kan_Áfríkà	2013-03-21
+1802	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Udenu	2013-03-22
+1803	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Udi	2013-03-22
+1804	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Uzo-Uwani	2013-03-22
+1805	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Wamako	2013-03-22
+1806	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Yorro	2013-03-23
+1807	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Zing	2013-03-23
+1808	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Àríwá_Yewa	2013-03-23
+1809	http://yo.wikipedia.org/wiki/Gabby_Douglas	2013-03-23
+1810	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Sòmálíà	2013-03-29
+1811	http://yo.wikipedia.org/wiki/Ọ̀gẹ̀dẹ̀	2013-03-29
+1812	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Sudan	2013-04-07
+1813	http://yo.wikipedia.org/wiki/Mẹ́tálọ́ìdì	2013-04-14
+1814	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Gúúsù-Ìlàòrùn_Ìbàdàn	2013-04-15
+1815	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ivo	2013-04-15
+1816	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Ìwọòrùn_Nkanu	2013-04-15
+1817	http://yo.wikipedia.org/wiki/Harris_Eghagha	2013-04-15
+1818	http://yo.wikipedia.org/wiki/Tunji_Olurin	2013-04-15
+1819	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Isi-Uzo	2013-04-17
+1820	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Kanam	2013-04-17
+1821	http://yo.wikipedia.org/wiki/Christian_Bale	2013-04-17
+1822	http://yo.wikipedia.org/wiki/Christoph_Waltz	2013-04-17
+1823	http://yo.wikipedia.org/wiki/Albert_Okonkwo	2013-04-18
+1824	http://yo.wikipedia.org/wiki/Daniel_Day-Lewis	2013-04-18
+1825	http://yo.wikipedia.org/wiki/David_Ejoor	2013-04-18
+1826	http://yo.wikipedia.org/wiki/Jereton_Mariere	2013-04-18
+1827	http://yo.wikipedia.org/wiki/Moses_Adasu	2013-04-18
+1828	http://yo.wikipedia.org/wiki/Pópù_Benedict_16k	2013-04-18
+1829	http://yo.wikipedia.org/wiki/Èdè_Mokollé	2013-04-18
+1830	http://yo.wikipedia.org/wiki/Èdè_agbègbè	2013-04-18
+1831	http://yo.wikipedia.org/wiki/Ẹ̀bùn_Nobel_nínú_Físíksì	2013-04-18
+1832	http://yo.wikipedia.org/wiki/Ẹ̀tọ́-àwòkọ	2013-04-18
+1833	http://yo.wikipedia.org/wiki/Ìtàn_àkọọ́lẹ̀_Yorùbá	2013-04-25
+1834	http://yo.wikipedia.org/wiki/Antonio_Gramsci	2013-04-27
+1835	http://yo.wikipedia.org/wiki/Ilẹ̀_Ọbalúayé_Sọ́ngháì	2013-05-11
+1836	http://yo.wikipedia.org/wiki/Ndubuisi_Kanu	2013-05-12
+1837	http://yo.wikipedia.org/wiki/Armando_Guebuza	2013-05-22
+1838	http://yo.wikipedia.org/wiki/Mats_Wilander	2013-06-01
+1839	http://yo.wikipedia.org/wiki/Ìyára	2013-06-04
+1840	http://yo.wikipedia.org/wiki/Augustus	2013-06-08
+1841	http://yo.wikipedia.org/wiki/Orílẹ̀-èdè_erékùṣù	2013-06-08
+1842	http://yo.wikipedia.org/wiki/Alexandre_Dumas,_bàbá	2013-06-11
+1843	http://yo.wikipedia.org/wiki/Ìbon	2013-06-16
+1844	http://yo.wikipedia.org/wiki/Muddy_Waters	2013-06-22
+1845	http://yo.wikipedia.org/wiki/Mẹ́ksíkò	2013-07-19
+1846	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Tibet	2013-07-21
+1847	http://yo.wikipedia.org/wiki/Olympia_Dukakis	2013-07-24
+1848	http://yo.wikipedia.org/wiki/Bọ́ọ̀lù-alápẹ̀rẹ̀	2013-07-27
+1849	http://yo.wikipedia.org/wiki/Dàmáàskì	2013-07-27
+1850	http://yo.wikipedia.org/wiki/Mohammad_Reza_Pahlavi	2013-07-27
+1851	http://yo.wikipedia.org/wiki/Thomas_Muster	2013-07-27
+1852	http://yo.wikipedia.org/wiki/Andy_Roddick	2013-07-28
+1853	http://yo.wikipedia.org/wiki/Jean-Michel_Basquiat	2013-07-28
+1854	http://yo.wikipedia.org/wiki/Nwankwo_Kanu	2013-07-28
+1855	http://yo.wikipedia.org/wiki/Asafa_Powell	2013-07-30
+1856	http://yo.wikipedia.org/wiki/Haile_Gebrselassie	2013-07-30
+1857	http://yo.wikipedia.org/wiki/Muhammad_Ali	2013-07-30
+1858	http://yo.wikipedia.org/wiki/Paramore	2013-07-30
+1859	http://yo.wikipedia.org/wiki/Onyekachi_Apam	2013-08-02
+1860	http://yo.wikipedia.org/wiki/Samson_Siasia	2013-08-02
+1861	http://yo.wikipedia.org/wiki/Harry_Reid	2013-08-09
+1862	http://yo.wikipedia.org/wiki/Hiram_Rhodes_Revels	2013-08-09
+1863	http://yo.wikipedia.org/wiki/Mitch_McConnell	2013-08-09
+1864	http://yo.wikipedia.org/wiki/Konrad_Adenauer	2013-08-12
+1865	http://yo.wikipedia.org/wiki/Yunifásítì_ìlú_Oxford	2013-08-12
+1866	http://yo.wikipedia.org/wiki/Ernest_Hollings	2013-08-14
+1867	http://yo.wikipedia.org/wiki/Kirsten_Gillibrand	2013-08-14
+1868	http://yo.wikipedia.org/wiki/Ìṣiṣẹ́òkòwò	2013-08-16
+1869	http://yo.wikipedia.org/wiki/Nat_Turner	2013-08-20
+1870	http://yo.wikipedia.org/wiki/Segun_Odegbami	2013-08-27
+1871	http://yo.wikipedia.org/wiki/Heath_Ledger	2013-08-28
+1872	http://yo.wikipedia.org/wiki/Don_McKinnon	2013-09-12
+1873	http://yo.wikipedia.org/wiki/Anastasia_Pavlyuchenkova	2013-09-14
+1874	http://yo.wikipedia.org/wiki/Audrey_Hepburn	2013-09-22
+1875	http://yo.wikipedia.org/wiki/Marie_Dressler	2013-09-25
+1876	http://yo.wikipedia.org/wiki/Muammar_al-Gaddafi	2013-10-02
+1877	http://yo.wikipedia.org/wiki/James_H._Billington	2013-10-05
+1878	http://yo.wikipedia.org/wiki/Alice_Munro	2013-10-13
+1879	http://yo.wikipedia.org/wiki/Joseph_Louis_Lagrange	2013-10-16
+1880	http://yo.wikipedia.org/wiki/Émile_Loubet	2013-10-16
+1881	http://yo.wikipedia.org/wiki/Dubai	2013-10-18
+1882	http://yo.wikipedia.org/wiki/Mumbai	2013-10-18
+1883	http://yo.wikipedia.org/wiki/Villeneuve_d'Ascq	2013-10-22
+1884	http://yo.wikipedia.org/wiki/Agostinho_Neto	2013-10-26
+1885	http://yo.wikipedia.org/wiki/Ẹ̀sìn-ìn_Híndù	2013-10-31
+1886	http://yo.wikipedia.org/wiki/Lordi	2013-11-07
+1887	http://yo.wikipedia.org/wiki/Bethanie_Mattek-Sands	2013-11-10
+1888	http://yo.wikipedia.org/wiki/Ilẹ̀ọbalúayé_Brítánì	2013-11-12
+1889	http://yo.wikipedia.org/wiki/Toni_Braxton	2013-11-13
+1890	http://yo.wikipedia.org/wiki/Irin	2013-11-17
+1891	http://yo.wikipedia.org/wiki/Makarios_III	2013-11-17
+1892	http://yo.wikipedia.org/wiki/Jacqueline_Kennedy_Onassis	2013-11-26
+1893	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Bangladẹ́shì	2013-12-03
+1894	http://yo.wikipedia.org/wiki/Radio_Studio_54_Network	2013-12-11
+1895	http://yo.wikipedia.org/wiki/Lupita_Nyong'o	2013-12-22
+1896	http://yo.wikipedia.org/wiki/Open_Amẹ́ríkà_1996_−_Àwọn_Obìnrin_Ẹnìkan	2013-12-22
+1897	http://yo.wikipedia.org/wiki/Michelle_Bachelet	2013-12-23
+1898	http://yo.wikipedia.org/wiki/Chanda_Rubin	2013-12-25
+1899	http://yo.wikipedia.org/wiki/Zina_Garrison	2013-12-25
+1900	http://yo.wikipedia.org/wiki/Anita_Baker	2013-12-28
+1901	http://yo.wikipedia.org/wiki/Boris_Becker	2013-12-28
+1902	http://yo.wikipedia.org/wiki/Chris_Evert	2013-12-28
+1903	http://yo.wikipedia.org/wiki/Evonne_Goolagong	2013-12-28
+1904	http://yo.wikipedia.org/wiki/Jana_Novotná	2013-12-28
+1905	http://yo.wikipedia.org/wiki/Jimmy_Connors	2013-12-28
+1906	http://yo.wikipedia.org/wiki/Margaret_Court	2013-12-28
+1907	http://yo.wikipedia.org/wiki/Maria_Sharapova	2013-12-28
+1908	http://yo.wikipedia.org/wiki/Martina_Navratilova	2013-12-28
+1909	http://yo.wikipedia.org/wiki/Monica_Seles	2013-12-28
+1910	http://yo.wikipedia.org/wiki/Nicolás_Massú	2013-12-28
+1911	http://yo.wikipedia.org/wiki/Stefan_Edberg	2013-12-28
+1912	http://yo.wikipedia.org/wiki/Amélie_Mauresmo	2013-12-29
+1913	http://yo.wikipedia.org/wiki/Agbègbè_Ìjọba_Ìbílẹ̀_Njikoka	2014-01-09
+1914	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Ìkólẹ̀jọ_Saint_Martin	2014-01-13
+1915	http://yo.wikipedia.org/wiki/Mo'Nique	2014-01-20
+1916	http://yo.wikipedia.org/wiki/Orílẹ̀-èdè_alábàágbépọ̀	2014-01-24
+1917	http://yo.wikipedia.org/wiki/Ribonúkléù_kíkan	2014-01-25
+1918	http://yo.wikipedia.org/wiki/Open_Fránsì_2013_−_Àwọn_Obìnrin_Ẹnìkan	2014-01-29
+1919	http://yo.wikipedia.org/wiki/Amiri_Baraka	2014-02-15
+1920	http://yo.wikipedia.org/wiki/Open_Fránsì_2001_−_Àwọn_Obìnrin_Ẹnìkan	2014-02-16
+1921	http://yo.wikipedia.org/wiki/Philip_Levine	2014-03-01
+1922	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Crimea	2014-03-12
+1923	http://yo.wikipedia.org/wiki/Ẹ̀lẹ́ktrọ́nù	2014-03-17
+1924	http://yo.wikipedia.org/wiki/Esperanto	2014-03-22
+1925	http://yo.wikipedia.org/wiki/Napoleon_Bonaparte	2014-03-23
+1926	http://yo.wikipedia.org/wiki/Almaty	2014-04-09
+1927	http://yo.wikipedia.org/wiki/Fránsì	2014-04-19
+1928	http://yo.wikipedia.org/wiki/Alice_Brady	2014-04-25
+1929	http://yo.wikipedia.org/wiki/Mirko_Cvetković	2014-04-26
+1930	http://yo.wikipedia.org/wiki/Open_Austrálíà_2003_−_Àwọn_Obìnrin_Ẹnìkan	2014-04-26
+1931	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Nọ́rwèy	2014-04-29
+1932	http://yo.wikipedia.org/wiki/Joan_Miró	2014-05-10
+1933	http://yo.wikipedia.org/wiki/Jésù	2014-05-10
+1934	http://yo.wikipedia.org/wiki/Pétérù_Mímọ́	2014-05-10
+1935	http://yo.wikipedia.org/wiki/Pópù_Jòhánù_Páúlù_Èkejì	2014-05-10
+1936	http://yo.wikipedia.org/wiki/Pópù_Pius_12k	2014-05-10
+1937	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Mónakò	2014-05-12
+1938	http://yo.wikipedia.org/wiki/DeLisha_Milton-Jones	2014-05-15
+1939	http://yo.wikipedia.org/wiki/Don_Ameche	2014-05-15
+1940	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Fanuatu	2014-05-16
+1941	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Gúúsù_Sudan	2014-05-16
+1942	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Sìmbábúè	2014-05-16
+1943	http://yo.wikipedia.org/wiki/Ìpínlẹ̀_Ábíá	2014-05-16
+1944	http://yo.wikipedia.org/wiki/Ìlú_Kansas	2014-05-18
+1945	http://yo.wikipedia.org/wiki/Àmì_ọ̀pá_àṣẹ_ilẹ̀_Ọstrélíà	2014-05-25
+1946	http://yo.wikipedia.org/wiki/Frank_Lautenberg	2014-05-29
+1947	http://yo.wikipedia.org/wiki/Ààrẹ_ilẹ̀_Paragúáì	2014-06-02
+1948	http://www.cwgministries.org/4keysyoruba.htm	2017-06-22
+1949	http://www.nairaland.com/162263/welcome-new-nairalanders/43	2017-06-22
+1950	http://www.nairaland.com/3876043/burn-survivor-celebrates-end-degree	2017-06-22
+1951	http://www.nairaland.com/ayefele200	2017-06-22
+1952	http://www.nairaland.com/bodsibobo	2017-06-22
+1953	http://www.nairaland.com/cherish	2017-06-22
+1954	http://www.nairaland.com/chiegemba	2017-06-22
+1955	https://iroyintiwantiwa.wordpress.com/2012/03/19/ile-ejo-kan-ni-ilu-eko-ti-ju-awon-indian-meta-si-ewon/	2017-06-22
+1956	https://iroyintiwantiwa.wordpress.com/2012/03/20/ile-ejo-kan-ni-ilu-eko-ti-ju-awon-omo-iya-meta-ti-won-je-indian-si-ewon-osu-kan-laisi-aaye-owo-itanran-lori-esun-titapa-si-idajo-ile-ejo/	2017-06-22
+1957	https://iroyintiwantiwa.wordpress.com/2012/05/	2017-06-22
+1958	https://iroyintiwantiwa.wordpress.com/2012/06/	2017-06-22
+1959	https://iroyintiwantiwa.wordpress.com/2012/06/03/oko-ofurufun-kan-ti-ja-ni-ilu-eko/amp/	2017-06-22
+1960	https://iroyintiwantiwa.wordpress.com/2012/08/	2017-06-22
+1961	https://iroyintiwantiwa.wordpress.com/category/iroyin/iroyin-ile-nigeria/page/3/	2017-06-22
