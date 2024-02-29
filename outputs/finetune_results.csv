@@ -1,4 +1,8 @@
 lang,pretrain,finetune data (1000s),perplexity
+occitan,english,1,1616.8207
+occitan,english,2,1195.2043
+occitan,english,5,997.7177
+occitan,english,9,891.1365
 occitan,english,10,847.8239
 occitan,english,100,437.8673
 occitan,english,150,386.7277
@@ -6,8 +10,16 @@ occitan,english,199,349.5240
 occitan,english,25,673.9664
 occitan,english,50,533.9685
 occitan,english,75,475.7528
+frisian,english,1,1131.769
+frisian,english,2,746.9080
+frisian,english,5,539.3685
+frisian,english,9,486.2944
 frisian,english,10,482.4650
 frisian,english,25,380.8951
 frisian,english,50,301.6200
 frisian,english,75,260.8996
 frisian,english,99,235.7764
+yoruba,english,1,797.3646
+yoruba,english,2,666.4681
+yoruba,english,5,517.5657
+yoruba,english,9,446.0568
