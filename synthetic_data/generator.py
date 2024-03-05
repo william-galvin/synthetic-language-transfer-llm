@@ -50,7 +50,8 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
     mylang.set_unconditioned_rules({
         "sNP": [["UnmarkedNP"], "nom", 1],  # Subject NPs take the nominative
         "UnmarkedNP": [["NP"], "__hash__.nouny", 1],  # We want to make sure that words in the same NP can agree
-        "N": [["noun"], "sg", 0.8, "pl", 0.2],  # Nouns may be singular or plural
+        "N": [["NUMnoun"], "sg", 0.8, "pl", 0.2],  # Nouns may be singular or plural
+        "NUMnoun": [["noun"], "def", 0.8, "indef", 0.2],  # Nouns may be definite or indefinite
         # Go through to get a fully specified pronoun
         "PRON": [["PERpron"], "1st", 0.2, "2nd", 0.1, "3rd", 0.7],  # Get the person of the pronoun
         "PERpron": [["NUMpron"], "sg", 0.7, "pl", 0.3],  # Get the number
@@ -60,14 +61,17 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
 
     # Set the agreement rules
     mylang.set_agreement_rules({
-        #  "verb": [["nom", "nouny"], [["sg", "pl"], ["1st", "2nd", "3rd"]]],  # Verbs agree with nominative nouns
-        #  "det": [["noun", "__hash__"], [["sg", "pl"]]],  # Determiners agree with their head nouns
+        "verb": [["nom", "nouny"], [["sg", "pl"], ["1st", "2nd", "3rd"]]],  # Verbs agree with nominative nouns
+        # Determiners agree with their head nouns in number, gender, and definiteness
+        "det": [["noun", "__hash__"], [["sg", "pl"], ["common", "neuter"], ["def", "indef"]]],
     })
 
+    # Set the dictionary and set the pronouns to nothing, I already got rid of pron and det
     with open('../data/frisian_dict.json', 'r') as frisian_dict:
         mylang.set_dictionary(json.load(frisian_dict) )
+        # See if there's a better way to do this in the future
 
-    # Set an inflection paradigm for determiners
+    # Set an inflection paradigm for pronoun
     mylang.set_inflection_paradigms([
         ["pron", {
             ("sg", "1st", "nom"): "-ik",
@@ -89,7 +93,18 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
             ("pl", "2nd"): "-jimme",
             ("pl", "3rd", "nom"): "-sy",  # We use "sy" instead of "hya" since it's more modern
             ("pl", "3rd", "*nom"): "-har"
-        }]
+        }],
+        ["det", {
+            ("sg", "common", "def"): "-de",
+            ("sg", "neuter", "def"): "-it",
+            ("pl", "def"): "-de",
+            ("sg", "indef"): "-in",
+            ("pl", "indef"): "-",
+        }],
+        # ["noun", {
+        #     ("sg"): "-",
+        #     ("pl", "/")
+        # }],
     ])
 
     # Save the language
@@ -101,7 +116,8 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
     assert math.log10(num_train) % 1 == 0 and num_train >= 10
 
     # We start by generating many sentences
-    sentences, sequences = mylang.generate_sentences(num_sentences=num_train, required_words=None)
+    sentences, sequences = mylang.generate_sentences(num_sentences=num_train, required_words=None,
+                                                     sampling_method="uniform")
 
     # Save these now
     for num_train_group in range(1, int(math.log10(num_train) ) + 1):
