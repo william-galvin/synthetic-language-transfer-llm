@@ -9,7 +9,6 @@ import numpy as np
 
 import language
 
-
 # ===================================== FRISIAN ========================================================================
 Frisian_POS = [
     "ADP",
@@ -25,6 +24,7 @@ Frisian_POS = [
     "AUX",
     "DET"
 ]
+
 
 # Generate arbitrary amounts of Frisian sentences
 def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
@@ -79,7 +79,7 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
 
     # Set the dictionary and set the pronouns to nothing, I already got rid of pron and det
     with open('../data/frisian_dict.json', 'r') as frisian_dict:
-        mylang.set_dictionary(json.load(frisian_dict) )
+        mylang.set_dictionary(json.load(frisian_dict))
         # See if there's a better way to do this in the future
 
     # Set an inflection paradigm for pronoun
@@ -151,7 +151,7 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
     ])
 
     # Save the language
-    mylang.dump_language(os.path.join("synthetic_datasets", language_name) )
+    mylang.dump_language(os.path.join("synthetic_datasets", language_name))
 
     # Make num_train and num_test integers
     num_train = int(num_train)
@@ -163,189 +163,255 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
                                                      sampling_method="uniform")
 
     # Save these now
-    for num_train_group in range(1, int(math.log10(num_train) ) + 1):
+    for num_train_group in range(1, int(math.log10(num_train)) + 1):
         language.save_sentences(sentences=sentences[:10 ** (num_train_group + 1)],
                                 filepath=os.path.join("synthetic_datasets",
                                                       language_name,
-                                                      f"{10 ** (num_train_group + 1)}_train_sentences.txt") )
+                                                      f"{10 ** (num_train_group + 1)}_train_sentences.txt"))
 
 
 # ===================================== OCCITAN ========================================================================
-# Makes verbs of one regular paradigm
-def regular_paradigms(language_name="one_regular_paradigm", num_train=1e6, num_test=5000):
-    # Make num_train and num_test integers
-    num_train = int(num_train)
-    num_test = int(num_test)
-    # num_train should be a power of 10 and that it's at least 10 sentences
-    assert math.log10(num_train) % 1 == 0 and num_train >= 10
+# Generate arbitrary amounts of Frisian sentences
+def generate_occitan_data(language_name="occitan_synthetic", num_train=1e6):
+    # Get the dictionary:
+    with open('../scripts/occitan_dict.json', 'r') as file:
+        occitan_dict = json.load(file)
 
-    # Create/load a base language
-    mylang = create_language_base()
+    # Create a language
+    mylang = language.Language()
 
-    # Set the inflection paradigms
+    # Set the phonology of the language
+    phonemes = {
+        "C": ["p", "b", "t", "d", "k", "g", "m", "n", "f", "v", "s", "z", "h", "j", "w", "r", "l", "c", "x"],
+        "V": ["a", "e", "i", "o", "u", "â", "ê", "é", "y", "ô", "û", "ú"],
+    }
+    mylang.set_phonemes(phonemes=phonemes)
+
+    # Set the parts of speech of the language
+    parts_of_speech = list(occitan_dict.keys() )
+    mylang.set_parts_of_speech(parts_of_speech=parts_of_speech)
+
+    # Set the generation rules
+    # Adj N (Prep Adj N) V Adj O (Prep Adj N)
+    mylang.set_generation_rules({
+        "S": [["sNP", "VP"], 1],  # Sentences generate subject NPs and VPs
+        # VPs may have an object, which precedes the verb if it's a pronoun and follows it otherwise
+        "VP": [["Untensedverb", "ObjDetNom"], 0.5, ["Untensedverb"], 0.2, ["ObjPron", "Untensedverb"], 0.3],
+        "DetNom": [['det', "NOM"], 1],  # DetNoms can become det noms
+        "NP": [["det*nouny", "NOM"], 0.6, ["PRON"], 0.4],  # NPs can be a det NOM or a PRON
+        "NOM": [["NOM", "adj*nouny"], 0.35, ["NoAdjNOM"], 0.65],  # NPs may take adjectives before the rest, recursive
+        "NoAdjNOM": [["N", "PP*nom.__hash__"], 0.2, ["N"], 0.8],  # NoAdjNPs become nouns, or nouns with a PP
+        "PP": [["prep*nouny", "UnmarkedNP"], 1],  # PPs always become prepositions followed by NPs
+    })
+
+    # Set independent probabilistic rules, e.g. pluralization, past tense
+    mylang.set_unconditioned_rules({
+        "sNP": [["UnmarkedNP"], "nom", 1],  # Subject NPs take the nominative
+        "ObjDetNom": [["DetNom"], "__hash__.acc.nouny", 1],  # Object things are accusative
+        "ObjPron": [["PRON"], "acc.nouny", 1],  # Object things are accusative
+        "UnmarkedNP": [["NP"], "__hash__.nouny", 1],  # We want to make sure that words in the same NP can agree
+        "N": [["NUMnoun"], "sg", 0.8, "pl", 0.2],  # Nouns may be singular or plural
+        "NUMnoun": [["noun"], "def", 0.8, "indef", 0.2],  # Nouns may be definite or indefinite
+        "Untensedverb": [["verb"], "prs", 0.4, "impfv", 0.2, "pret", 0.2, "fut", 0.2],  # Verbs can take tense
+        # # Go through to get a fully specified pronoun
+        "PRON": [["PERpron"], "1st", 0.2, "2nd", 0.1, "3rd", 0.7],  # Get the person of the pronoun
+        "PERpron": [["NUMpron"], "sg", 0.7, "pl", 0.3],  # Get the number
+        "NUMpron": [["pron"], "masc", 0.25, "fem", 0.25, "neut", 0.5]  # Get the gender
+    })
+
+    # Set the agreement rules
+    mylang.set_agreement_rules({
+        "verb": [["nom", "nouny"], [["sg", "pl"], ["1st", "2nd", "3rd"]]],  # Verbs agree with nominative nouns
+        # Determiners agree with their head nouns in number, gender, and definiteness
+        "det": [["noun", "__hash__"], [["sg", "pl"], ["masculine", "feminine"], ["def", "indef"]]],
+        "adj": [["noun", "__hash__"], [["sg", "pl"], ["masculine", "feminine"], ["def", "indef"]]],
+    })
+
+    # Set the dictionary
+    mylang.set_dictionary(occitan_dict)
+
+    # Set an inflection paradigm for pronoun
     mylang.set_inflection_paradigms([
-        ["verb", {
-            ("sg", "1st"): "-me",
-            ("sg", "2nd"): "-ju",
-            ("sg", "3rd"): "-si",
-            ("pl", "1st"): "-we",
-            ("pl", "2nd"): "-jal",
-            ("pl", "3rd"): "-dej"
+        ["pron", {
+            ("sg", "1st", "nom"): "-ièu",
+            ("sg", "1st", "*nom"): "-me",
+            ("sg", "2nd", "nom"): "-tu",  # No formality since it's not well documented
+            ("sg", "2nd", "*nom"): "-te",
+            # Third person singular and all plural pronouns have a gender distinction
+            ("sg", "3rd", "nom", "masc"): "-el",
+            ("sg", "3rd", "*nom", "masc"): "lo",
+            ("sg", "3rd", "nom", "fem"): "-ela",
+            ("sg", "3rd", "*nom", "fem"): "-la",
+            ("sg", "3rd", "nom", "neut"): "-el",
+            ("sg", "3rd", "*nom", "neut"): "-o",
+            ("pl", "1st", "nom", "*fem"): "-nosautres",  # We do this to increase the change of a plural masc
+            ("pl", "1st", "nom", "fem"): "-nosautras",
+            ("pl", "1st", "*nom"): "-nos",
+            ("pl", "2nd", "nom", "*fem"): "-vosautres",  # We do this to increase the change of a plural masc
+            ("pl", "2nd", "nom", "fem"): "-vosautras",
+            ("pl", "2nd", "*nom"): "-vos",
+            ("pl", "3rd", "nom", "*fem"): "-eles",  # We do this to increase the change of a plural masc
+            ("pl", "3rd", "nom", "fem"): "-elas",
+            ("pl", "3rd", "*nom", "*fem"): "-los",  # We do this to increase the change of a plural masc
+            ("pl", "3rd", "*nom", "fem"): "-las",
+        }],
+        ["det", {
+            ("sg", "masculine", "def"): "-lo",
+            ("sg", "feminine", "def"): "-la",
+            ("pl", "masculine", "def"): "-los",
+            ("pl", "feminine", "def"): "-las",
+            ("sg", "masculine", "indef"): "-un",
+            ("sg", "feminine", "indef"): "-una",
+            ("pl", "indef"): "-de",  # Plural indefinites look the same
         }],
         ["noun", {
             "sg": "-",
-            "pl": "-ol"
+            ("pl", "/s_"): "-es",
+            ("pl", "/*s_"): "-s",
+        }],
+        ["verb", {
+            # Group 1, -ar, prs
+            ("sg", "1st", "ar", "prs"): "-i",
+            ("sg", "2nd", "ar", "prs"): "-as",
+            ("sg", "3rd", "ar", "prs"): "-a",
+            ("pl", "1st", "ar", "prs"): "-am",
+            ("pl", "2nd", "ar", "prs"): "-atz",
+            ("pl", "3rd", "ar", "prs"): "-an",
+            # Group 1, -ar, impfv
+            ("sg", "1st", "ar", "impfv"): "-avi",
+            ("sg", "2nd", "ar", "impfv"): "-avas",
+            ("sg", "3rd", "ar", "impfv"): "-ava",
+            ("pl", "1st", "ar", "impfv"): "-àvem",
+            ("pl", "2nd", "ar", "impfv"): "-àvetz",
+            ("pl", "3rd", "ar", "impfv"): "-avan",
+            # Group 1, -ar, pret
+            ("sg", "1st", "ar", "pret"): "-èri",
+            ("sg", "2nd", "ar", "pret"): "-ères",
+            ("sg", "3rd", "ar", "pret"): "-èt",
+            ("pl", "1st", "ar", "pret"): "-èrem",
+            ("pl", "2nd", "ar", "pret"): "-èretz",
+            ("pl", "3rd", "ar", "pret"): "-èron",
+            # Group 1, -ar, fut
+            ("sg", "1st", "ar", "fut"): "-arai",
+            ("sg", "2nd", "ar", "fut"): "-aràs",
+            ("sg", "3rd", "ar", "fut"): "-arà",
+            ("pl", "1st", "ar", "fut"): "-arem",
+            ("pl", "2nd", "ar", "fut"): "-aretz",
+            ("pl", "3rd", "ar", "fut"): "-àn",
+            # Group 2 no suffix, -er, prs
+            ("sg", "1st", "ir", "prs"): "-issi",
+            ("sg", "2nd", "ir", "prs"): "-isses",
+            ("sg", "3rd", "ir", "prs"): "-ís",
+            ("pl", "1st", "ir", "prs"): "-issèm",
+            ("pl", "2nd", "ir", "prs"): "-issètz",
+            ("pl", "3rd", "ir", "prs"): "-isson",
+            # Group 2 no suffix, -er, impfv
+            ("sg", "1st", "ir", "impfv"): "-issiái",
+            ("sg", "2nd", "ir", "impfv"): "-issiás",
+            ("sg", "3rd", "ir", "impfv"): "-issiá",
+            ("pl", "1st", "ir", "impfv"): "-issiam",
+            ("pl", "2nd", "ir", "impfv"): "-issiatz",
+            ("pl", "3rd", "ir", "impfv"): "-issián",
+            # Group 2 no suffix, -er, pret
+            ("sg", "1st", "ir", "pret"): "-iguèri",
+            ("sg", "2nd", "ir", "pret"): "-iguères",
+            ("sg", "3rd", "ir", "pret"): "-iguèt",
+            ("pl", "1st", "ir", "pret"): "-iguèrem",
+            ("pl", "2nd", "ir", "pret"): "-iguèretz",
+            ("pl", "3rd", "ir", "pret"): "-iguèron",
+            # Group 2 no suffix, -er, fut
+            ("sg", "1st", "ir", "fut"): "-irai",
+            ("sg", "2nd", "ir", "fut"): "-iràs",
+            ("sg", "3rd", "ir", "fut"): "-irà",
+            ("pl", "1st", "ir", "fut"): "-irem",
+            ("pl", "2nd", "ir", "fut"): "-iretz",
+            ("pl", "3rd", "ir", "fut"): "-iràn",
+            # Group 3, -re, prs
+            ("sg", "1st", "re", "prs"): "-i",
+            ("sg", "2nd", "re", "prs"): "-es",
+            ("sg", "3rd", "re", "prs"): "-",
+            ("pl", "1st", "re", "prs"): "-èm",
+            ("pl", "2nd", "re", "prs"): "-ètz",
+            ("pl", "3rd", "re", "prs"): "-on",
+            # Group 3, -re, impfv
+            ("sg", "1st", "re", "impfv"): "-iái",
+            ("sg", "2nd", "re", "impfv"): "-iás",
+            ("sg", "3rd", "re", "impfv"): "-iá",
+            ("pl", "1st", "re", "impfv"): "-iam",
+            ("pl", "2nd", "re", "impfv"): "-iatz",
+            ("pl", "3rd", "re", "impfv"): "-ián",
+            # Group 3, -re, pret
+            ("sg", "1st", "re", "pret"): "-èri",
+            ("sg", "2nd", "re", "pret"): "-ères",
+            ("sg", "3rd", "re", "pret"): "-èt",
+            ("pl", "1st", "re", "pret"): "-èrem",
+            ("pl", "2nd", "re", "pret"): "-èretz",
+            ("pl", "3rd", "re", "pret"): "-èron",
+            # Group 3, -re, fut
+            ("sg", "1st", "re", "fut"): "-rai",
+            ("sg", "2nd", "re", "fut"): "-ràs",
+            ("sg", "3rd", "re", "fut"): "-rà",
+            ("pl", "1st", "re", "fut"): "-rem",
+            ("pl", "2nd", "re", "fut"): "-retz",
+            ("pl", "3rd", "re", "fut"): "-ràn",
+            # Group 3, -er, prs
+            ("sg", "1st", "er", "prs"): "-i",
+            ("sg", "2nd", "er", "prs"): "-es",
+            ("sg", "3rd", "er", "prs"): "-",
+            ("pl", "1st", "er", "prs"): "-èm",
+            ("pl", "2nd", "er", "prs"): "-ètz",
+            ("pl", "3rd", "er", "prs"): "-on",
+            # Group 3, -er, impfv
+            ("sg", "1st", "er", "impfv"): "-iái",
+            ("sg", "2nd", "er", "impfv"): "-iás",
+            ("sg", "3rd", "er", "impfv"): "-iá",
+            ("pl", "1st", "er", "impfv"): "-iam",
+            ("pl", "2nd", "er", "impfv"): "-iatz",
+            ("pl", "3rd", "er", "impfv"): "-ián",
+            # Group 3, -er, pret
+            ("sg", "1st", "er", "pret"): "-èri",
+            ("sg", "2nd", "er", "pret"): "-ères",
+            ("sg", "3rd", "er", "pret"): "-èt",
+            ("pl", "1st", "er", "pret"): "-èrem",
+            ("pl", "2nd", "er", "pret"): "-èretz",
+            ("pl", "3rd", "er", "pret"): "-èron",
+            # Group 3, -er, fut
+            ("sg", "1st", "er", "fut"): "-rai",
+            ("sg", "2nd", "er", "fut"): "-ràs",
+            ("sg", "3rd", "er", "fut"): "-rà",
+            ("pl", "1st", "er", "fut"): "-rem",
+            ("pl", "2nd", "er", "fut"): "-retz",
+            ("pl", "3rd", "er", "fut"): "-ràn",
+        }],
+        # Adjective inflection is quite simple, first add -a if it's feminine, and -s if it's plural
+        ["adj", {
+            "feminine": "-a",
+            "masculine": "-"
+        }],
+        ["adj", {
+            "sg": "-",
+            "pl": "-s"
         }]
     ])
 
-    # Generate 100 nouns specific to this language
-    for amount, noun_property in [(600, "3rd")]:
-        mylang.generate_words(num_words=amount, part_of_speech="noun", paradigm=noun_property)
-    mylang.generate_words(num_words=700, part_of_speech="verb", paradigm="verb1")
-
     # Save the language
-    mylang.dump_language(os.path.join("Languages", language_name))
+    mylang.dump_language(os.path.join("synthetic_datasets", language_name))
 
-    # Generate 10% more sentences than we need
-    # We will sample test sentences from that set, and then remove them from the train sentences
-    # Whenever we sample one, we remove all instances of it from the training sentences
-    # There are three parameters:
-    # 1. Grammaticality of the agreement (correct vs incorrect)
-    # 2. Number of distractors (0 vs 1)
-    # 3. Generalization (seen roots, unseen roots, unseen roots with one example before)
-
-    # Define the incorrect paradigms (verbs conjugate incorrectly)
-    incorrect_paradigms = [
-        ["verb", {
-            ("sg", "1st"): "-dej",
-            ("sg", "2nd"): "-me",
-            ("sg", "3rd"): "-ju",
-            ("pl", "1st"): "-si",
-            ("pl", "2nd"): "-we",
-            ("pl", "3rd"): "-jal"
-        }],
-        # These aren't incorrect
-        ["noun", {
-            "sg": "-",
-            "pl": "-ol"
-        }],
-        # We need to redefine determiner inflection
-        ["det", {
-            "sg": "-duh",
-            "pl": "-di",
-        }]
-    ]
-
-    # Generate new unseen roots. These may repeat with eachother, but may not be in our current wordset
-    unseen_roots = []
-    # Keep making new roots not in mylang's word set until we reach num_test
-    while len(unseen_roots) < num_test:
-        new_verb_root = mylang.generate_words(1, "verb", "new", add_to_lexicon=False)[0]
-        # These roots are guaranteed to not be in the word_set
-        unseen_roots.append(new_verb_root)
-    # We make unseen_roots into a dict since that's what generate_sentences requires
-    unseen_roots = {"verb": unseen_roots}
+    # Make num_train and num_test integers
+    num_train = int(num_train)
+    # num_train should be a power of 10 and that it's at least 10 sentences
+    assert math.log10(num_train) % 1 == 0 and num_train >= 10
 
     # We start by generating many sentences
-    sentences, sequences = mylang.generate_sentences(num_sentences=int(num_train * 1.1), required_words=None)
-    # We need a dictionary of sentence to sequence and a counter of sentences
-    # The dictionary will help us ensure that they're unique
-    # The counter will allow us to go back to the sentences from the mapping
-    sentence_to_sequence = {sentences[i]: sequences[i] for i in range(len(sentences))}
-    sentence_counts = Counter(sentences)
+    sentences, sequences = mylang.generate_sentences(num_sentences=num_train, required_words=None,
+                                                     sampling_method="uniform")
 
-    # Iterate over every generalization type
-    for generalization_type in ["seen_roots", "unseen_roots", "one_shot"]:
-        print(f"Making test set for {generalization_type}")
-
-        # If we're looking at sentences with seen roots, then we just need to sample from our generated sentences
-        if generalization_type == "seen_roots":
-            # Get our random sentences and their sequences
-            random_sentences = rand.sample(list(sentence_to_sequence.keys()), k=num_test)
-            random_sequences = [sentence_to_sequence.pop(random_sentence) for random_sentence in random_sentences]
-
-            # This is the list of test sentences now
-            # It's guaranteed to be unique, since all keys in sentence_to_sequence are unique
-            # We need to make grammatical and ungrammatical test sentences now
-            grammatical_sentences = random_sentences
-            ungrammatical_sentences = language.inflect(random_sequences, incorrect_paradigms, mylang.phonemes)
-
-        # Now let's make sentences with unseen roots
-        elif generalization_type == "unseen_roots":
-            # Now that we have our unseen verb roots, we can make sentences
-            sentences, sequences = mylang.generate_sentences(num_sentences=num_test, required_words=unseen_roots)
-
-            # This is the list of test sentences now
-            # We need to make grammatical and ungrammatical test sentences now
-            grammatical_sentences = sentences
-            ungrammatical_sentences = language.inflect(sequences, incorrect_paradigms, mylang.phonemes)
-
-        # Finally we make sentences in a one-shot setting
-        else:
-            # Now that we have our unseen verb roots, we can make sentences
-            sentences, sequences = mylang.generate_sentences(num_sentences=num_test, required_words=unseen_roots)
-
-            # This is the not yet list of test sentences
-            # We need to find the verb for each of these sentences first
-            # Then, we will generate an additional sentence with that verb.
-            # From there, we will remake that sentence with an incorrect inflection
-            prompt_sentences = sentences
-            prompt_verbs = find_verbs_given_sequence(sequences)
-
-            # Now we generate num_test sentences with these verbs
-            grammatical_test_sentences = []
-            # Iterate over each verb, and generate a random sentence
-            # We'll store the test_sequences to make the ungrammatical test sentences
-            test_sequences = []
-            for verb in prompt_verbs:
-                # Reformat the tagged verb for generate sentence, and set the verb's paradigm to "new"
-                tagged_verb = {"verb": [(verb, "new")]}
-                # Make a new sentence and sequence
-                test_sentence, test_sequence = mylang.generate_sentences(num_sentences=1, required_words=tagged_verb)
-
-                # generate_sentences returns a list for test_sentence and test_sequence, we only want the first element
-                # The sentence is already in the final form, we can mark it as grammatical
-                grammatical_test_sentences.append(test_sentence[0])
-                test_sequences.append(test_sequence[0])
-            # Now we remake the ungrammatical sentences with the ungrammatical paradigms
-            ungrammatical_test_sentences = language.inflect(test_sequences, incorrect_paradigms, mylang.phonemes)
-
-            # Now we should combine them!
-            grammatical_sentences = [prompt_sentences[i] + ". " + grammatical_test_sentences[i]
-                                     for i in range(num_test)]
-            ungrammatical_sentences = [prompt_sentences[i] + ". " + ungrammatical_test_sentences[i]
-                                       for i in range(num_test)]
-
-        # Save these now
-        language.save_sentences(sentences=grammatical_sentences,
-                                filepath=os.path.join("Languages",
+    # Save these now
+    for num_train_group in range(1, int(math.log10(num_train)) + 1):
+        language.save_sentences(sentences=sentences[:10 ** (num_train_group + 1)],
+                                filepath=os.path.join("synthetic_datasets",
                                                       language_name,
-                                                      f"{num_test}_{generalization_type}_grammatical.txt"))
-        language.save_sentences(sentences=ungrammatical_sentences,
-                                filepath=os.path.join("Languages",
-                                                      language_name,
-                                                      f"{num_test}_{generalization_type}_ungrammatical.txt"))
-
-    # Save the training sentences
-    # First, we make them full sentences again
-    train_sentences = [item for item, count in sentence_counts.items() for _ in range(count)]
-    # Just to make sure, we want to be sure that there are enough training sentences
-    # If there are, we want to cut down the number of sentences to the right amount
-    assert len(train_sentences) >= num_train
-    random.shuffle(train_sentences)
-    train_sentences = train_sentences[:num_train]
-    # Then we want to incrementally make files with powers of 10, until we reach the train_num
-    incremental_num_train = 10
-    # Keep on making files
-    while incremental_num_train <= num_train:
-        # Save those sentences
-        language.save_sentences(sentences=train_sentences[:incremental_num_train],
-                                filepath=os.path.join("Languages",
-                                                      language_name,
-                                                      "train",
-                                                      f"{incremental_num_train}_sentences.txt"))
-        # Increment by a factor of 10
-        incremental_num_train *= 10
+                                                      f"{10 ** (num_train_group + 1)}_train_sentences.txt"))
 
 
 # ===================================== INUKTITUT ======================================================================
@@ -644,7 +710,7 @@ def find_verbs_given_sequence(sequences, check_for_properties=None):
                 root = lexical_item[0]
                 # If we're checking to see that there are any additional properties, then check to see if they exist
                 if check_for_properties:
-                    overlapping_properties = list(set(check_for_properties) & set(lexical_item[1]) )
+                    overlapping_properties = list(set(check_for_properties) & set(lexical_item[1]))
                     verbs.append((root, overlapping_properties))
                 # Otherwise, just return the root
                 else:
@@ -766,5 +832,5 @@ def create_language_base():
 
 
 if __name__ == "__main__":
-    # Generate the frisian sentences
-    generate_frisian_data(num_train=1000)
+    # generate_frisian_data(num_train=1000)
+    generate_occitan_data(num_train=1000)
