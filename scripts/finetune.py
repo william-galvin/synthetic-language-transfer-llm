@@ -61,8 +61,6 @@ from transformers import (
     get_linear_schedule_with_warmup,
 )
 
-GPT2LMHeadModel.from_pretrained()
-
 try:
     from torch.utils.tensorboard import SummaryWriter
 except ImportError:
