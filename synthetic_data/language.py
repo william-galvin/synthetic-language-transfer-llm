@@ -105,25 +105,55 @@ def inflect(agreed_lexeme_sequences, paradigms, phonemes):
                             # An example environment is "/C_"
                             # If it's a suffix, it only has a left environment
                             # We will want to look at the sounds before where the "-" would attach
-                            if left_environment:  # Suffix
-                                left_phonemes = lexeme[-len(left_environment):]
-                                # We want to make sure that every phoneme on the left matches the environment
-                                for i in range(len(left_phonemes) ):
-                                    if left_phonemes[i] not in phonemes[left_environment[i]]:
-                                        perfect_property_match = False
-                                        break
+                            # The triggers are the sounds in the words
+                            # The environment is from the inputted property
+                            if left_environment:
+                                environment = left_environment
+                                triggers = lexeme[-len(environment.replace("*", "") ):]
                             # If it's a prefix, we want to look at the sounds after the "-"
-                            elif right_environment:  # Prefix
-                                right_phonemes = lexeme[:len(right_environment)]
-                                # Sanity check
-                                assert len(right_phonemes) == len(right_environment)
-                                # We want to make sure that every phoneme on the right matches the environment
-                                for i in range(len(right_phonemes) ):
-                                    if right_phonemes[i] not in phonemes[right_environment[i]]:
-                                        perfect_property_match = False
-                                        break
+                            elif right_environment:
+                                environment = right_environment
+                                triggers = lexeme[:len(environment.replace("*", "") )]
                             else:
-                                raise Exception("Circumfixes are not yet handled.")
+                                raise Exception("Unknown error! Neither left nor right environment.")
+                            # The triggers should be the same length as the environment without the *
+                            assert len(triggers) == len(environment.replace("*", "") )
+                            # We want to make sure that every phoneme on the left matches the environment
+                            num_asterisks = 0
+                            # We match every trigger, and compare it with the one or two characters in environment
+                            for i in range(len(triggers) ):
+                                # The action we take depends on if the environment's character is a natural class,
+                                #   phoneme, or asterisk. If there is an asterisk, we negate
+                                is_asterisk = False
+                                # If it's an asterisk, we make sure the following character is negative
+                                if environment[i] == "*":
+                                    num_asterisks += 1
+                                    is_asterisk = True
+                                # The action we do depends on whether it's negated!
+                                # A is whether the trigger is in the environment, or the trigger is the environment
+                                # A = triggers[i] in phonemes[environment[i + num_asterisks]]  # (natural class)
+                                # A = triggers[i] != environment[i + num_asterisks]  # (phoneme)
+                                # We represent both of these with the variable match
+                                # B is whether the environment has an asterisk
+                                # B = is_asterisk
+                                # If there is no asterisk, then the trigger not being in the natural class breaks
+                                # B = false, A = false --> (execute and break) True
+                                # If there is no asterisk, then the trigger being in the natural class continues
+                                # B = false, A = true --> (do not execute) False
+                                # If there is an asterisk, then the trigger not being in the natural class continues
+                                # B = true, A = false --> (do not execute) False
+                                # If there is an asterisk, then the trigger being in the natural class breaks
+                                # B = true, A = true --> (execute and break) True
+                                # Find the appropriate A
+                                if environment[i + num_asterisks] in phonemes:
+                                    match = triggers[i] in phonemes[environment[i + num_asterisks]]
+                                else:
+                                    match = triggers[i] == environment[i + num_asterisks]
+                                # Now we do the logical operation described above
+                                # We want to enter this statement if the triggers don't match the environmnet
+                                if bool(match) == bool(is_asterisk):
+                                    perfect_property_match = False
+                                    break
                         # If a rule property requires a feature's absence, we handle it differently
                         elif rule_property[0] == "*":
                             # We just want to make sure that this feature does not exist in the lexeme's properties
