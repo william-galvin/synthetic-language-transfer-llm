@@ -6,7 +6,7 @@ ckpt="outputs/english/checkpoint-162400/"
 # if training from base gpt2:
 # ckpt="gpt2"
 
-for n in 1 2 5 9 10 25 50 75 99; do 
+for n in 1 2 5 9 10 25 50 75 99; do
   epochs=$( python scripts/finetune.py \
     --output_dir="outputs/frisian_$n/" \
     --model_type=gpt2 \
@@ -50,7 +50,7 @@ for n in 1 2 5 9 10 25 50 75 99; do
     > outputs/frisian_$n.log 2>&1
 done
 
-for n in 1 2 5 9 10 25 50 75 100 150 199; do 
+for n in 1 2 5 9 10 25 50 75 100 150 199; do
     epochs=$( python scripts/finetune.py \
     --output_dir="outputs/occitan_$n/" \
     --model_type=gpt2 \
@@ -94,7 +94,7 @@ for n in 1 2 5 9 10 25 50 75 100 150 199; do
     > outputs/occitan_$n.log 2>&1
 done
 
-for n in 1 2 5 9; do 
+for n in 1 2 5 9; do
     epochs=$( python scripts/finetune.py \
     --output_dir="outputs/yoruba_$n/" \
     --model_type=gpt2 \
