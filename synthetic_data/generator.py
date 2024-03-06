@@ -160,7 +160,7 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
 
     # We start by generating many sentences
     sentences, sequences = mylang.generate_sentences(num_sentences=num_train, required_words=None,
-                                                     sampling_method="uniform")
+                                                     sampling_method="uniform", regenerate_exception_sentences=True)
 
     # Save these now
     for num_train_group in range(1, int(math.log10(num_train)) + 1):
@@ -404,7 +404,7 @@ def generate_occitan_data(language_name="occitan_synthetic", num_train=1e6):
 
     # We start by generating many sentences
     sentences, sequences = mylang.generate_sentences(num_sentences=num_train, required_words=None,
-                                                     sampling_method="uniform")
+                                                     sampling_method="uniform", regenerate_exception_sentences=True)
 
     # Save these now
     for num_train_group in range(1, int(math.log10(num_train)) + 1):

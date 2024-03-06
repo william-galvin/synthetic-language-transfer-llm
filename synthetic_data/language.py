@@ -109,19 +109,19 @@ def inflect(agreed_lexeme_sequences, paradigms, phonemes):
                             # The environment is from the inputted property
                             if left_environment:
                                 environment = left_environment
-                                triggers = lexeme[-len(environment.replace("*", "") ):]
+                                triggers = lexeme[-len(environment.replace("*", "")):]
                             # If it's a prefix, we want to look at the sounds after the "-"
                             elif right_environment:
                                 environment = right_environment
-                                triggers = lexeme[:len(environment.replace("*", "") )]
+                                triggers = lexeme[:len(environment.replace("*", ""))]
                             else:
                                 raise Exception("Unknown error! Neither left nor right environment.")
                             # The triggers should be the same length as the environment without the *
-                            assert len(triggers) == len(environment.replace("*", "") )
+                            assert len(triggers) == len(environment.replace("*", ""))
                             # We want to make sure that every phoneme on the left matches the environment
                             num_asterisks = 0
                             # We match every trigger, and compare it with the one or two characters in environment
-                            for i in range(len(triggers) ):
+                            for i in range(len(triggers)):
                                 # The action we take depends on if the environment's character is a natural class,
                                 #   phoneme, or asterisk. If there is an asterisk, we negate
                                 is_asterisk = False
@@ -394,246 +394,264 @@ class Language:
     #   All words drawn from required_words are drawn uniformly.
     # The default sampling method is Zipfian, set with 'zipfian' for sampling_method. You may also set this as uniform,
     #   setting sampling_method to 'uniform'. All other values will raise an error.
-    def generate_sentences(self, num_sentences, required_words=None, sampling_method='zipfian'):
+    def generate_sentences(self, num_sentences, required_words=None, sampling_method='zipfian',
+                           regenerate_exception_sentences=False):
         # Make sure that sampling_method is 'zipfian' or 'uniform'
         if sampling_method not in ['zipfian', 'uniform']:
             raise ValueError(f'Sampling method {sampling_method} illegal.')
+        # Make sure that num_sentences is a strictly positive integer
+        assert type(num_sentences) is int and num_sentences > 0
 
         # Prepare the sentences we want
         sentences = []
         agreed_lexeme_sequences = []
-        for _ in tqdm(range(num_sentences) ):
-            # GENERATE THE TERMINAL POS STATES AND PROPERTIES
-            # We want the sentence to only contain terminal nodes, but we start with the start state
-            sentence = "S-"
-            # All terminals and properties are all lowercase.
-            # If the sentence contains uppercase letters, then we have not finished constructing it
-            while sentence.lower() != sentence:
-                # Continually replace non-terminal nodes until the sentence doesn't change
-                temp_sentence = ""
-                for state in sentence.strip().split(" "):
-                    # Split this state from any properties it has
-                    raw_state, existing_properties = state.split("-")
-                    # Separate the existing properties into a list
-                    # The separated_existing_properties list will contain multiple elements if there is a "." in there
-                    # If there are no existing properties, then return an empty list
-                    separated_existing_properties = existing_properties.split(".")
-                    # We don't want a zero string property, so if the only element in the list is a zero string,
-                    #   then we make separated_existing_properties an empty list
-                    if separated_existing_properties == [""]:
-                        separated_existing_properties = []
-                    # If the raw states is a terminal part of speech, continue the loop
-                    if raw_state in self.words.keys():
-                        # We want to add the whole state
-                        temp_sentence += state + " "
-                        continue
-                    # If it's a generation rule, then we add words individually to the temp_sentence
-                    if raw_state in self.generation_rules:
-                        # Choose the next state(s) for this state
-                        # There will never be a new_property from a generation_rule
-                        next_states, new_property = choose_state(rule=self.generation_rules[raw_state],
-                                                                 is_generation=True)
-                        # For each next state, add the new property, but remove the property after *
-                        for next_state in next_states:
-                            # See if there is something to remove, if there isn't then there are no unwanted properties
-                            # If this throws an error, it means that there was more than 1 "*" in the next_state
-                            # If there is one unwanted property, then we split it on the asterisk
-                            if "*" in next_state:
-                                true_next_state, unwanted_properties = next_state.split("*")
-                            # If there are no wanted properties, the next_state is the true_next_state
-                            else:
-                                true_next_state, unwanted_properties = next_state, "__no_unwanted__"
-                            # Remove the property_to_be_removed for this next_state only, if applicable
-                            updated_existing_properties = deepcopy(separated_existing_properties)
-                            # For every unwanted property
-                            for unwanted_property in unwanted_properties.split("."):
-                                # If the unwanted_property is in the existing_property, then we kick it
-                                if unwanted_property in updated_existing_properties:
-                                    updated_existing_properties.remove(unwanted_property)
-                                # If the unwanted property is a HASH, remove the whole hash value
-                                if unwanted_property == "__hash__":
-                                    updated_existing_properties = [
-                                        prop for prop in updated_existing_properties if "__hash__" not in prop
-                                    ]
-                            # Add this next state, potentially without the unwanted_property, to the temp_sentence
-                            temp_sentence += (f'{true_next_state}-'
-                                              f'{".".join(updated_existing_properties)} ')
-                    # If it's an unconditioned rule, we see if we want to add any properties
-                    elif raw_state in self.unconditioned_rules:
-                        # Choose the property for this state
-                        # There will only ever be one new next_state, but it will be wrapped in a list
-                        # There may be more than one new property though. These are period separated
-                        new_properties, next_states = choose_state(rule=self.unconditioned_rules[raw_state],
-                                                                   is_generation=False)
-                        for new_property in new_properties.split("."):
-                            # If the new_property is "__hash__", we want to add a hash value as the new property
-                            if new_property == "__hash__":
-                                # We create a pseudorandom number and assign it to the next state of this object
-                                # Remove the "0." though since that would mess everything up
-                                # Some values will have "-" in the form of e- something, we want to remove that too
-                                separated_existing_properties.append(
-                                    f"__hash__:{str(random.random())[2:].replace('-', '')}"
-                                )
-                            # If the new property is not hash, then we just add it to the list of existing properties
-                            else:
-                                # Add the new property to the existing properties
-                                separated_existing_properties.append(new_property)
-                        # Add the new next_state with the new property to the temp_sentence
-                        temp_sentence += (f'{next_states[0]}-'
-                                          f'{".".join(separated_existing_properties)} ')
-                    # Sanity check: if we enter this loop, the state should be in either generation or unconditioned
-                    else:
-                        raise Exception(f"Invalid state for input {state} given raw_state {raw_state} \n" +
-                                        f"Make sure this is a key in generation or unconditioned rules.")
-                # Update the value of sentence
-                sentence = temp_sentence
-
-            # REPLACE THE TERMINAL POSs WITH WORDS GENERATED ACCORDING TO THE ZIPFIAN DISTRIBUTIAN
-            # Start with splitting the word into its pieces again
-            preagreement_words = []
-            for preagreement_word in sentence.strip().split(" "):
-                # Split each word into the lexeme and its properties
-                terminal, properties = preagreement_word.split("-")
-                # Add the lexeme and a list of properties to the preagreement words
-                preagreement_words.append([terminal, properties.split(".")])
-            preagreement_lexemes = []
-            for preagreement_word in preagreement_words:
-                # Get the terminal part of speech (pos) and the properties of the word
-                pos, properties = preagreement_word
-                # Generate a word according to Zipf's distribution
-                # If there are no word which we are required to use, then we're good!
-                # If there are required words but the part of speech is not in required words, we get a word according
-                #   to the distribution we set earlier
-                if required_words is None or pos not in required_words:
-                    # At this point we've checked and know that sampling_method is a valid choice
-                    # Draw a word randomly according to the distribution we selected
-                    if sampling_method == 'zipfian':
-                        # Set the skew parameter for Zipf's distribution
-                        skew = 1.2  # Note: This parameter can be changed. Find a naturalistic one
-                        # There isn't a nice way to generate an index according to Zipf's law
-                        # The way we do it here is we generate a random index according to an unbounded distribution
-                        # If it is outside the range of our list, we generate another one
-                        # Otherwise, we use it
-                        index = -1
-                        while index == -1:
-                            # We generate an index, subtracting 1 since Zipf's starts from 1
-                            index = nprand.zipf(skew, 1)[0] - 1
-                            # If it's out of the range, we reset the index to 0
-                            if index >= len(self.words[pos]):
-                                index = -1
-                        # If it is in the range, we exit our loop and get the word and paradigm
-                        word, paradigm = self.words[pos][index]
-                    # Draw a word uniformly
-                    elif sampling_method == 'uniform':
-                        word, paradigm = random.choice(self.words[pos])
-                # If we want to generate words from a list of words, then we draw uniformly from that set
-                else:
-                    # Get the words at random from the list
-                    word, paradigm = random.choice(required_words[pos])
-                # Add the sentence to the word_sentence
-                # We also make the part of speech and the existing paradigm a new feature
-                # We use paradigm.split(".") since if an entry has more than one property we mark them with . boundaries
-                preagreement_lexemes.append([word, properties + [pos] + paradigm.split(".")])
-
-            # ADD AGREEMENT PROPERTIES, NOT YET INFLECTING
-            # Now we iterate over every word to see if it must agree with any other words
-            # All the preagreement lexemes are stored as [word, properties]
-            agreed_words = []
-            # print(preagreement_lexemes)
-            for preagreement_word in preagreement_lexemes:
-                # Check to see if there's a rule describing this word.
-                # If there isn't, our work is done, so we add it to agreed_words and continue
-                # If none of the properties of a word are in the agreement rules
-                agreement_properties = list(set(preagreement_word[1]) & set(self.agreement_rules))
-                if len(agreement_properties) == 0:
-                    agreed_words.append(preagreement_word)
-                    continue
-                # For now, we can only handle one agreement. We might change this later
-                assert len(agreement_properties) == 1
-                # Get the rule for that terminal
-                rule = self.agreement_rules[agreement_properties[0]]
-                required_properties = set(rule[0])
-                # If there is, we want to find THE word that triggers agreement
-                words_triggering_agreement = []
-                for other_word in preagreement_lexemes:
-                    # Make sure it has all the right properties
-                    # We do this by making sure that every required property is in other word's properties
-                    # For __hash__, we have to make sure that the hashes are the same for the agreement
-                    # E.g. det.:123 must agree with noun.:123.sg, but the way that's phrase is:
-                    #   "det": [["noun", "__hash__"], ["sg", "pl"]]
-                    # This is problematic since the noun isn't marked with "__hash__" as a property
-                    # What we need to do is:
-                    # for each property in the other word's properties
-                    #   if it's a hash property
-                    #       # Make sure the hashes are the same
-                    #   otherwise, check to see if it's in the required properties
-                    #   if the property (hash or otherwise) is not found, then we continue. This word doesn't agree
-                    #   otherwise, we add it to the words triggering agreement. There ultimately should only be one
-                    # We first start by assuming that the word has all the required properties
-                    all_required_properties_met = True
-                    # We iterate over all the properties in the rule to ensure they are in the other word:
-                    for required_property in required_properties:
-                        # If it's a hash property, we handle it differently
-                        if required_property == "__hash__":
-                            # We want to make sure that the hash values are the same
-                            # Firstly, find all the hash-like properties in this word and the other word
-                            this_word_hash = [prop for prop in preagreement_word[1] if ":" in prop]
-                            other_word_hash = [prop for prop in other_word[1] if ":" in prop]
-                            # Every hash in this word must also be in the other word
-                            # The reason this is the same (and not they need to full overlap) is as follows:
-                            # - This word and other word come from the same state
-                            # - Other word is the head, and may take on other hashes
-                            # - This word won't take on other hashes (e.g. NP --> det NOM)
-                            # Therefore, we just need to make sure that the overlap is the same as this word's
-                            if set(this_word_hash) & set(other_word_hash) != set(this_word_hash):
-                                all_required_properties_met = False
-                        # If it's a normal property, we just want to make sure it's in the other word's property list
+        # We also want to keep track of the number of exception sentences
+        exception_sentences = 0
+        for _ in tqdm(range(num_sentences)):
+            # If the code raises an exception, we stop if regenerate_exception_sentences is true
+            try:
+                # GENERATE THE TERMINAL POS STATES AND PROPERTIES
+                # We want the sentence to only contain terminal nodes, but we start with the start state
+                sentence = "S-"
+                # All terminals and properties are all lowercase.
+                # If the sentence contains uppercase letters, then we have not finished constructing it
+                while sentence.lower() != sentence:
+                    # Continually replace non-terminal nodes until the sentence doesn't change
+                    temp_sentence = ""
+                    for state in sentence.strip().split(" "):
+                        # Split this state from any properties it has
+                        raw_state, existing_properties = state.split("-")
+                        # Separate the existing properties into a list
+                        # The separated_existing_properties list will contain multiple elements if there is a "." in there
+                        # If there are no existing properties, then return an empty list
+                        separated_existing_properties = existing_properties.split(".")
+                        # We don't want a zero string property, so if the only element in the list is a zero string,
+                        #   then we make separated_existing_properties an empty list
+                        if separated_existing_properties == [""]:
+                            separated_existing_properties = []
+                        # If the raw states is a terminal part of speech, continue the loop
+                        if raw_state in self.words.keys():
+                            # We want to add the whole state
+                            temp_sentence += state + " "
+                            continue
+                        # If it's a generation rule, then we add words individually to the temp_sentence
+                        if raw_state in self.generation_rules:
+                            # Choose the next state(s) for this state
+                            # There will never be a new_property from a generation_rule
+                            next_states, new_property = choose_state(rule=self.generation_rules[raw_state],
+                                                                     is_generation=True)
+                            # For each next state, add the new property, but remove the property after *
+                            for next_state in next_states:
+                                # See if there is something to remove, if there isn't then there are no unwanted properties
+                                # If this throws an error, it means that there was more than 1 "*" in the next_state
+                                # If there is one unwanted property, then we split it on the asterisk
+                                if "*" in next_state:
+                                    true_next_state, unwanted_properties = next_state.split("*")
+                                # If there are no wanted properties, the next_state is the true_next_state
+                                else:
+                                    true_next_state, unwanted_properties = next_state, "__no_unwanted__"
+                                # Remove the property_to_be_removed for this next_state only, if applicable
+                                updated_existing_properties = deepcopy(separated_existing_properties)
+                                # For every unwanted property
+                                for unwanted_property in unwanted_properties.split("."):
+                                    # If the unwanted_property is in the existing_property, then we kick it
+                                    if unwanted_property in updated_existing_properties:
+                                        updated_existing_properties.remove(unwanted_property)
+                                    # If the unwanted property is a HASH, remove the whole hash value
+                                    if unwanted_property == "__hash__":
+                                        updated_existing_properties = [
+                                            prop for prop in updated_existing_properties if "__hash__" not in prop
+                                        ]
+                                # Add this next state, potentially without the unwanted_property, to the temp_sentence
+                                temp_sentence += (f'{true_next_state}-'
+                                                  f'{".".join(updated_existing_properties)} ')
+                        # If it's an unconditioned rule, we see if we want to add any properties
+                        elif raw_state in self.unconditioned_rules:
+                            # Choose the property for this state
+                            # There will only ever be one new next_state, but it will be wrapped in a list
+                            # There may be more than one new property though. These are period separated
+                            new_properties, next_states = choose_state(rule=self.unconditioned_rules[raw_state],
+                                                                       is_generation=False)
+                            for new_property in new_properties.split("."):
+                                # If the new_property is "__hash__", we want to add a hash value as the new property
+                                if new_property == "__hash__":
+                                    # We create a pseudorandom number and assign it to the next state of this object
+                                    # Remove the "0." though since that would mess everything up
+                                    # Some values will have "-" in the form of e- something, we want to remove that too
+                                    separated_existing_properties.append(
+                                        f"__hash__:{str(random.random())[2:].replace('-', '')}"
+                                    )
+                                # If the new property is not hash, then we just add it to the list of existing properties
+                                else:
+                                    # Add the new property to the existing properties
+                                    separated_existing_properties.append(new_property)
+                            # Add the new next_state with the new property to the temp_sentence
+                            temp_sentence += (f'{next_states[0]}-'
+                                              f'{".".join(separated_existing_properties)} ')
+                        # Sanity check: if we enter this loop, the state should be in either generation or unconditioned
                         else:
-                            # If the required properties are missing, then we set all_required_properties_met to false
-                            if required_property not in other_word[1]:
-                                all_required_properties_met = False
-                        # If any property is not found, this isn't the word for us
-                        if not all_required_properties_met:
-                            break
-                    # If any property is not found, this isn't the word for us:
-                    if not all_required_properties_met:
+                            raise Exception(f"Invalid state for input {state} given raw_state {raw_state} \n" +
+                                            f"Make sure this is a key in generation or unconditioned rules.")
+                    # Update the value of sentence
+                    sentence = temp_sentence
+
+                # REPLACE THE TERMINAL POSs WITH WORDS GENERATED ACCORDING TO THE ZIPFIAN DISTRIBUTIAN
+                # Start with splitting the word into its pieces again
+                preagreement_words = []
+                for preagreement_word in sentence.strip().split(" "):
+                    # Split each word into the lexeme and its properties
+                    terminal, properties = preagreement_word.split("-")
+                    # Add the lexeme and a list of properties to the preagreement words
+                    preagreement_words.append([terminal, properties.split(".")])
+                preagreement_lexemes = []
+                for preagreement_word in preagreement_words:
+                    # Get the terminal part of speech (pos) and the properties of the word
+                    pos, properties = preagreement_word
+                    # Generate a word according to Zipf's distribution
+                    # If there are no word which we are required to use, then we're good!
+                    # If there are required words but the part of speech is not in required words, we get a word according
+                    #   to the distribution we set earlier
+                    if required_words is None or pos not in required_words:
+                        # At this point we've checked and know that sampling_method is a valid choice
+                        # Draw a word randomly according to the distribution we selected
+                        if sampling_method == 'zipfian':
+                            # Set the skew parameter for Zipf's distribution
+                            skew = 1.2  # Note: This parameter can be changed. Find a naturalistic one
+                            # There isn't a nice way to generate an index according to Zipf's law
+                            # The way we do it here is we generate a random index according to an unbounded distribution
+                            # If it is outside the range of our list, we generate another one
+                            # Otherwise, we use it
+                            index = -1
+                            while index == -1:
+                                # We generate an index, subtracting 1 since Zipf's starts from 1
+                                index = nprand.zipf(skew, 1)[0] - 1
+                                # If it's out of the range, we reset the index to 0
+                                if index >= len(self.words[pos]):
+                                    index = -1
+                            # If it is in the range, we exit our loop and get the word and paradigm
+                            word, paradigm = self.words[pos][index]
+                        # Draw a word uniformly
+                        elif sampling_method == 'uniform':
+                            word, paradigm = random.choice(self.words[pos])
+                    # If we want to generate words from a list of words, then we draw uniformly from that set
+                    else:
+                        # Get the words at random from the list
+                        word, paradigm = random.choice(required_words[pos])
+                    # Add the sentence to the word_sentence
+                    # We also make the part of speech and the existing paradigm a new feature
+                    # We use paradigm.split(".") since if an entry has more than one property we mark them with . boundaries
+                    preagreement_lexemes.append([word, properties + [pos] + paradigm.split(".")])
+
+                # ADD AGREEMENT PROPERTIES, NOT YET INFLECTING
+                # Now we iterate over every word to see if it must agree with any other words
+                # All the preagreement lexemes are stored as [word, properties]
+                agreed_words = []
+                # print(preagreement_lexemes)
+                for preagreement_word in preagreement_lexemes:
+                    # Check to see if there's a rule describing this word.
+                    # If there isn't, our work is done, so we add it to agreed_words and continue
+                    # If none of the properties of a word are in the agreement rules
+                    agreement_properties = list(set(preagreement_word[1]) & set(self.agreement_rules))
+                    if len(agreement_properties) == 0:
+                        agreed_words.append(preagreement_word)
                         continue
-                    # If it does have all the right properties, add it to the list of words triggering agreement
-                    words_triggering_agreement.append(other_word)
-                # Now we make sure there's EXACTLY ONE word triggering agreement
-                if len(words_triggering_agreement) != 1:
-                    raise Exception(f"{len(words_triggering_agreement)} words triggered agreement for "
-                                    f"{preagreement_word}. These words are {words_triggering_agreement}. "
-                                    f"The rule that triggered it is {rule}. "
-                                    f"Check rules.")
-                # Perfect! Now that we found the word that agrees with our preagreement word, we find the properties
-                # We want to check that the word triggering agreement has one of each property in each set
-                word_triggering_agreement = words_triggering_agreement[0]
-                # For every property that our preagreement word seeks, we look to see if trigger word has it
-                new_properties = []
-                # For every feature in that the preagreement word looks for
-                for sought_feature in rule[1]:
-                    # Make sure that the intersection of the sought properties with the word triggering agreement is one
-                    property_intersection = list(set(sought_feature) & set(word_triggering_agreement[1]))
-                    # If there isn't exactly 1, then raise an error
-                    if len(property_intersection) != 1:
-                        raise Exception(f"Incorrect number of properties found for {preagreement_word}. \n"
-                                        f"Sought feature: {sought_feature}. \n"
-                                        f"Word triggering agreement: {word_triggering_agreement}")
-                    # If there is exactly one feature, then we add it to the new properties of the preagreement word
-                    new_properties.append(property_intersection[0])
-                # Now we have found all the new properties of the preagreement word!
-                # All that is left is to join the old and new properties, and add this word to our agreed word list
-                agreed_words.append([preagreement_word[0], preagreement_word[1] + new_properties])
-            agreed_lexeme_sequences.append(agreed_words)
+                    # For now, we can only handle one agreement. We might change this later
+                    assert len(agreement_properties) == 1
+                    # Get the rule for that terminal
+                    rule = self.agreement_rules[agreement_properties[0]]
+                    required_properties = set(rule[0])
+                    # If there is, we want to find THE word that triggers agreement
+                    words_triggering_agreement = []
+                    for other_word in preagreement_lexemes:
+                        # Make sure it has all the right properties
+                        # We do this by making sure that every required property is in other word's properties
+                        # For __hash__, we have to make sure that the hashes are the same for the agreement
+                        # E.g. det.:123 must agree with noun.:123.sg, but the way that's phrase is:
+                        #   "det": [["noun", "__hash__"], ["sg", "pl"]]
+                        # This is problematic since the noun isn't marked with "__hash__" as a property
+                        # What we need to do is:
+                        # for each property in the other word's properties
+                        #   if it's a hash property
+                        #       # Make sure the hashes are the same
+                        #   otherwise, check to see if it's in the required properties
+                        #   if the property (hash or otherwise) is not found, then we continue. This word doesn't agree
+                        #   otherwise, we add it to the words triggering agreement. There ultimately should only be one
+                        # We first start by assuming that the word has all the required properties
+                        all_required_properties_met = True
+                        # We iterate over all the properties in the rule to ensure they are in the other word:
+                        for required_property in required_properties:
+                            # If it's a hash property, we handle it differently
+                            if required_property == "__hash__":
+                                # We want to make sure that the hash values are the same
+                                # Firstly, find all the hash-like properties in this word and the other word
+                                this_word_hash = [prop for prop in preagreement_word[1] if ":" in prop]
+                                other_word_hash = [prop for prop in other_word[1] if ":" in prop]
+                                # Every hash in this word must also be in the other word
+                                # The reason this is the same (and not they need to full overlap) is as follows:
+                                # - This word and other word come from the same state
+                                # - Other word is the head, and may take on other hashes
+                                # - This word won't take on other hashes (e.g. NP --> det NOM)
+                                # Therefore, we just need to make sure that the overlap is the same as this word's
+                                if set(this_word_hash) & set(other_word_hash) != set(this_word_hash):
+                                    all_required_properties_met = False
+                            # If it's a normal property, we just want to make sure it's in the other word's property list
+                            else:
+                                # If the required properties are missing, then we set all_required_properties_met to false
+                                if required_property not in other_word[1]:
+                                    all_required_properties_met = False
+                            # If any property is not found, this isn't the word for us
+                            if not all_required_properties_met:
+                                break
+                        # If any property is not found, this isn't the word for us:
+                        if not all_required_properties_met:
+                            continue
+                        # If it does have all the right properties, add it to the list of words triggering agreement
+                        words_triggering_agreement.append(other_word)
+                    # Now we make sure there's EXACTLY ONE word triggering agreement
+                    if len(words_triggering_agreement) != 1:
+                        raise Exception(f"{len(words_triggering_agreement)} words triggered agreement for "
+                                        f"{preagreement_word}. These words are {words_triggering_agreement}. "
+                                        f"The rule that triggered it is {rule}. "
+                                        f"Check rules.")
+                    # Perfect! Now that we found the word that agrees with our preagreement word, we find the properties
+                    # We want to check that the word triggering agreement has one of each property in each set
+                    word_triggering_agreement = words_triggering_agreement[0]
+                    # For every property that our preagreement word seeks, we look to see if trigger word has it
+                    new_properties = []
+                    # For every feature in that the preagreement word looks for
+                    for sought_feature in rule[1]:
+                        # Make sure that the intersection of the sought properties with the word triggering agreement is one
+                        property_intersection = list(set(sought_feature) & set(word_triggering_agreement[1]))
+                        # If there isn't exactly 1, then raise an error
+                        if len(property_intersection) != 1:
+                            raise Exception(f"Incorrect number of properties found for {preagreement_word}. \n"
+                                            f"Sought feature: {sought_feature}. \n"
+                                            f"Word triggering agreement: {word_triggering_agreement}")
+                        # If there is exactly one feature, then we add it to the new properties of the preagreement word
+                        new_properties.append(property_intersection[0])
+                    # Now we have found all the new properties of the preagreement word!
+                    # All that is left is to join the old and new properties, and add this word to our agreed word list
+                    agreed_words.append([preagreement_word[0], preagreement_word[1] + new_properties])
+                agreed_lexeme_sequences.append(agreed_words)
 
-            # MAKE EACH WORD HAVE INFLECTIONS
-            # We get only the first element of the output since we are only making one sentence
-            inflected_words = inflect([agreed_words], self.inflection_paradigms, self.phonemes)[0]
+                # MAKE EACH WORD HAVE INFLECTIONS
+                # We get only the first element of the output since we are only making one sentence
+                inflected_words = inflect([agreed_words], self.inflection_paradigms, self.phonemes)[0]
 
-            # FINALLY, GIVE THE SURFACE FORM
-            # We only add the final sentence, not the properties, but we keep them along until the end for debugging
-            sentences.append(inflected_words)
+                # FINALLY, GIVE THE SURFACE FORM
+                # We only add the final sentence, not the properties, but we keep them along until the end for debugging
+                sentences.append(inflected_words)
+            # We always catch exceptions
+            except Exception:
+                # If we want to regenerate, then we keep track of the number of sentences we regenerated
+                if regenerate_exception_sentences:
+                    exception_sentences += 1
+                # Otherwise, we raise an error
+                else:
+                    raise Exception('Error raised during sentence generation. Solve above.')
+        # When we finish generating the number of sentences we want, then we print the number of regenerations if wanted
+        if regenerate_exception_sentences:
+            print(f"When generating {num_sentences}, {exception_sentences} were regenerated.")
         # Finally, we exit the loop and return the list of sentences
         return sentences, agreed_lexeme_sequences
 
@@ -662,7 +680,7 @@ class Language:
                 # The first value of every rule should be the same
                 # The second value is the same as well, except each key is now a string with periods between properties
                 # We only join the different parts with . if the key is a tuple
-                temporary_paradigms.append([paradigm[0], {(".".join(key) if type(key) == tuple else key): value
+                temporary_paradigms.append([paradigm[0], {(".".join(key) if type(key) is tuple else key): value
                                                           for key, value in paradigm[1].items()}])
             # Don't forget to add it to the datafile!
             data["inflection_paradigms"] = temporary_paradigms
