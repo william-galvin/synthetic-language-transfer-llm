@@ -31,6 +31,15 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
     # Create a language
     mylang = language.Language()
 
+    # Set the phonology of the language
+    phonemes = {
+        "L": ["p", "b", "t", "d", "k", "g", "m", "n", "f", "v", "s", "z", "h", "j", "w", "r", "l", "c", "x",
+              "a", "e", "i", "o", "u", "â", "ê", "é", "y", "ô", "û", "ú"],
+        "C": ["p", "b", "t", "d", "k", "g", "m", "n", "f", "v", "s", "z", "h", "j", "w", "r", "l", "c", "x"],
+        "V": ["a", "e", "i", "o", "u", "â", "ê", "é", "y", "ô", "û", "ú"],
+    }
+    mylang.set_phonemes(phonemes=phonemes)
+
     # Set the parts of speech of the language
     parts_of_speech = [pos.lower() for pos in Frisian_POS]
     mylang.set_parts_of_speech(parts_of_speech=parts_of_speech)
@@ -39,7 +48,7 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
     # Adj N (Prep Adj N) V Adj O (Prep Adj N)
     mylang.set_generation_rules({
         "S": [["sNP", "VP"], 1],  # Sentences generate subject NPs and VPs
-        "VP": [["verb", "UnmarkedNP"], 0.7, ["verb"], 0.3],  # VPs generate verbs (and object NPs)
+        "VP": [["Untensedverb", "UnmarkedNP"], 0.7, ["Untensedverb"], 0.3],  # VPs generate verbs (and object NPs)
         "NP": [["det*nouny", "NOM"], 0.6, ["PRON"], 0.4],  # NPs can be a det NOM or a PRON
         "NOM": [["adj*nouny", "NOM"], 0.35, ["NoAdjNOM"], 0.65],  # NPs may take adjectives before the rest, recursive
         "NoAdjNOM": [["N", "PP*nom.__hash__"], 0.2, ["N"], 0.8],  # NoAdjNPs become nouns, or nouns with a PP
@@ -52,6 +61,7 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
         "UnmarkedNP": [["NP"], "__hash__.nouny", 1],  # We want to make sure that words in the same NP can agree
         "N": [["NUMnoun"], "sg", 0.8, "pl", 0.2],  # Nouns may be singular or plural
         "NUMnoun": [["noun"], "def", 0.8, "indef", 0.2],  # Nouns may be definite or indefinite
+        "Untensedverb": [["verb"], "prs", 0.8, "pst", 0.2],  # Verbs can take tense
         # Go through to get a fully specified pronoun
         "PRON": [["PERpron"], "1st", 0.2, "2nd", 0.1, "3rd", 0.7],  # Get the person of the pronoun
         "PERpron": [["NUMpron"], "sg", 0.7, "pl", 0.3],  # Get the number
@@ -64,6 +74,7 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
         "verb": [["nom", "nouny"], [["sg", "pl"], ["1st", "2nd", "3rd"]]],  # Verbs agree with nominative nouns
         # Determiners agree with their head nouns in number, gender, and definiteness
         "det": [["noun", "__hash__"], [["sg", "pl"], ["common", "neuter"], ["def", "indef"]]],
+        "adj": [["noun", "__hash__"], [["sg", "pl"], ["common", "neuter"], ["def", "indef"]]],
     })
 
     # Set the dictionary and set the pronouns to nothing, I already got rid of pron and det
@@ -101,10 +112,42 @@ def generate_frisian_data(language_name="frisian_synthetic", num_train=1e6):
             ("sg", "indef"): "-in",
             ("pl", "indef"): "-",
         }],
-        # ["noun", {
-        #     ("sg"): "-",
-        #     ("pl", "/")
-        # }],
+        ["noun", {
+            "sg": "-",
+            ("pl", "/eC_"): "-s",
+            ("pl", "/eV_"): "-en",
+            ("pl", "/*eL_"): "-en",
+        }],
+        ["verb", {
+            # -je verbs, present
+            ("sg", "1st", "/je_", "prs"): "-",
+            ("sg", "2nd", "/je_", "prs"): "-st",
+            ("sg", "3rd", "/je_", "prs"): "-t",
+            ("pl", "/je_", "prs"): "-e",
+            # -e verbs, present
+            ("sg", "1st", "/*je_", "prs"): "-je",
+            ("sg", "2nd", "/*je_", "prs"): "-est",
+            ("sg", "3rd", "/*je_", "prs"): "-et",
+            ("pl", "/*je_", "prs"): "-je",
+            # -je verbs, past
+            ("sg", "1st", "/je_", "pst"): "-e",
+            ("sg", "2nd", "/je_", "pst"): "-est",
+            ("sg", "3rd", "/je_", "pst"): "-et",
+            ("pl", "/je_", "pst"): "-en",
+            # -e verbs, past
+            ("sg", "1st", "/*je_", "pst"): "-te",
+            ("sg", "2nd", "/*je_", "pst"): "-test",
+            ("sg", "3rd", "/*je_", "pst"): "-te",
+            ("pl", "/*je_", "pst"): "-ten",
+            # not -e verbs don't inflect, they shouldn't be there in theory
+            "/*e_": "-"
+        }],
+        ["adj", {
+            # Adjectives take "-e" always, except singular neuter indefinite
+            # Just to simplify it for now (since singular neuter indefinite is very specific) we always take "-e"
+            "sg": "-e",
+            "pl": "-e"
+        }]
     ])
 
     # Save the language

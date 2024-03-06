@@ -2,9 +2,9 @@ import pandas as pd
 import json
 import tqdm
 
-VOCAB_PATH = "data/raw_frisian_vocab.txt"
-WORD_DICT_PATH = "data/frisian_vocab.json"
-POS_DICT_PATH = "data/frisian_dict.json"
+VOCAB_PATH = "../data/raw_frisian_vocab.txt"
+WORD_DICT_PATH = "../data/frisian_vocab.json"
+POS_DICT_PATH = "../data/frisian_dict.json"
 
 
 POS = [
@@ -34,7 +34,7 @@ def main():
 
     for i, row in tqdm.tqdm(df.iterrows(), total=df.shape[0]):
 
-        word = row.iloc[0]
+        word = row.iloc[0].lower()
         example = row.iloc[1]
         props = row.iloc[2]
         
@@ -47,12 +47,15 @@ def main():
             if pos in props:
                 if pos == "NOUN":
                     if "Gender.Com" in props:
-                        Pos2Word[pos.lower()]["common"].add(word)
+                        Pos2Word[pos.lower()]["common.3rd"].add(word)
                     else:
-                        Pos2Word[pos.lower()]["neuter"].add(word)
+                        Pos2Word[pos.lower()]["neuter.3rd"].add(word)
                     continue
 
                 Pos2Word[pos.lower()].add(word)
+
+    Pos2Word['det'] = ['']
+    Pos2Word['pron'] = ['']
 
     with open(WORD_DICT_PATH, "w") as w:
         json.dump(Word2Props, w, ensure_ascii=False, indent=2)
