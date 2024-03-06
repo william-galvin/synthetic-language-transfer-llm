@@ -75,7 +75,7 @@ for n in 1 2 5 9 10 25 50 75 100 150 199; do
   python scripts/finetune.py \
     --output_dir="outputs/occitan_$n/" \
     --model_type=gpt2 \
-    --model_name_or_path=gpt$ckpt \
+    --model_name_or_path=$ckpt \
     --save_total_limit=2 \
     --do_train \
     --num_train_epochs=$epochs \
