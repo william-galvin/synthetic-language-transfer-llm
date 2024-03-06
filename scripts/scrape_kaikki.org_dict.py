@@ -17,12 +17,12 @@ parsed_objects = []
 
 # Open the JSON file and read it line by line
 # Change both depending on which json you want to parse and where you want to store your new json file
-# raw_language_dict_filename = 'kaikki.org-dictionary-Occitan.json'  
-# pos_to_word_filename = 'occitan_dict.json'
+raw_language_dict_filename = 'kaikki.org-dictionary-Occitan.json'
+pos_to_word_filename = 'occitan_dict.json'
 # raw_language_dict_filename = 'kaikki.org-dictionary-Inuktitut.json'  # Change this depending on which json you want to parse
 # pos_to_word_filename = 'inuktitut_dict.json'
-raw_language_dict_filename = 'kaikki.org-dictionary-Yoruba.json'  # Change this depending on which json you want to parse
-pos_to_word_filename = 'yoruba_dict.json'
+# raw_language_dict_filename = 'kaikki.org-dictionary-Yoruba.json'  # Change this depending on which json you want to parse
+# pos_to_word_filename = 'yoruba_dict.json'
 with open(raw_language_dict_filename, 'r') as file:
     for line in file:
         # Parse each line as JSON and append it to the list
@@ -61,7 +61,11 @@ for entry in parsed_objects:
             # c2 (ir), or c3 (re)
             inf = word[:-2]
             conjugation = word[-2:]  # Slice to get the last two characters
-            
+
+            # We only want verbs that end in -ar, -ir, or -re/-er
+            if conjugation not in ["ar", "ir", "re", "er"]:
+                continue
+
             if conjugation not in words_by_pos[pos]:
                 words_by_pos[pos][conjugation] = []
 

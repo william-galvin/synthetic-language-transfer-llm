@@ -179,8 +179,7 @@ def inflect(agreed_lexeme_sequences, paradigms, phonemes):
                                     f"for {lexeme_with_agreement} "
                                     f"given rule {rule}. \n"
                                     f"Debug info: properties = {properties}, "
-                                    f"rule_properties = {rule_properties}, "
-                                    f"applicable_indlections = {applicable_inflections}")
+                                    f"applicable_inflections = {applicable_inflections}")
                 # We apply the affix to the lexeme
                 affix = applicable_inflections[0]
                 # The affixed form depends on the position of the dash.
@@ -618,8 +617,8 @@ class Language:
                     property_intersection = list(set(sought_feature) & set(word_triggering_agreement[1]))
                     # If there isn't exactly 1, then raise an error
                     if len(property_intersection) != 1:
-                        raise Exception(f"Incorrect number of properties found for {preagreement_word}. "
-                                        f"Sought feature: {sought_feature}. "
+                        raise Exception(f"Incorrect number of properties found for {preagreement_word}. \n"
+                                        f"Sought feature: {sought_feature}. \n"
                                         f"Word triggering agreement: {word_triggering_agreement}")
                     # If there is exactly one feature, then we add it to the new properties of the preagreement word
                     new_properties.append(property_intersection[0])
