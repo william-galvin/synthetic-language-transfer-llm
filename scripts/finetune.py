@@ -61,6 +61,7 @@ from transformers import (
     get_linear_schedule_with_warmup,
 )
 
+GPT2LMHeadModel.from_pretrained()
 
 try:
     from torch.utils.tensorboard import SummaryWriter
@@ -112,6 +113,7 @@ class TextDataset(Dataset):
             print(f"{len(self.examples)=}")
 
             logger.info("Saving features into cached file %s", cached_features_file)
+            os.makedirs(os.path.dirname(cached_features_file), exist_ok=True)
             with open(cached_features_file, "wb") as handle:
                 pickle.dump(self.examples, handle, protocol=pickle.HIGHEST_PROTOCOL)
 
