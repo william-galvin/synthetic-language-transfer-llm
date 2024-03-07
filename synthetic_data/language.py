@@ -612,7 +612,8 @@ class Language:
                         raise Exception(f"{len(words_triggering_agreement)} words triggered agreement for "
                                         f"{preagreement_word}. These words are {words_triggering_agreement}. "
                                         f"The rule that triggered it is {rule}. "
-                                        f"Check rules.")
+                                        f"Check rules. \n"
+                                        f"Preagreement lexemes: {preagreement_lexemes}")
                     # Perfect! Now that we found the word that agrees with our preagreement word, we find the properties
                     # We want to check that the word triggering agreement has one of each property in each set
                     word_triggering_agreement = words_triggering_agreement[0]
