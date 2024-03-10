@@ -178,7 +178,7 @@ ax[2].set_title("Cebuano", fontsize=14)
 
 # ax[0].set_xlabel("1000s of Gold-standard data points")
 # ax[1].set_xlabel("1000s of Gold-standard data points")
-fig.supxlabel("\nFine-tune Data Quantity (1000s of sentences)\nFully Trained English GPT-2", fontsize=14)
+fig.supxlabel("\nFine-tune Data Quantity\n(1000s of gold-standard sentences)", fontsize=14)
 fig.supylabel("Perplexity", fontsize=14)
 
 # ax[0].set_xscale("log")
