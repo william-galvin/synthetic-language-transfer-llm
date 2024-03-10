@@ -213,6 +213,6 @@ line = Line2D([0], [0], label='Pure', linestyle="-", color="black")
 line2 = Line2D([0], [0], label='Hybrid', linestyle="--", color="red")
 handles=[line, line2]
 fig.legend(handles=handles, loc=(.81, 0), fontsize=12)
-# plt.tight_layout()
+plt.tight_layout()
 
 plt.savefig("plots/synth-perplexity-vs-quantity-cyborg.pdf")
